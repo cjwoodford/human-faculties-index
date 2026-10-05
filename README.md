@@ -62,17 +62,17 @@ The **Consciousness Respect Index (CRI)** evaluates AI laboratories across five 
 
 ## 📊 Scorecard & Benchmark Summary
 
-| Laboratory | Overall CRI | Idealism (IMA) | Imagination (IMS) | Intuition (IETK) | Relational (EIRS) | Wisdom (PCW) | Computationalism Risk | Archetype |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| **Qualia Research Institute (QRI)** *(Benchmark)* | **92** | 95 | 88 | 92 | 89 | 91 | 🌱 Zero (Counter) | Phenomenological Qualia Primacy |
-| **VERSES AI / Active Inference** | **84** | 82 | 81 | 84 | 75 | 86 | 🌱 Very Low | Biomimetic Enactivism & Ecology |
-| **Mistral AI** | **72** | 48 | 80 | 68 | 66 | 74 | ⚖️ Low-Moderate | European Rational Humanism |
-| **Apple AI Research** | **71** | 45 | 78 | 72 | 76 | 68 | 🌱 Low | Sovereign Toolmaker & Boundary Privacy |
-| **Anthropic** | **68** | 52 | 76 | 64 | 78 | 70 | ⚖️ Moderate | Cautious Functionalism & Alignment |
-| **Meta FAIR** | **59** | 30 | 72 | 58 | 52 | 66 | ⚖️ Moderate | Deflationary Open Physicalism |
-| **Google DeepMind** | **54** | 34 | 58 | 50 | 56 | 62 | ⚠️ High | Neuro-Cybernetic Reductionism |
-| **OpenAI** | **36** | 18 | 42 | 31 | 38 | 32 | 🚨 Critical | Radical Computationalism & Replacement |
-| **xAI** | **32** | 15 | 40 | 28 | 32 | 30 | 🚨 Critical | Simulation Physicalism & Hype |
+| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Attention | Embodiment | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| **Qualia Research Institute (QRI)** *(Bench)* | 1 | **90** | 88 | 92 | 86 | 90 | 92 | 92 | 8 (Pure Idealist) | Phenomenological Qualia Primacy |
+| **VERSES AI / Active Inference** *(Bench)* | 2 | **83** | 80 | 82 | 78 | 84 | 88 | 86 | 18 (Biomimetic Enactivism) | Free Energy Principle & Enactivism |
+| **Apple AI Research** | 1 | **76** | 82 | 74 | 80 | 79 | 75 | 70 | 38 (Toolmaker Humanism) | Sovereign On-Device Toolmaker |
+| **Mistral AI** | 2 | **74** | 79 | 68 | 75 | 82 | 68 | 72 | 34 (Open Pluralism) | European Cultural Independence & Open Weights |
+| **Meta FAIR** | 3 | **62** | 74 | 60 | 51 | 48 | 62 | 77 | 66 (Pragmatic Physicalism) | Open-Weights Research & Deflationary Physicalism |
+| **Google DeepMind** | 4 | **57** | 60 | 52 | 58 | 54 | 58 | 62 | 72 (Neuro-Cybernetic) | Cybernetic Optimization & Structural Science |
+| **Anthropic** | 5 | **56** | 72 | 46 | 72 | 76 | 34 | 42 | 86 (Codified Rationalism) | Institutionalized Functionalism & Constitutional Steering |
+| **OpenAI** | 6 | **38** | 44 | 35 | 34 | 31 | 28 | 29 | 88 (Radical Computational) | Labor Replacement & Scaling Accelerationism |
+| **xAI** | 7 | **32** | 38 | 28 | 29 | 26 | 30 | 28 | 94 (Simulationist Compute) | Brute Hardware Scale & Simulation Physicalism |
 
 ---
 

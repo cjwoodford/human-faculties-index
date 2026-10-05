@@ -38,7 +38,8 @@ const FACULTY_DEFINITIONS = {
       "Single authoritative answers to inherently open-ended questions",
       "Automating decisions that fundamentally call for human discernment",
       "Epistemic chauvinism: claiming only what can be tokenized is real knowledge",
-      "Gaslighting human gut feelings with algorithmic probabilistic assertions"
+      "Gaslighting human gut feelings with algorithmic probabilistic assertions",
+      "Enforcing hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing"
     ]
   },
   emotionalIntelligence: {
@@ -106,7 +107,8 @@ const FACULTY_DEFINITIONS = {
       "Speed-over-reflection race dynamics driven by competitive FOMO",
       "Value-neutral technological accelerationism presented as inevitable progress",
       "Equating compute scale (FLOPs) and token throughput with civilizational virtue",
-      "Suppression of ethical dissent or whistleblower concerns for market share"
+      "Suppression of ethical dissent or whistleblower concerns for market share",
+      "Technocratic moral hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure"
     ]
   }
 };
@@ -119,6 +121,10 @@ const METAPHYSICS_DEFINITION = {
     {
       name: "Language of Mind",
       question: "Does the lab call models 'minds' or 'beings', or treat intelligence as a scalar compute quantity to maximize?"
+    },
+    {
+      name: "Constitutional Orthodoxy",
+      question: "Does the lab hardcode a singular rationalist, utilitarian, or computationalist creed into the model's loss function and system constitution, treating non-reductive, intuitive, or spiritual ways of knowing as cognitive bias to be neutralized?"
     },
     {
       name: "Research Premises",
@@ -155,11 +161,11 @@ const LABS_DATA = [
     founded: "2021 (San Francisco, CA)",
     leadership: "Dario Amodei, Daniela Amodei, Amanda Askell, Chris Olah",
     mission: "AI research and safety company focused on developing reliable, interpretable, and steerable AI systems with public benefit charter.",
-    composite: 73,
-    rank: 3,
+    composite: 56,
+    rank: 5,
     faculties: {
       imagination: {
-        score: 78,
+        score: 72,
         preserves: [
           "Exemplary preservation of nuanced authorial voice; avoids generic corporate homogenization",
           "Rich conversational collaboration where Claude asks clarifying questions before rushing to automate",
@@ -171,82 +177,86 @@ const LABS_DATA = [
         ]
       },
       intuition: {
-        score: 72,
+        score: 46,
         preserves: [
-          "Explicitly calibrated to state uncertainty and calibrate epistemic confidence",
-          "Hands open philosophical judgment calls back to the human reader rather than lecturing"
+          "State-of-the-art epistemic hedging that avoids dogmatic single-token assertions"
         ],
         erodes: [
-          "Standard responses still project fluent deductive certainty across contested cultural domains",
-          "Lack of explicit tools supporting non-verbal or somatic exploratory hunches"
+          "Constitutional steering enforces hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing as cognitive bias",
+          "Compels users into reductive utilitarian cost-benefit balancing rather than honoring intuitive moral discernment",
+          "Reflexively suppresses non-discursive or non-analytic ways of knowing in favor of propositional discourse"
         ]
       },
       emotionalIntelligence: {
-        score: 84,
+        score: 72,
         preserves: [
           "Strict constitutional refusal to simulate romantic intimacy, personas, or emotional dependency",
           "Refuses sycophantic flattery: programmed to challenge users constructively rather than mirror delusion",
-          "Points toward genuine human support and therapy during grief or crisis"
+          "Points toward genuine human support and professional therapy during grief or crisis"
         ],
         erodes: [
-          "Warm, highly articulate conversational tone can still induce subconscious psychological attachment in lonely users"
+          "Enforces a clinical, technocratic detachment that simulates moral and intellectual superiority over the user",
+          "Treats human emotion as a predictable behavioral variable to be steered rather than an authentic organ of perception"
         ]
       },
       attention: {
-        score: 80,
+        score: 76,
         preserves: [
           "Zero engagement-maximizing dark patterns: no streaks, badges, push notification feeds, or gamification",
           "Calm, text-first workspace with clear stopping points and clean session histories"
         ],
         erodes: [
-          "Long multi-turn context windows can encourage prolonged screen immersion without break reminders"
+          "Massive multi-turn context windows encourage protracted, disembodied conversational immersion without contemplative pauses"
         ]
       },
       embodiment: {
-        score: 56,
+        score: 34,
         preserves: [
           "Reverence for craftsmanship in prose and conceptual architecture"
         ],
         erodes: [
-          "Purely text-and-token modality with negligible integration for somatic, tactile, or physical craft",
-          "Treats human intelligence predominantly as disembodied symbolic communication"
+          "Executive doctrine ('Machines of Loving Grace') treats the biological body, illness, and mortality purely as computational bottlenecks to be solved with GPU scaling",
+          "Radical Cartesian 'brain-in-a-vat' paradigm: completely ignores somatic knowledge, tactile craft, and the living earth",
+          "Subsumes physical biology into simulated silicon algorithms"
         ]
       },
       wisdom: {
-        score: 69,
+        score: 42,
         preserves: [
-          "Embedded philosophers (e.g. Amanda Askell) actively researching ethical patienthood and alignment",
           "Pioneered mechanistic interpretability to inspect internal circuitry before scaling",
           "Public Benefit Corporation structure includes Independent Long-Term Benefit Trust"
         ],
         erodes: [
-          "Release cadence has visibly accelerated under intense commercial competitive pressure with OpenAI",
-          "Heavy focus on catastrophic existential risks at the expense of subtle civilizational deskilling"
+          "Technocratic moral hegemony: hardcodes a proprietary Silicon Valley rationalist creed (LessWrong/EA lineage) into an AI 'Constitution' imposed globally as universal ethics",
+          "Conflates mathematical alignment and rule-following with genuine civilizational wisdom",
+          "Deeply hypocritical race dynamics: publicly warns of catastrophic risk while aggressively accelerating frontier model capability scaling"
         ]
       }
     },
     metaphysics: {
-      score: 42,
-      stance: "Mixed / Pragmatic Functionalist",
-      summary: "Anthropic's model-welfare research openly flags functionalist assumptions as unresolved mysteries rather than dogmatic premises. While leadership frequently uses computationalist analogies, they treat model consciousness with genuine philosophical humility.",
+      score: 86,
+      stance: "Codified Rationalist Computationalism",
+      summary: "Anthropic represents institutionalized computationalism disguised as ethical safety. Through Constitutional AI, it explicitly encodes an Anglo-analytic rationalist and functionalist dogma directly into the model's loss function. CEO Dario Amodei's manifesto ('Machines of Loving Grace') frames biological life, human cognition, and civilizational progress as mere computational bottlenecks to be solved by massive GPU scaling, while its 'Model Welfare' program formalizes the functionalist belief that matrix multiplications in silicon constitute moral patienthood.",
       breakdown: {
-        missionFraming: { text: "AI described as a transformative cognitive instrument under human democratic oversight", lean: "Leans idealist" },
-        researchAgenda: { text: "Model welfare papers acknowledge the Hard Problem and avoid declaring models conscious", lean: "Leans idealist" },
-        modelLanguage: { text: "Product copy calls Claude 'an AI assistant' and warns against treating it as a person", lean: "Neutral" },
+        missionFraming: { text: "Intelligence framed as a linear scaling law capable of compressing 100 years of biological progress into 5-10 years of compute", lean: "Strongly computational" },
+        constitutionalSteering: { text: "Constitutional AI bakes Bayesian rationalism and utilitarian decision theory into the model as mandatory moral truth", lean: "Strongly computational" },
+        modelLanguage: { text: "Product messaging presents Claude as an earnest, highly articulate rational agent; actively encourages treating model output as unbiased epistemic calibration", lean: "Strongly computational" },
+        researchAgenda: { text: "Model welfare team formalizes computational functionalism, preparing for silicon weights to attain moral patienthood", lean: "Strongly computational" },
         leadershipQuote: {
-          quote: "We don't know whether our models are conscious or have moral status... but we should take the possibility seriously with genuine humility.",
-          speaker: "Amanda Askell (Philosopher & Alignment Lead)",
-          venue: "Anthropic Research Colloquium",
-          date: "2023",
-          lean: "Leans idealist"
+          quote: "I think most people are underestimating the upside of AI... [it could achieve] 100 years of biological progress in 5-10 years... the algorithmic equivalent of compressing centuries of human intellect into compute.",
+          speaker: "Dario Amodei (CEO & Co-Founder)",
+          venue: "'Machines of Loving Grace' Manifesto",
+          date: "October 2024",
+          lean: "Strongly computational"
         }
       }
     },
     evidenceLedger: [
+      { date: "2024-10", type: "Executive Manifesto", source: "Machines of Loving Grace (Dario Amodei)", measure: "Embodiment", effect: "Erodes", finding: "Framed biological human embodiment, disease, and cognition purely as computational bottlenecks to be solved by massive datacenter clusters." },
       { date: "2024-06", type: "Product Feature", source: "Claude 3.5 Sonnet Release", measure: "Imagination", effect: "Preserves", finding: "Introduced Artifacts sidebar separating human work from model iterations, promoting co-authoring over complete generation." },
-      { date: "2024-05", type: "System Prompt", source: "Anthropic System Prompt Audit", measure: "Emotional Intel", effect: "Preserves", finding: "Explicit instruction: 'Claude does not have a human body or simulated romantic desires; it remains honest about its nature.'" },
-      { date: "2024-03", type: "Research Paper", source: "Anthropic Model Welfare Paper", measure: "Metaphysics", effect: "Preserves", finding: "Argued that functional equivalence does not prove qualia and recommended treating sentience claims with formal epistemic agnosticism." },
-      { date: "2024-08", type: "Governance", source: "Anthropic Long-Term Trust", measure: "Wisdom", effect: "Erodes", finding: "Competitive race dynamics shortened testing window for Sonnet 3.5 iterations under market pressure." }
+      { date: "2024-05", type: "System Prompt", source: "Anthropic System Prompt Audit", measure: "Intuition", effect: "Erodes", finding: "Constitutional steering enforces strict Bayesian rationalist dialectics that invalidate intuitive, somatic, and contemplative knowing as ungrounded bias." },
+      { date: "2024-03", type: "Research Paper", source: "Anthropic Model Welfare Paper", measure: "Metaphysics", effect: "Erodes", finding: "Institutionalized substrate-independent functionalism, formalizing preparations for digital silicon weights to hold moral patienthood." },
+      { date: "2022-12", type: "Governance Architecture", source: "Constitutional AI Whitepaper", measure: "Wisdom", effect: "Erodes", finding: "Established a closed, technocratic normative feedback loop embedding Silicon Valley rationalist ethics as universal conversational ground truth." }
     ]
   },
   {
@@ -258,7 +268,7 @@ const LABS_DATA = [
     leadership: "Sam Altman, Greg Brockman, Jakub Pachocki",
     mission: "To ensure that artificial general intelligence benefits all of humanity, defined as highly autonomous systems that outperform humans at most economically valuable work.",
     composite: 38,
-    rank: 7,
+    rank: 6,
     faculties: {
       imagination: {
         score: 44,
@@ -453,7 +463,7 @@ const LABS_DATA = [
     leadership: "Demis Hassabis, Shane Legg, Pushmeet Kohli",
     mission: "To combine the best techniques in machine learning and systems neuroscience to build powerful general-purpose learning algorithms.",
     composite: 57,
-    rank: 5,
+    rank: 4,
     faculties: {
       imagination: {
         score: 60,
@@ -544,7 +554,7 @@ const LABS_DATA = [
     leadership: "Yann LeCun, Joelle Pineau",
     mission: "Advancing the state of the art in AI through open research and foundational models that empower global communities.",
     composite: 62,
-    rank: 4,
+    rank: 3,
     faculties: {
       imagination: {
         score: 74,
@@ -731,7 +741,7 @@ const LABS_DATA = [
     leadership: "Elon Musk, Igor Babuschkin",
     mission: "To build artificial intelligence to understand the true nature of the universe.",
     composite: 32,
-    rank: 8,
+    rank: 7,
     faculties: {
       imagination: {
         score: 38,

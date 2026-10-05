@@ -504,6 +504,12 @@ function renderProfilesView(container) {
               <td>${lab.metaphysics.breakdown.researchAgenda.text}</td>
               <td style="font-weight: 600; text-align: right; color: var(--accent-gold);">${lab.metaphysics.breakdown.researchAgenda.lean}</td>
             </tr>
+            ${lab.metaphysics.breakdown.constitutionalSteering ? `
+            <tr>
+              <td style="font-weight: 700;">Constitutional steering</td>
+              <td>${lab.metaphysics.breakdown.constitutionalSteering.text}</td>
+              <td style="font-weight: 600; text-align: right; color: var(--accent-gold);">${lab.metaphysics.breakdown.constitutionalSteering.lean}</td>
+            </tr>` : ''}
             <tr>
               <td style="font-weight: 700;">Model language</td>
               <td>${lab.metaphysics.breakdown.modelLanguage.text}</td>
