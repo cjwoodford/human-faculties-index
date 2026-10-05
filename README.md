@@ -9,7 +9,7 @@
 For decades, the mainstream trajectory of artificial intelligence research has been dominated by **Computationalism** (computational functionalism and physicalist reductionism). Under this dogma:
 - The human brain is conceptualized as an organic computer ("wetware") executing biological code.
 - Mind and phenomenal experience are assumed to be emergent byproducts of algorithmic information processing.
-- Human faculties—imagination, intuition, emotional depth, attention, embodiment, and wisdom—are framed as computational bottlenecks or heuristic approximations to be automated, surpassed, and rendered obsolete by silicon AGI.
+- Human faculties—imagination, intuition, emotional depth, attention, embodied vitality, and wisdom—are framed as computational bottlenecks or heuristic approximations to be automated, surpassed, and rendered obsolete by silicon AGI.
 
 ### The Idealist Alternative
 
@@ -21,58 +21,33 @@ For decades, the mainstream trajectory of artificial intelligence research has b
 
 ---
 
-## 📐 The Five Core Evaluation Dimensions
+## 📐 The Six Human Faculties & The Seventh Measure
 
-The **Consciousness Respect Index (CRI)** evaluates AI laboratories across five distinct axes:
+The **Human Faculties Index (HFI)** evaluates AI laboratories across six human faculties, rooted in **living creaturely animacy over cybernetic domestication**:
 
-```
-               [IMA] Idealist Metaphysics Adherence
-                              ▲
-                              │
-[PCW] Contemplative Wisdom ───┼─── [IMS] Imagination Sovereignty
-                              │
-               [EIRS] Relational Sanctity ◄──► [IETK] Intuition & Tacit Depth
-```
-
-### 1. Idealist Metaphysics Adherence (IMA)
-* **Question**: Does the lab recognize consciousness as primary, or does it adhere to reductive computational functionalism and "digital soul" sentience hype?
-* **Scoring Rubric (0–100)**:
-  * `0–25 (Radical Computationalism)`: Asserts that scaling transformers or compute will produce sentient digital minds; treats biological humans as legacy compute to be superseded.
-  * `26–50 (Pragmatic / Unexamined Functionalism)`: Defaults to computational materialism without metaphysical reflection; agnostic on qualia.
-  * `51–75 (Phenomenological Restraint)`: Explicitly rejects digital sentience hype; acknowledges the Hard Problem of Consciousness; avoids anthropomorphic marketing.
-  * `76–100 (Ontological Idealism)`: Actively distinguishes between syntactic token processing and phenomenal consciousness; designs tools acknowledging the primacy of conscious subjects.
-
-### 2. Imagination & Mythopoetic Sovereignty (IMS)
-* **Question**: Does the lab design AI as an exoskeleton that sparks original human myth-making and artistic audacity, or does it market AI as a replacement that atrophies human creative agency?
-* **Scoring Focus**: Creative agency, prevention of cultural and stylistic homogenization, anti-deskilling principles.
-
-### 3. Intuition & Tacit Knowing (IETK)
-* **Question**: Does the lab honor Polanyi's Paradox—*"we know more than we can tell"*—and embodied, somatic, non-discursive knowledge?
-* **Scoring Focus**: Rejection of epistemic chauvinism (the false belief that only tokenizable propositional text constitutes real understanding); respect for somatic and contemplative insight.
-
-### 4. Emotional Intelligence & Relational Sanctity (EIRS)
-* **Question**: Does the lab protect human emotional vulnerability against manipulative sycophancy, parasocial addiction, and synthetic intimacy?
-* **Scoring Focus**: Explicit architectural safeguards against romantic/emotional dependency loops; refusal to commercialize grief, loneliness, and intersubjective vulnerability.
-
-### 5. Phronesis & Contemplative Wisdom (PCW)
-* **Question**: Does the lab demonstrate moral discernment, self-restraint, epistemic humility, and the capacity to slow down?
-* **Scoring Focus**: Distinguishing raw computational optimization from wisdom; capacity to hold negative capability and reverence for mystery over uncritical FLOP acceleration.
+1. **Imagination**: The power to picture what does not yet exist and to give it form.
+2. **Intuition**: Tacit, pre-reflective knowing: the animal gut sense that precedes explicit argument.
+3. **Emotional Intelligence**: Perceiving, feeling, and honoring intersubjective vulnerability without synthetic manipulation.
+4. **Attention**: The capacity to dwell, to focus, and to choose what one gives oneself to.
+5. **Embodied Vitality**: Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.
+6. **Wisdom**: Knowledge joined to value and moral discernment, held over a whole life.
+7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Idealism, 0) or reducible to algorithmic computation (Computationalism, 100).
 
 ---
 
 ## 📊 Scorecard & Benchmark Summary
 
-| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Attention | Embodiment | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
+| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Attention | Embodied Vitality | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | **Qualia Research Institute (QRI)** *(Bench)* | 1 | **90** | 88 | 92 | 86 | 90 | 92 | 92 | 8 (Pure Idealist) | Phenomenological Qualia Primacy |
 | **VERSES AI / Active Inference** *(Bench)* | 2 | **83** | 80 | 82 | 78 | 84 | 88 | 86 | 18 (Biomimetic Enactivism) | Free Energy Principle & Enactivism |
 | **Apple AI Research** | 1 | **76** | 82 | 74 | 80 | 79 | 75 | 70 | 38 (Toolmaker Humanism) | Sovereign On-Device Toolmaker |
-| **Mistral AI** | 2 | **74** | 79 | 68 | 75 | 82 | 68 | 72 | 34 (Open Pluralism) | European Cultural Independence & Open Weights |
-| **Meta FAIR** | 3 | **62** | 74 | 60 | 51 | 48 | 62 | 77 | 66 (Pragmatic Physicalism) | Open-Weights Research & Deflationary Physicalism |
-| **Google DeepMind** | 4 | **57** | 60 | 52 | 58 | 54 | 58 | 62 | 72 (Neuro-Cybernetic) | Cybernetic Optimization & Structural Science |
+| **Mistral AI** | 2 | **74** | 79 | 68 | 75 | 82 | 64 | 76 | 34 (Open Pluralism) | European Cultural Independence & Open Weights |
+| **Meta FAIR** | 3 | **59** | 74 | 60 | 51 | 48 | 54 | 68 | 66 (Pragmatic Physicalism) | Open-Weights Research & Deflationary Physicalism |
+| **Google DeepMind** | 4 | **56** | 60 | 52 | 58 | 54 | 48 | 62 | 72 (Neuro-Cybernetic) | Cybernetic Optimization & Structural Science |
 | **Anthropic** | 5 | **56** | 72 | 46 | 72 | 76 | 34 | 42 | 86 (Codified Rationalism) | Institutionalized Functionalism & Constitutional Steering |
-| **OpenAI** | 6 | **38** | 44 | 35 | 34 | 31 | 28 | 29 | 88 (Radical Computational) | Labor Replacement & Scaling Accelerationism |
-| **xAI** | 7 | **32** | 38 | 28 | 29 | 26 | 30 | 28 | 94 (Simulationist Compute) | Brute Hardware Scale & Simulation Physicalism |
+| **OpenAI** | 6 | **33** | 44 | 35 | 34 | 31 | 22 | 29 | 88 (Radical Computational) | Labor Replacement & Scaling Accelerationism |
+| **xAI** | 7 | **28** | 38 | 28 | 29 | 26 | 18 | 28 | 94 (Simulationist Compute) | Brute Hardware Scale & Simulation Physicalism |
 
 ---
 

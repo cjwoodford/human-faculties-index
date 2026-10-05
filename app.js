@@ -101,7 +101,7 @@ function renderRankingsView(container) {
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
         <h2>Are AI labs building to honor the human, or to replace it?</h2>
         <p class="hero-subtitle">
-          We rate how each lab's products, policies, and public philosophy treat the faculties no machine should be allowed to atrophy: <strong>imagination, intuition, emotional intelligence, attention, embodiment, and wisdom</strong>. A separate axis records where each lab sits between an idealist metaphysics and computationalism.
+          We rate how each lab's products, policies, and public philosophy treat the faculties no machine should be allowed to atrophy: <strong>imagination, intuition, emotional intelligence, attention, embodied vitality, and wisdom</strong>. A separate axis records where each lab sits between an idealist metaphysics and computationalism.
         </p>
       </div>
 
@@ -133,7 +133,7 @@ function renderRankingsView(container) {
       ${renderRankPill('intuition', 'Intuition')}
       ${renderRankPill('emotionalIntelligence', 'Emotional intelligence')}
       ${renderRankPill('attention', 'Attention')}
-      ${renderRankPill('embodiment', 'Embodiment')}
+      ${renderRankPill('embodiment', 'Embodied vitality')}
       ${renderRankPill('wisdom', 'Wisdom')}
       ${renderRankPill('metaphysics', 'Most idealist (0 ↔ 100)')}
     </div>
@@ -150,7 +150,7 @@ function renderRankingsView(container) {
             <th style="text-align: center;">Intuition</th>
             <th style="text-align: center;">Emotional Intel.</th>
             <th style="text-align: center;">Attention</th>
-            <th style="text-align: center;">Embodiment</th>
+            <th style="text-align: center;">Embodied Vitality</th>
             <th style="text-align: center;">Wisdom</th>
             <th>Metaphysics (0 Idealist ↔ 100 Comp)</th>
           </tr>
@@ -335,7 +335,7 @@ function renderRadarChart() {
     { k: 'intuition', label: 'Intuition' },
     { k: 'emotionalIntelligence', label: 'Emotional Intel' },
     { k: 'attention', label: 'Attention' },
-    { k: 'embodiment', label: 'Embodiment' },
+    { k: 'embodiment', label: 'Embodied Vitality' },
     { k: 'wisdom', label: 'Wisdom' }
   ];
   const step = (Math.PI * 2) / axes.length;
@@ -468,7 +468,7 @@ function renderProfilesView(container) {
         ${renderFacultyCard('Intuition', lab.faculties.intuition)}
         ${renderFacultyCard('Emotional intelligence', lab.faculties.emotionalIntelligence)}
         ${renderFacultyCard('Attention', lab.faculties.attention)}
-        ${renderFacultyCard('Embodiment', lab.faculties.embodiment)}
+        ${renderFacultyCard('Embodied vitality', lab.faculties.embodiment)}
         ${renderFacultyCard('Wisdom', lab.faculties.wisdom)}
       </div>
     </div>
@@ -739,7 +739,7 @@ function renderAboutView(container) {
               <option value="intuition">Intuition</option>
               <option value="emotionalIntelligence">Emotional intelligence</option>
               <option value="attention">Attention</option>
-              <option value="embodiment">Embodiment</option>
+              <option value="embodiment">Embodied vitality</option>
               <option value="wisdom">Wisdom</option>
               <option value="metaphysics">The Seventh Measure (Metaphysics)</option>
             </select>

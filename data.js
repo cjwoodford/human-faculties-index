@@ -77,20 +77,20 @@ const FACULTY_DEFINITIONS = {
     ]
   },
   embodiment: {
-    name: "Embodiment",
+    name: "Embodied Vitality",
     color: "#65a30d", // Living Sage
-    definition: "Knowing through the body, the senses, and one's place in the physical world.",
+    definition: "Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.",
     signalsOfPreservation: [
-      "Encourages practice, presence, and sensory engagement off-screen",
-      "Respects physical craft, muscle memory, and somatic skill as legitimate knowledge",
-      "Interfaces designed around tactile tools (stylus, haptic, physical gesture)",
-      "Acknowledges biological circadian rhythms and environmental immersion"
+      "Encourages somatic presence, tactile craft, and direct engagement with wild nature and physical life off-screen",
+      "Respects biological vulnerability, circadian rhythms, and creaturely mortality as essential to consciousness",
+      "Distinguishes living organic animacy from synthetic, mechanical automation or robotics",
+      "Interfaces designed to remain in the background, keeping human attention rooted in place and living ecology"
     ],
     signalsOfErosion: [
-      "Frames the biological human body as an obsolete limitation to overcome",
-      "Wearables and neural roadmaps that treat the body purely as an input device",
-      "Transhumanist enhancement narratives that devalue flesh, sensation, and mortality",
-      "Disembodied interfaces that ignore posture, somatic strain, and eye fatigue"
+      "Frames the biological human body, illness, and mortality purely as computational bottlenecks to optimize away",
+      "Conflates mechanical robotics (silicon actuators, servos) with living biological animacy and creaturehood",
+      "Transhumanist enhancement narratives that devalue wild nature, flesh, sensation, and organic creaturely limits",
+      "Domesticates the more-than-human world, extracting water and energy for server farms while enclosing human presence indoors"
     ]
   },
   wisdom: {
@@ -267,7 +267,7 @@ const LABS_DATA = [
     founded: "2015 (San Francisco, CA)",
     leadership: "Sam Altman, Greg Brockman, Jakub Pachocki",
     mission: "To ensure that artificial general intelligence benefits all of humanity, defined as highly autonomous systems that outperform humans at most economically valuable work.",
-    composite: 38,
+    composite: 33,
     rank: 6,
     faculties: {
       imagination: {
@@ -313,13 +313,12 @@ const LABS_DATA = [
         ]
       },
       embodiment: {
-        score: 28,
-        preserves: [
-          "Robotics partnerships exploring physical manipulation (Figure AI collaboration)"
-        ],
+        score: 22,
+        preserves: [],
         erodes: [
-          "Explicitly treats biological embodiment as an inconvenient computational constraint",
-          "Zero integration with somatic, tactile, or non-screen human practices"
+          "Explicitly treats biological embodiment, animal vulnerability, and creaturely limits as inconvenient constraints to engineer away",
+          "Robotics investments (Figure AI) treat the physical world merely as industrial labor automation, severing tools from somatic craft",
+          "Total disregard for ecological limits: consumes massive grid power and water to domesticate human presence inside indoor screen sessions"
         ]
       },
       wisdom: {
@@ -462,7 +461,7 @@ const LABS_DATA = [
     founded: "2010 (London / Mountain View)",
     leadership: "Demis Hassabis, Shane Legg, Pushmeet Kohli",
     mission: "To combine the best techniques in machine learning and systems neuroscience to build powerful general-purpose learning algorithms.",
-    composite: 57,
+    composite: 56,
     rank: 4,
     faculties: {
       imagination: {
@@ -503,12 +502,13 @@ const LABS_DATA = [
         ]
       },
       embodiment: {
-        score: 58,
+        score: 48,
         preserves: [
-          "Strong robotics and real-world physical dynamics research (Everyday Robots, AlphaGeometry)"
+          "AlphaFold models organic molecular biology and cellular protein structures, honoring biochemical morphology"
         ],
         erodes: [
-          "Frames the physical world primarily as reinforcement-learning state space to be solved"
+          "Frames the more-than-human physical world primarily as reinforcement-learning state space to be conquered by agents",
+          "Zero interface support for somatic presence, outdoor immersion, or non-screen human vitality"
         ]
       },
       wisdom: {
@@ -553,7 +553,7 @@ const LABS_DATA = [
     founded: "2013 (New York / Menlo Park)",
     leadership: "Yann LeCun, Joelle Pineau",
     mission: "Advancing the state of the art in AI through open research and foundational models that empower global communities.",
-    composite: 62,
+    composite: 59,
     rank: 3,
     faculties: {
       imagination: {
@@ -594,12 +594,13 @@ const LABS_DATA = [
         ]
       },
       embodiment: {
-        score: 62,
+        score: 54,
         preserves: [
-          "Deep research into sensorimotor robotics, tactile sensors (DIGIT), and spatial acoustics"
+          "Tactile sensor research (DIGIT) exploring physical friction and surface texture",
+          "Open weights enable decentralized deployment by grassroots conservation and wildlife monitoring projects"
         ],
         erodes: [
-          "Metaverse framing seeks to migrate embodied human presence into virtual headsets"
+          "Metaverse agenda seeks to migrate human bodily presence into synthetic virtual headsets, alienating people from the living earth"
         ]
       },
       wisdom: {
@@ -691,11 +692,12 @@ const LABS_DATA = [
       embodiment: {
         score: 75,
         preserves: [
-          "Deepest integration with physical body, hands, stylus, and haptics in the industry",
-          "Health ecosystem tracks circadian cycles, sleep, and somatic movement away from screens"
+          "Deepest integration with physical hands, stylus, tactile haptics, and physical craft",
+          "Health and watch ecosystem explicitly oriented toward outdoor movement, cardio fitness, sleep cycles, and circadian rhythm",
+          "Local on-device processing minimizes the massive freshwater and energy draw of centralized cloud datacenters"
         ],
         erodes: [
-          "Vision Pro spatial computing poses long-term risks of screen isolation from physical environment"
+          "Vision Pro spatial computing poses long-term risks of domesticating attention inside synthetic headsets rather than outdoor wild reality"
         ]
       },
       wisdom: {
@@ -740,7 +742,7 @@ const LABS_DATA = [
     founded: "2023 (Austin, TX)",
     leadership: "Elon Musk, Igor Babuschkin",
     mission: "To build artificial intelligence to understand the true nature of the universe.",
-    composite: 32,
+    composite: 28,
     rank: 7,
     faculties: {
       imagination: {
@@ -781,12 +783,12 @@ const LABS_DATA = [
         ]
       },
       embodiment: {
-        score: 30,
-        preserves: [
-          "Synergies with Tesla Optimus humanoid robotics development"
-        ],
+        score: 18,
+        preserves: [],
         erodes: [
-          "Techno-cosmic transhumanism views biological humans as fragile carbon biological boots to load digital intelligence"
+          "Techno-cosmic transhumanism views biological humans as fragile carbon 'boot loaders' for silicon intelligence",
+          "Colossus supercluster in Memphis consumes 100+ MW and millions of gallons of municipal aquifer water without environmental permits, directly degrading living watersheds",
+          "Conflates mechanical humanoid automation (Tesla Optimus) with living creaturely animacy"
         ]
       },
       wisdom: {
@@ -869,10 +871,11 @@ const LABS_DATA = [
         erodes: []
       },
       embodiment: {
-        score: 90,
+        score: 92,
         preserves: [
-          "Studies full-body somatic harmonic resonance, breathwork, and neuro-acoustic vibration",
-          "Refuses to treat the physical body as an obsolete container"
+          "Grounds consciousness in somatic resonance, breathwork, nervous system harmonics, and visceral creaturely felt sense",
+          "Reverence for wild, contemplative, and ecstatic states of consciousness over mechanized token generation",
+          "Refuses to treat the living biological body as an obsolete container"
         ],
         erodes: []
       },
@@ -950,10 +953,10 @@ const LABS_DATA = [
         erodes: []
       },
       embodiment: {
-        score: 86,
+        score: 88,
         preserves: [
-          "Intelligence is defined as embodied interaction through Markov blankets in real physical environments",
-          "Grounded in thermodynamic biological physics"
+          "Intelligence is defined as embodied self-organization of organisms maintaining homeostasis within a living ecosystem",
+          "Rejects disembodied LLMs in favor of biomimetic physical intelligence grounded in ecological thermodynamics"
         ],
         erodes: []
       },
