@@ -101,7 +101,7 @@ function renderRankingsView(container) {
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
         <h2>Are AI labs building to honor the human, or to replace it?</h2>
         <p class="hero-subtitle">
-          We rate how each lab's products, policies, and public philosophy treat the faculties no machine should be allowed to atrophy: <strong>imagination, intuition, emotional intelligence, attention, embodied vitality, and wisdom</strong>. A separate axis records where each lab sits between an idealist metaphysics and computationalism.
+          We rate how each lab's products, policies, and public philosophy treat the faculties no machine should be allowed to atrophy: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each lab sits between an idealist metaphysics and computationalism.
         </p>
       </div>
 
@@ -132,7 +132,7 @@ function renderRankingsView(container) {
       ${renderRankPill('imagination', 'Imagination')}
       ${renderRankPill('intuition', 'Intuition')}
       ${renderRankPill('emotionalIntelligence', 'Emotional intelligence')}
-      ${renderRankPill('attention', 'Attention')}
+      ${renderRankPill('attention', 'Presence')}
       ${renderRankPill('embodiment', 'Embodied vitality')}
       ${renderRankPill('wisdom', 'Wisdom')}
       ${renderRankPill('metaphysics', 'Most idealist (0 ↔ 100)')}
@@ -149,7 +149,7 @@ function renderRankingsView(container) {
             <th style="text-align: center;">Imagination</th>
             <th style="text-align: center;">Intuition</th>
             <th style="text-align: center;">Emotional Intel.</th>
-            <th style="text-align: center;">Attention</th>
+            <th style="text-align: center;">Presence</th>
             <th style="text-align: center;">Embodied Vitality</th>
             <th style="text-align: center;">Wisdom</th>
             <th>Metaphysics (0 Idealist ↔ 100 Comp)</th>
@@ -334,7 +334,7 @@ function renderRadarChart() {
     { k: 'imagination', label: 'Imagination' },
     { k: 'intuition', label: 'Intuition' },
     { k: 'emotionalIntelligence', label: 'Emotional Intel' },
-    { k: 'attention', label: 'Attention' },
+    { k: 'attention', label: 'Presence' },
     { k: 'embodiment', label: 'Embodied Vitality' },
     { k: 'wisdom', label: 'Wisdom' }
   ];
@@ -467,7 +467,7 @@ function renderProfilesView(container) {
         ${renderFacultyCard('Imagination', lab.faculties.imagination)}
         ${renderFacultyCard('Intuition', lab.faculties.intuition)}
         ${renderFacultyCard('Emotional intelligence', lab.faculties.emotionalIntelligence)}
-        ${renderFacultyCard('Attention', lab.faculties.attention)}
+        ${renderFacultyCard('Presence', lab.faculties.attention)}
         ${renderFacultyCard('Embodied vitality', lab.faculties.embodiment)}
         ${renderFacultyCard('Wisdom', lab.faculties.wisdom)}
       </div>
@@ -706,7 +706,7 @@ function renderAboutView(container) {
       </p>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
-        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Cosmic Intelligence Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep attention, and moral wisdom.
+        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Cosmic Intelligence Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and moral wisdom.
       </p>
 
       <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.6rem; margin-bottom: 2.5rem;">
@@ -738,7 +738,7 @@ function renderAboutView(container) {
               <option value="imagination">Imagination</option>
               <option value="intuition">Intuition</option>
               <option value="emotionalIntelligence">Emotional intelligence</option>
-              <option value="attention">Attention</option>
+              <option value="attention">Presence</option>
               <option value="embodiment">Embodied vitality</option>
               <option value="wisdom">Wisdom</option>
               <option value="metaphysics">The Seventh Measure (Metaphysics)</option>

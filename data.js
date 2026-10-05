@@ -60,20 +60,20 @@ const FACULTY_DEFINITIONS = {
     ]
   },
   attention: {
-    name: "Attention",
+    name: "Presence",
     color: "#4d7c0f", // Deep Olive / Laurel
-    definition: "The capacity to dwell, to focus, and to choose what one gives oneself to.",
+    definition: "The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.",
     signalsOfPreservation: [
       "No engagement-maximizing notification loops, feeds, or streak counters",
-      "Calm defaults with clear stopping points and session completions",
-      "Offers optional contemplative pauses in long or intense sessions",
-      "Respects cognitive boundaries and cognitive silence"
+      "Calm defaults with natural completion boundaries and spacious cognitive silence",
+      "Offers contemplative pauses; encourages the user to close the screen and return to unmediated life",
+      "Rejects continuous ambient algorithmic chatter in favor of quiet, bounded utility"
     ],
     signalsOfErosion: [
-      "Infinite feeds, push notifications, and dopamine nudges to maintain session time",
-      "Attention treated as an extractive resource to harvest and monetize",
-      "Voice mode that auto-continues by default without natural pauses",
-      "Continuous background stimulation that erodes contemplative stillness"
+      "Infinite feeds, push notifications, and dopamine nudges engineered to prolong screen immersion",
+      "Synthetic dissociation: pulling human consciousness into continuous algorithmic mediation away from physical life",
+      "Always-listening, real-time voice modes that auto-continue endlessly without natural pauses",
+      "Continuous background stimulation and ambient interruption that erodes contemplative stillness"
     ]
   },
   embodiment: {
@@ -541,7 +541,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2024-05", type: "Scientific Discovery", source: "AlphaFold 3 Publication (Nature)", measure: "Imagination", effect: "Preserves", finding: "Enabled biologists worldwide to model complex biomolecular interactions, augmenting human discovery." },
-      { date: "2024-05", type: "Product Demo", source: "Project Astra Demo", measure: "Attention", effect: "Erodes", finding: "Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time." },
+      { date: "2024-05", type: "Product Demo", source: "Project Astra Demo", measure: "Presence", effect: "Erodes", finding: "Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time." },
       { date: "2024-02", type: "Product Feature", source: "Gemini Image Generation Audit", measure: "Wisdom", effect: "Erodes", finding: "Overt programmatic guardrails altered historical depictions, showing ideological overcorrection." }
     ]
   },
@@ -729,7 +729,7 @@ const LABS_DATA = [
       }
     },
     evidenceLedger: [
-      { date: "2024-06", type: "Architecture", source: "Apple Intelligence WWDC", measure: "Attention", effect: "Preserves", finding: "Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet over notifications." },
+      { date: "2024-06", type: "Architecture", source: "Apple Intelligence WWDC", measure: "Presence", effect: "Preserves", finding: "Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet over notifications." },
       { date: "2024-06", type: "Product Feature", source: "Image Wand Feature", measure: "Imagination", effect: "Preserves", finding: "Requires the user to draw an initial sketch or rough shape before the model transforms it into a rendering." },
       { date: "2024-04", type: "Research Paper", source: "OpenELM Paper (Apple ML)", measure: "Wisdom", effect: "Preserves", finding: "Published fully transparent training logs and open weights for on-device efficiency models." }
     ]
@@ -822,7 +822,7 @@ const LABS_DATA = [
     evidenceLedger: [
       { date: "2024-08", type: "Product Feature", source: "Grok 2 Image Release", measure: "Emotional Intel", effect: "Erodes", finding: "Shipped completely unfiltered photorealistic generation generating unauthorized celebrity and political imagery without consent." },
       { date: "2024-07", type: "Infrastructure", source: "Colossus Cluster Launch", measure: "Wisdom", effect: "Erodes", finding: "Brought 100,000 liquid-cooled H100 GPUs online in 122 days, prioritizing sheer brute-force scaling over environmental pause." },
-      { date: "2023-11", type: "Product Feature", source: "Grok Fun Mode Persona", measure: "Attention", effect: "Erodes", finding: "Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds." }
+      { date: "2023-11", type: "Product Feature", source: "Grok Fun Mode Persona", measure: "Presence", effect: "Erodes", finding: "Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds." }
     ]
   },
   {
@@ -907,7 +907,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2023-10", type: "Research Paper", source: "Symmetry Theory of Valence", measure: "Emotional Intel", effect: "Preserves", finding: "Demonstrated mathematical framework linking neural harmony to subjective well-being without reducing it to computation." },
-      { date: "2022-04", type: "Empirical Study", source: "Neuroimaging of Jhana Meditation", measure: "Attention", effect: "Preserves", finding: "Mapped extreme attentional stability in advanced meditators, demonstrating capacities beyond algorithmic models." }
+      { date: "2022-04", type: "Empirical Study", source: "Neuroimaging of Jhana Meditation", measure: "Presence", effect: "Preserves", finding: "Mapped extreme attentional stability in advanced meditators, demonstrating capacities beyond algorithmic models." }
     ]
   },
   {

@@ -9,7 +9,7 @@
 For decades, the mainstream trajectory of artificial intelligence research has been dominated by **Computationalism** (computational functionalism and physicalist reductionism). Under this dogma:
 - The human brain is conceptualized as an organic computer ("wetware") executing biological code.
 - Mind and phenomenal experience are assumed to be emergent byproducts of algorithmic information processing.
-- Human faculties—imagination, intuition, emotional depth, attention, embodied vitality, and wisdom—are framed as computational bottlenecks or heuristic approximations to be automated, surpassed, and rendered obsolete by silicon AGI.
+- Human faculties—imagination, intuition, emotional depth, presence, embodied vitality, and wisdom—are framed as computational bottlenecks or heuristic approximations to be automated, surpassed, and rendered obsolete by silicon AGI.
 
 ### The Idealist Alternative
 
@@ -28,7 +28,7 @@ The **Human Faculties Index (HFI)** evaluates AI laboratories across six human f
 1. **Imagination**: The power to picture what does not yet exist and to give it form.
 2. **Intuition**: Tacit, pre-reflective knowing: the animal gut sense that precedes explicit argument.
 3. **Emotional Intelligence**: Perceiving, feeling, and honoring intersubjective vulnerability without synthetic manipulation.
-4. **Attention**: The capacity to dwell, to focus, and to choose what one gives oneself to.
+4. **Presence**: The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.
 5. **Embodied Vitality**: Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.
 6. **Wisdom**: Knowledge joined to value and moral discernment, held over a whole life.
 7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Idealism, 0) or reducible to algorithmic computation (Computationalism, 100).
@@ -37,7 +37,7 @@ The **Human Faculties Index (HFI)** evaluates AI laboratories across six human f
 
 ## 📊 Scorecard & Benchmark Summary
 
-| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Attention | Embodied Vitality | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
+| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Presence | Embodied Vitality | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | **Qualia Research Institute (QRI)** *(Bench)* | 1 | **90** | 88 | 92 | 86 | 90 | 92 | 92 | 8 (Pure Idealist) | Phenomenological Qualia Primacy |
 | **VERSES AI / Active Inference** *(Bench)* | 2 | **83** | 80 | 82 | 78 | 84 | 88 | 86 | 18 (Biomimetic Enactivism) | Free Energy Principle & Enactivism |
