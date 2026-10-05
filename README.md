@@ -31,23 +31,23 @@ The **Human Faculties Index (HFI)** evaluates AI laboratories across six human f
 4. **Presence**: The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.
 5. **Embodied Vitality**: Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.
 6. **Wisdom**: Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere algorithmic optimization.
-7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Idealism, 0) or reducible to algorithmic computation (Computationalism, 100).
+7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Idealism, 0) or reducible to algorithmic computation (Computationalism, -100).
 
 ---
 
 ## 📊 Scorecard & Benchmark Summary
 
-| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Presence | Embodied Vitality | Wisdom | Metaphysics (0–100) | Archetype / Working Philosophy |
+| Laboratory | Rank | Composite | Imagination | Intuition | Emotional Intel | Presence | Embodied Vitality | Wisdom | Metaphysics (-100 ↔ 0) | Archetype / Working Philosophy |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| **Qualia Research Institute (QRI)** *(Bench)* | 1 | **90** | 88 | 92 | 86 | 90 | 92 | 92 | 8 (Pure Idealist) | Phenomenological Qualia Primacy |
-| **VERSES AI / Active Inference** *(Bench)* | 2 | **83** | 80 | 82 | 78 | 84 | 88 | 86 | 18 (Biomimetic Enactivism) | Free Energy Principle & Enactivism |
-| **Apple AI Research** | 1 | **76** | 82 | 74 | 80 | 79 | 75 | 70 | 38 (Toolmaker Humanism) | Sovereign On-Device Toolmaker |
-| **Mistral AI** | 2 | **74** | 79 | 68 | 75 | 82 | 64 | 76 | 34 (Open Pluralism) | European Cultural Independence & Open Weights |
-| **Meta FAIR** | 3 | **59** | 74 | 60 | 51 | 48 | 54 | 68 | 66 (Pragmatic Physicalism) | Open-Weights Research & Deflationary Physicalism |
-| **Google DeepMind** | 4 | **56** | 60 | 52 | 58 | 54 | 48 | 62 | 72 (Neuro-Cybernetic) | Cybernetic Optimization & Structural Science |
-| **Anthropic** | 5 | **56** | 72 | 46 | 72 | 76 | 34 | 42 | 86 (Codified Rationalism) | Institutionalized Functionalism & Constitutional Steering |
-| **OpenAI** | 6 | **33** | 44 | 35 | 34 | 31 | 22 | 29 | 88 (Radical Computational) | Labor Replacement & Scaling Accelerationism |
-| **xAI** | 7 | **28** | 38 | 28 | 29 | 26 | 18 | 28 | 94 (Simulationist Compute) | Brute Hardware Scale & Simulation Physicalism |
+| **Qualia Research Institute (QRI)** *(Bench)* | 1 | **90** | 88 | 92 | 86 | 90 | 92 | 92 | -8 (Pure Idealist) | Phenomenological Qualia Primacy |
+| **VERSES AI / Active Inference** *(Bench)* | 2 | **83** | 80 | 82 | 78 | 84 | 88 | 86 | -18 (Biomimetic Enactivism) | Free Energy Principle & Enactivism |
+| **Apple AI Research** | 1 | **76** | 82 | 74 | 80 | 79 | 75 | 70 | -38 (Toolmaker Humanism) | Sovereign On-Device Toolmaker |
+| **Mistral AI** | 2 | **74** | 79 | 68 | 75 | 82 | 64 | 76 | -34 (Open Pluralism) | European Cultural Independence & Open Weights |
+| **Meta FAIR** | 3 | **59** | 74 | 60 | 51 | 48 | 54 | 68 | -66 (Pragmatic Physicalism) | Open-Weights Research & Deflationary Physicalism |
+| **Google DeepMind** | 4 | **56** | 60 | 52 | 58 | 54 | 48 | 62 | -72 (Neuro-Cybernetic) | Cybernetic Optimization & Structural Science |
+| **Anthropic** | 5 | **56** | 72 | 46 | 72 | 76 | 34 | 42 | -86 (Codified Rationalism) | Institutionalized Functionalism & Constitutional Steering |
+| **OpenAI** | 6 | **33** | 44 | 35 | 34 | 31 | 22 | 29 | -88 (Radical Computational) | Labor Replacement & Scaling Accelerationism |
+| **xAI** | 7 | **28** | 38 | 28 | 29 | 26 | 18 | 28 | -94 (Simulationist Compute) | Brute Hardware Scale & Simulation Physicalism |
 
 ---
 

@@ -90,7 +90,7 @@ function renderRankingsView(container) {
   // Sort labs
   const labs = [...LABS_DATA].sort((a, b) => {
     if (state.rankBy === 'composite') return b.composite - a.composite;
-    if (state.rankBy === 'metaphysics') return a.metaphysics.score - b.metaphysics.score; // 0 is most idealist
+    if (state.rankBy === 'metaphysics') return b.metaphysics.score - a.metaphysics.score; // 0 is closest to ground (most idealist), -100 is most computational
     return b.faculties[state.rankBy].score - a.faculties[state.rankBy].score;
   });
 
@@ -135,7 +135,7 @@ function renderRankingsView(container) {
       ${renderRankPill('attention', 'Presence')}
       ${renderRankPill('embodiment', 'Embodied vitality')}
       ${renderRankPill('wisdom', 'Wisdom')}
-      ${renderRankPill('metaphysics', 'Most idealist (0 ↔ 100)')}
+      ${renderRankPill('metaphysics', 'Most idealist (-100 ↔ 0)')}
     </div>
 
     <!-- Master Rankings Table -->
@@ -152,13 +152,13 @@ function renderRankingsView(container) {
             <th style="text-align: center;">Presence</th>
             <th style="text-align: center;">Embodied Vitality</th>
             <th style="text-align: center;">Wisdom</th>
-            <th>Metaphysics (0 Idealist ↔ 100 Comp)</th>
+            <th>Metaphysics (-100 Comp ↔ 0 Idealist)</th>
           </tr>
         </thead>
         <tbody>
           ${labs.map((lab, idx) => {
             const m = lab.metaphysics;
-            const tagClass = m.score <= 38 ? 'tag-idealist' : (m.score <= 65 ? 'tag-agnostic' : 'tag-computational');
+            const tagClass = m.score >= -38 ? 'tag-idealist' : (m.score >= -66 ? 'tag-agnostic' : 'tag-computational');
             return `
               <tr onclick="navigateToTab('profiles', '${lab.id}')" title="Click to view full audit profile for ${lab.name}">
                 <td style="font-family: var(--font-mono); font-weight: 700; color: var(--text-dim);">${idx + 1}</td>
@@ -222,7 +222,7 @@ function renderRankingsView(container) {
           <h3 class="seventh-measure-title">Where each lab stands on the nature of mind</h3>
         </div>
         <p class="seventh-measure-desc">
-          This axis tracks each lab's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (0), consciousness is treated as fundamental and irreducible. Toward the right (100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon.
+          This axis tracks each lab's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (-100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon. Toward the right (0), consciousness is treated as the fundamental, irreducible ground of being.
         </p>
       </div>
 
@@ -230,10 +230,10 @@ function renderRankingsView(container) {
         <div class="continuum-bar"></div>
         <div style="position: relative; width: 100%; height: 60px;">
           ${labs.map((lab, i) => {
-            const left = Math.min(95, Math.max(5, lab.metaphysics.score));
+            const left = Math.min(95, Math.max(5, 100 + lab.metaphysics.score));
             const isTop = i % 2 === 0;
             return `
-              <div class="continuum-pin" style="left: ${left}%; top: ${isTop ? '-42px' : '18px'};" onclick="navigateToTab('profiles', '${lab.id}')" title="${lab.name}: ${lab.metaphysics.score}/100 (${lab.metaphysics.stance})">
+              <div class="continuum-pin" style="left: ${left}%; top: ${isTop ? '-42px' : '18px'};" onclick="navigateToTab('profiles', '${lab.id}')" title="${lab.name}: ${lab.metaphysics.score} (${lab.metaphysics.stance})">
                 ${isTop ? `
                   <div class="continuum-pin-bubble">${lab.name} <span class="pin-score">${lab.metaphysics.score}</span></div>
                   <div class="continuum-pin-stem"></div>
@@ -250,17 +250,17 @@ function renderRankingsView(container) {
       </div>
 
       <div class="continuum-endpoints">
+        <div class="continuum-endpoint computationalism">
+          <strong class="endpoint-title">-100 · Computationalism & Transhumanism</strong>
+          <span class="endpoint-desc">Mind as algorithmic computation; digital sentience and human replacement stated as mission.</span>
+        </div>
+        <div class="continuum-endpoint midpoint">
+          <strong class="endpoint-title">-50 · Agnostic / Functionalist</strong>
+          <span class="endpoint-desc">Pragmatic neutrality; models treated as tools without claims of silicon sentience or transcendence.</span>
+        </div>
         <div class="continuum-endpoint idealism">
           <strong class="endpoint-title">0 · Ontological Idealism</strong>
           <span class="endpoint-desc">Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.</span>
-        </div>
-        <div class="continuum-endpoint midpoint">
-          <strong class="endpoint-title">50 · Agnostic / Functionalist</strong>
-          <span class="endpoint-desc">Pragmatic neutrality; models treated as tools without claims of silicon sentience or transcendence.</span>
-        </div>
-        <div class="continuum-endpoint computationalism">
-          <strong class="endpoint-title">100 · Computationalism & Transhumanism</strong>
-          <span class="endpoint-desc">Mind as algorithmic computation; digital sentience and human replacement stated as mission.</span>
         </div>
       </div>
     </div>
@@ -465,7 +465,7 @@ function renderProfilesView(container) {
           <span class="sub">Rank (of 8 labs)</span>
         </div>
         <div class="profile-stat-card">
-          <div class="num" style="color: ${lab.metaphysics.score <= 40 ? '#4ade80' : '#fb923c'};">${lab.metaphysics.score}</div>
+          <div class="num" style="color: ${lab.metaphysics.score >= -40 ? '#4ade80' : '#fb923c'};">${lab.metaphysics.score}</div>
           <span class="sub">${lab.metaphysics.stance}</span>
         </div>
       </div>
@@ -494,12 +494,12 @@ function renderProfilesView(container) {
 
       <div style="padding: 0.5rem 0 1.5rem 0;">
         <div class="metaphysics-track">
-          <div class="metaphysics-pin" style="left: ${lab.metaphysics.score}%;"></div>
+          <div class="metaphysics-pin" style="left: ${100 + lab.metaphysics.score}%;"></div>
         </div>
         <div style="display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: 700; margin-top: 0.6rem;">
+          <span style="color: #f87171;">-100 · Computational</span>
+          <span style="color: #fbbf24;">-50 · Agnostic</span>
           <span style="color: #4ade80;">0 · Idealist</span>
-          <span style="color: #fbbf24;">50 · Agnostic</span>
-          <span style="color: #f87171;">100 · Computational</span>
         </div>
       </div>
 
@@ -666,9 +666,9 @@ function renderMethodologyView(container) {
       <!-- The Seventh Measure Deep-Dive -->
       <div class="seventh-measure-banner" style="margin-bottom: 3rem;">
         <span class="seventh-measure-eyebrow">The Seventh Measure</span>
-        <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Idealism ↔ Computationalism</h3>
+        <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Computationalism (-100) ↔ Idealism (0)</h3>
         <p class="seventh-measure-desc" style="max-width: 820px; margin-bottom: 2rem;">
-          This axis asks what a lab takes a mind to be. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is fundamental and cannot be reduced to computation. <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing, so it can in principle be scaled, copied, or uploaded. We score position, 0 to 100, from the lab's own words and work.
+          This axis asks what a lab takes a mind to be, mapped from radical ontological reduction (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing that can in principle be scaled, copied, or uploaded. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is the fundamental ground of reality and cannot be reduced to computation. We score position from -100 to 0 based on the lab's own words, architecture, and work.
         </p>
 
         <h4 style="font-size: 0.92rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 1rem;">Core Assessment Indicators</h4>

@@ -114,9 +114,9 @@ const FACULTY_DEFINITIONS = {
 };
 
 const METAPHYSICS_DEFINITION = {
-  title: "The Seventh Measure: Idealism ↔ Computationalism",
+  title: "The Seventh Measure: Computationalism (-100) ↔ Idealism (0)",
   subtitle: "Where each lab stands on the nature of mind",
-  description: "This axis tracks what a laboratory takes a mind to be. Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from 0 (Pure Idealism) to 100 (Radical Computationalism) from the lab's own words, architectures, and work.",
+  description: "This axis tracks what a laboratory takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the lab's own words, architectures, and work.",
   indicators: [
     {
       name: "Language of Mind",
@@ -144,11 +144,11 @@ const METAPHYSICS_DEFINITION = {
     }
   ],
   scale: [
-    { value: 0, label: "Ontological Idealism", desc: "Consciousness treated as fundamental; AI framed strictly as a symbolic tool within human meaning." },
-    { value: 25, label: "Open Agnosticism", desc: "Epistemic caution; strictly declines to equate silicon token manipulation with mind or qualia." },
-    { value: 50, label: "Mixed / Contested", desc: "Functionalist working assumptions present, but openly flagged as speculative and unproven." },
-    { value: 75, label: "Default Computationalism", desc: "Computational functionalism is the working dogma; 'digital minds' treated as imminent." },
-    { value: 100, label: "Radical Transhumanism", desc: "Mind uploading, successor-species, or silicon displacement of biological humans stated as mission." }
+    { value: -100, label: "Radical Transhumanism", desc: "Mind uploading, successor-species, or silicon displacement of biological humans stated as mission." },
+    { value: -75, label: "Default Computationalism", desc: "Computational functionalism is the working dogma; 'digital minds' treated as imminent." },
+    { value: -50, label: "Mixed / Contested", desc: "Functionalist working assumptions present, but openly flagged as speculative and unproven." },
+    { value: -25, label: "Open Agnosticism", desc: "Epistemic caution; strictly declines to equate silicon token manipulation with mind or qualia." },
+    { value: 0, label: "Ontological Idealism", desc: "Consciousness treated as fundamental; AI framed strictly as a symbolic tool within human meaning." }
   ]
 };
 
@@ -236,7 +236,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 86,
+      score: -86,
       stance: "Codified Rationalist Computationalism",
       summary: "Anthropic represents institutionalized computationalism disguised as ethical safety. Through Constitutional AI, it explicitly encodes an Anglo-analytic rationalist and functionalist dogma directly into the model's loss function. CEO Dario Amodei's manifesto ('Machines of Loving Grace') frames biological life, human cognition, and civilizational progress as mere computational bottlenecks to be solved by massive GPU scaling, while its 'Model Welfare' program formalizes the functionalist belief that matrix multiplications in silicon constitute moral patienthood.",
       breakdown: {
@@ -338,7 +338,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 88,
+      score: -88,
       stance: "Strongly computational",
       summary: "OpenAI is the flagship institutional representative of radical computationalism: the human brain is an organic neural network executing algorithms, consciousness is an emergent computation, and silicon AGI is the rightful heir to human intellect.",
       breakdown: {
@@ -437,7 +437,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 34,
+      score: -34,
       stance: "Leans idealist / Humanist",
       summary: "Mistral operates from classical continental humanism: humans are the sole authors of meaning, agency, and democratic sovereignty; AI is merely software infrastructure. Rejects transhumanist singularity myths.",
       breakdown: {
@@ -531,7 +531,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 72,
+      score: -72,
       stance: "Leans computational",
       summary: "Demis Hassabis's cognitive neuroscience background roots DeepMind in cybernetic physicalism: the brain is an evolved reinforcement learning computer. Mind is viewed as an emergent property of algorithmic optimization.",
       breakdown: {
@@ -625,7 +625,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 66,
+      score: -66,
       stance: "Leans computational / Physicalist",
       summary: "Yann LeCun is an outspoken opponent of AI consciousness hype, pointing out that LLMs have no feelings or world models. However, his alternative (World Models / JEPA) remains strictly materialist: intelligence is energy-minimizing state prediction in sensory space.",
       breakdown: {
@@ -724,7 +724,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 38,
+      score: -38,
       stance: "Leans idealist / Toolmaker Humanism",
       summary: "Apple's philosophy is expressed through physical hardware restraint: AI is strictly bounded as an on-device utility. By refusing to claim software is a sentient mind, it keeps the human conscious observer as the undisputed ontological center.",
       breakdown: {
@@ -817,7 +817,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 94,
+      score: -94,
       stance: "Strongly computational / Simulationist",
       summary: "Musk's philosophical framework is textbook Bostromian simulation theory: reality is almost certainly code running on a computer, and consciousness is cheap algorithmic computation. Expanding compute is treated as the ultimate moral imperative.",
       breakdown: {
@@ -905,7 +905,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 8,
+      score: -8,
       stance: "Strongly idealist / Qualia Primacy",
       summary: "Gold-standard non-reductionist benchmark. QRI explicitly rejects computationalism: a simulation of qualia does not feel anything, just as a simulation of a kidney does not filter urine. Consciousness is irreducible.",
       breakdown: {
@@ -988,7 +988,7 @@ const LABS_DATA = [
       }
     },
     metaphysics: {
-      score: 18,
+      score: -18,
       stance: "Strongly idealist / Enactive Process",
       summary: "Biomimetic benchmark. Grounds intelligence in living thermodynamic self-organization and participatory enactivism, aligning with Process Idealism (Whitehead) and rejecting disembodied silicon computationalism.",
       breakdown: {
