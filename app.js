@@ -1,5 +1,5 @@
 /**
- * HUMAN FACULTIES INDEX // THE COSMIC INTELLIGENCE INSTITUTE
+ * HUMAN FACULTIES INDEX // THE HUMAN BECOMING INSTITUTE
  * Master Application State & View Routing
  */
 
@@ -702,11 +702,11 @@ function renderAboutView(container) {
       <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem;">Preserving the Sacred Sovereignty of Human Faculties</h2>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.25rem;">
-        The <strong>Human Faculties Index</strong> is an independent civil research project operating under the auspices of <strong>The Cosmic Intelligence Institute</strong>. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.
+        The <strong>Human Faculties Index</strong> is an independent civil research project operating under the auspices of <strong>The Human Becoming Institute</strong>. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.
       </p>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
-        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Cosmic Intelligence Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and enduring wisdom.
+        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and enduring wisdom.
       </p>
 
       <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.6rem; margin-bottom: 2.5rem;">

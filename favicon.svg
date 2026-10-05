@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="45%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#9a3412" />
+    </linearGradient>
+    <radialGradient id="hearthGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbeb" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Rounded squircle badge matching .logo-symbol -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#tileGrad)" stroke="#fef3c7" stroke-width="1.5" stroke-opacity="0.3" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#hearthGlow)" />
+  <!-- Radiant four-pointed star (✦) -->
+  <path d="M32 10 Q32 32 10 32 Q32 32 32 54 Q32 32 54 32 Q32 32 32 10 Z" fill="#fffaf0" />
+  <!-- Subtle center jewel highlight -->
+  <circle cx="32" cy="32" r="2.2" fill="#fef3c7" />
+</svg>

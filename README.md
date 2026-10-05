@@ -1,4 +1,4 @@
-# Human Faculties Index (The Cosmic Intelligence Institute)
+# Human Faculties Index (The Human Becoming Institute)
 
 > **Auditing frontier artificial intelligence laboratories on their preservation of human faculties and adherence to an Idealist ontology of Mind over reductive Computationalism.**
 
@@ -13,7 +13,7 @@ For decades, the mainstream trajectory of artificial intelligence research has b
 
 ### The Idealist Alternative
 
-**The Cosmic Intelligence Institute** grounds the **Human Faculties Index** in the alternative ontology of **Analytic Idealism** and **Phenomenology** (articulated by thinkers such as Bernardo Kastrup, Donald Hoffman, Maurice Merleau-Ponty, Alfred North Whitehead, and Michael Polanyi):
+**The Human Becoming Institute** grounds the **Human Faculties Index** in the alternative ontology of **Analytic Idealism** and **Phenomenology** (articulated by thinkers such as Bernardo Kastrup, Donald Hoffman, Maurice Merleau-Ponty, Alfred North Whitehead, and Michael Polanyi):
 
 1. **Consciousness as Ontological Primitive**: Conscious experience is not a late, accidental trick produced by dead matter; it is the fundamental ontological canvas upon which all phenomena (including physics, mathematics, and computers) appear.
 2. **The Map is Not the Territory**: A computational simulation of an event is not the event itself. A simulation of rain does not get wet; a simulation of a kidney does not filter toxins; and a statistical simulation of language does not feel qualia, understand meaning, or possess an inner light.
