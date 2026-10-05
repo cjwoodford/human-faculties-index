@@ -96,17 +96,17 @@ const FACULTY_DEFINITIONS = {
   wisdom: {
     name: "Wisdom",
     color: "#b45309", // Antique Bronze
-    definition: "Knowledge joined to value and moral judgment, held over a whole life.",
+    definition: "Moral discernment and enduring value joined to knowledge, held over a whole life: distinguishing genuine human good from mere algorithmic optimization or technical cleverness.",
     signalsOfPreservation: [
-      "Humanistic, philosophical, and contemplative scholars embedded in governance",
-      "Publishes what the laboratory explicitly declined to build, and why",
-      "Epistemic humility: acknowledges the limits of mathematical optimization",
-      "Long-term civilizational stewardship prioritized over race dynamics"
+      "Moral discernment: knowing what not to build, when to refuse optimization, and declining harmful capabilities",
+      "Humanistic, philosophical, and contemplative scholars embedded with real governance veto power",
+      "Epistemic humility: acknowledges the limits of mathematical optimization and algorithmic steering",
+      "Long-term civilizational stewardship and reverence for generational flourishing prioritized over race dynamics"
     ],
     signalsOfErosion: [
-      "Speed-over-reflection race dynamics driven by competitive FOMO",
+      "Conflating raw technical capability, compute scale (FLOPs), or rule-following with ethical discernment",
+      "Speed-over-reflection race dynamics driven by competitive FOMO and commercial valuation",
       "Value-neutral technological accelerationism presented as inevitable progress",
-      "Equating compute scale (FLOPs) and token throughput with civilizational virtue",
       "Suppression of ethical dissent or whistleblower concerns for market share",
       "Technocratic moral hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure"
     ]
