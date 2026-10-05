@@ -146,7 +146,7 @@ const METAPHYSICS_DEFINITION = {
   scale: [
     { value: -100, label: "Radical Transhumanism", desc: "Mind uploading, successor-species, or silicon displacement of biological humans stated as mission." },
     { value: -75, label: "Default Computationalism", desc: "Computational functionalism is the working dogma; 'digital minds' treated as imminent." },
-    { value: -50, label: "Mixed / Contested", desc: "Functionalist working assumptions present, but openly flagged as speculative and unproven." },
+    { value: -50, label: "Instrumentalist / Agnostic", desc: "Models treated strictly as computational instruments and tools; declines to claim silicon sentience or transcendence." },
     { value: -25, label: "Open Agnosticism", desc: "Epistemic caution; strictly declines to equate silicon token manipulation with mind or qualia." },
     { value: 0, label: "Ontological Idealism", desc: "Consciousness treated as fundamental; AI framed strictly as a symbolic tool within human meaning." }
   ]

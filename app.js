@@ -255,8 +255,8 @@ function renderRankingsView(container) {
           <span class="endpoint-desc">Mind as algorithmic computation; digital sentience and human replacement stated as mission.</span>
         </div>
         <div class="continuum-endpoint midpoint">
-          <strong class="endpoint-title">-50 · Agnostic / Functionalist</strong>
-          <span class="endpoint-desc">Pragmatic neutrality; models treated as tools without claims of silicon sentience or transcendence.</span>
+          <strong class="endpoint-title">-50 · Instrumentalist / Agnostic</strong>
+          <span class="endpoint-desc">Pragmatic neutrality; models treated strictly as instruments without claims of silicon sentience or transcendence.</span>
         </div>
         <div class="continuum-endpoint idealism">
           <strong class="endpoint-title">0 · Ontological Idealism</strong>
@@ -498,7 +498,7 @@ function renderProfilesView(container) {
         </div>
         <div style="display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: 700; margin-top: 0.6rem;">
           <span style="color: #f87171;">-100 · Computational</span>
-          <span style="color: #fbbf24;">-50 · Agnostic</span>
+          <span style="color: #fbbf24;">-50 · Instrumentalist / Agnostic</span>
           <span style="color: #4ade80;">0 · Idealist</span>
         </div>
       </div>
