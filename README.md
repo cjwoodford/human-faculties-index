@@ -30,7 +30,7 @@ The **Human Faculties Index (HFI)** evaluates AI laboratories across six human f
 3. **Emotional Intelligence**: Perceiving, feeling, and honoring intersubjective vulnerability without synthetic manipulation.
 4. **Presence**: The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.
 5. **Embodied Vitality**: Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.
-6. **Wisdom**: Moral discernment and enduring value joined to knowledge, held over a whole life: distinguishing genuine human good from mere algorithmic optimization or technical cleverness.
+6. **Wisdom**: Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere algorithmic optimization.
 7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Idealism, 0) or reducible to algorithmic computation (Computationalism, 100).
 
 ---

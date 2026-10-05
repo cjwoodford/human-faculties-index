@@ -96,19 +96,19 @@ const FACULTY_DEFINITIONS = {
   wisdom: {
     name: "Wisdom",
     color: "#b45309", // Antique Bronze
-    definition: "Moral discernment and enduring value joined to knowledge, held over a whole life: distinguishing genuine human good from mere algorithmic optimization or technical cleverness.",
+    definition: "Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere algorithmic optimization.",
     signalsOfPreservation: [
-      "Moral discernment: knowing what not to build, when to refuse optimization, and declining harmful capabilities",
-      "Humanistic, philosophical, and contemplative scholars embedded with real governance veto power",
+      "Discernment: knowing what not to build, when to refuse optimization, and declining destructive capabilities",
+      "Humanistic, ecological, and contemplative elders embedded with real governance veto power",
       "Epistemic humility: acknowledges the limits of mathematical optimization and algorithmic steering",
       "Long-term civilizational stewardship and reverence for generational flourishing prioritized over race dynamics"
     ],
     signalsOfErosion: [
-      "Conflating raw technical capability, compute scale (FLOPs), or rule-following with ethical discernment",
+      "Conflating raw technical capability, compute scale (FLOPs), or rule-following with genuine discernment",
       "Speed-over-reflection race dynamics driven by competitive FOMO and commercial valuation",
       "Value-neutral technological accelerationism presented as inevitable progress",
-      "Suppression of ethical dissent or whistleblower concerns for market share",
-      "Technocratic moral hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure"
+      "Suppression of principled dissent or whistleblower concerns for market share",
+      "Technocratic ideological hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure"
     ]
   }
 };
@@ -183,7 +183,7 @@ const LABS_DATA = [
         ],
         erodes: [
           "Constitutional steering enforces hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing as cognitive bias",
-          "Compels users into reductive utilitarian cost-benefit balancing rather than honoring intuitive moral discernment",
+          "Compels users into reductive utilitarian cost-benefit balancing rather than honoring intuitive discernment",
           "Reflexively suppresses non-discursive or non-analytic ways of knowing in favor of propositional discourse"
         ]
       },
@@ -227,7 +227,7 @@ const LABS_DATA = [
           "Public Benefit Corporation structure includes Independent Long-Term Benefit Trust"
         ],
         erodes: [
-          "Technocratic moral hegemony: hardcodes a proprietary Silicon Valley rationalist creed (LessWrong/EA lineage) into an AI 'Constitution' imposed globally as universal ethics",
+          "Technocratic ideological hegemony: hardcodes a proprietary Silicon Valley rationalist creed (LessWrong/EA lineage) into an AI 'Constitution' imposed globally as universal normative authority",
           "Conflates mathematical alignment and rule-following with genuine civilizational wisdom",
           "Deeply hypocritical race dynamics: publicly warns of catastrophic risk while aggressively accelerating frontier model capability scaling"
         ]
