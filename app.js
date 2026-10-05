@@ -218,10 +218,10 @@ function renderRankingsView(container) {
     <div class="seventh-measure-banner">
       <div class="seventh-measure-header">
         <div>
-          <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 800; color: var(--accent-gold); display: block; margin-bottom: 0.4rem;">The Seventh Measure</span>
-          <h3 style="font-size: 1.55rem; font-weight: 800; line-height: 1.2;">Where each lab stands on the nature of mind</h3>
+          <span class="seventh-measure-eyebrow">The Seventh Measure</span>
+          <h3 class="seventh-measure-title">Where each lab stands on the nature of mind</h3>
         </div>
-        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+        <p class="seventh-measure-desc">
           This axis tracks each lab's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (0), consciousness is treated as fundamental and irreducible. Toward the right (100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon.
         </p>
       </div>
@@ -235,13 +235,13 @@ function renderRankingsView(container) {
             return `
               <div class="continuum-pin" style="left: ${left}%; top: ${isTop ? '-42px' : '18px'};" onclick="navigateToTab('profiles', '${lab.id}')" title="${lab.name}: ${lab.metaphysics.score}/100 (${lab.metaphysics.stance})">
                 ${isTop ? `
-                  <div class="continuum-pin-bubble">${lab.name} <span style="color: var(--accent-gold);">${lab.metaphysics.score}</span></div>
-                  <div style="width: 1px; height: 10px; background: rgba(217, 119, 6, 0.4);"></div>
+                  <div class="continuum-pin-bubble">${lab.name} <span class="pin-score">${lab.metaphysics.score}</span></div>
+                  <div class="continuum-pin-stem"></div>
                   <div class="continuum-pin-dot"></div>
                 ` : `
                   <div class="continuum-pin-dot"></div>
-                  <div style="width: 1px; height: 10px; background: rgba(217, 119, 6, 0.4);"></div>
-                  <div class="continuum-pin-bubble">${lab.name} <span style="color: var(--accent-gold);">${lab.metaphysics.score}</span></div>
+                  <div class="continuum-pin-stem"></div>
+                  <div class="continuum-pin-bubble">${lab.name} <span class="pin-score">${lab.metaphysics.score}</span></div>
                 `}
               </div>
             `;
@@ -249,14 +249,18 @@ function renderRankingsView(container) {
         </div>
       </div>
 
-      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 1.5rem; font-size: 0.82rem; border-top: 1px solid var(--border-color); pt-3;">
-        <div style="max-width: 320px; color: #4ade80;">
-          <strong style="display: block; margin-bottom: 0.2rem;">0 · Ontological Idealism</strong>
-          <span style="color: var(--text-dim); font-size: 0.78rem;">Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.</span>
+      <div class="continuum-endpoints">
+        <div class="continuum-endpoint idealism">
+          <strong class="endpoint-title">0 · Ontological Idealism</strong>
+          <span class="endpoint-desc">Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.</span>
         </div>
-        <div style="max-width: 320px; text-align: right; color: #f87171;">
-          <strong style="display: block; margin-bottom: 0.2rem;">100 · Computationalism & Transhumanism</strong>
-          <span style="color: var(--text-dim); font-size: 0.78rem;">Mind as algorithmic computation; digital sentience and human replacement stated as mission.</span>
+        <div class="continuum-endpoint midpoint">
+          <strong class="endpoint-title">50 · Agnostic / Functionalist</strong>
+          <span class="endpoint-desc">Pragmatic neutrality; models treated as tools without claims of silicon sentience or transcendence.</span>
+        </div>
+        <div class="continuum-endpoint computationalism">
+          <strong class="endpoint-title">100 · Computationalism & Transhumanism</strong>
+          <span class="endpoint-desc">Mind as algorithmic computation; digital sentience and human replacement stated as mission.</span>
         </div>
       </div>
     </div>
@@ -476,18 +480,18 @@ function renderProfilesView(container) {
     <!-- Metaphysical Stance Card -->
     <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 2rem; margin-bottom: 2.5rem;">
       <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.6rem;">Metaphysical stance</h3>
-      <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; max-width: 820px; margin-bottom: 1.5rem;">
+      <p style="font-size: 0.92rem; color: var(--text-main); line-height: 1.65; max-width: 820px; margin-bottom: 1.5rem;">
         ${lab.metaphysics.summary}
       </p>
 
-      <div style="padding: 1rem 0 2rem 0;">
+      <div style="padding: 0.5rem 0 1.5rem 0;">
         <div class="metaphysics-track">
           <div class="metaphysics-pin" style="left: ${lab.metaphysics.score}%;"></div>
         </div>
-        <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-dim); margin-top: 0.5rem;">
-          <span style="color: #4ade80;">Idealist · 0</span>
-          <span>50 · Agnostic</span>
-          <span style="color: #fb923c;">100 · Computational</span>
+        <div style="display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: 700; margin-top: 0.6rem;">
+          <span style="color: #4ade80;">0 · Idealist</span>
+          <span style="color: #fbbf24;">50 · Agnostic</span>
+          <span style="color: #f87171;">100 · Computational</span>
         </div>
       </div>
 
@@ -652,38 +656,38 @@ function renderMethodologyView(container) {
       </div>
 
       <!-- The Seventh Measure Deep-Dive -->
-      <div style="background: linear-gradient(145deg, rgba(30, 24, 19, 0.95), rgba(18, 14, 12, 0.98)); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: 16px; padding: 2.2rem; margin-bottom: 3rem;">
-        <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 800; color: var(--accent-gold); display: block; margin-bottom: 0.4rem;">The Seventh Measure</span>
-        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.8rem;">Idealism ↔ Computationalism</h3>
-        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; max-width: 820px; margin-bottom: 2rem;">
-          This axis asks what a lab takes a mind to be. <strong>Idealism</strong> holds that consciousness is fundamental and cannot be reduced to computation. <strong>Computationalism</strong> holds that mind is information processing, so it can in principle be scaled, copied, or uploaded. We score position, 0 to 100, from the lab's own words and work.
+      <div class="seventh-measure-banner" style="margin-bottom: 3rem;">
+        <span class="seventh-measure-eyebrow">The Seventh Measure</span>
+        <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Idealism ↔ Computationalism</h3>
+        <p class="seventh-measure-desc" style="max-width: 820px; margin-bottom: 2rem;">
+          This axis asks what a lab takes a mind to be. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is fundamental and cannot be reduced to computation. <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing, so it can in principle be scaled, copied, or uploaded. We score position, 0 to 100, from the lab's own words and work.
         </p>
 
-        <h4 style="font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); margin-bottom: 1rem;">Core Assessment Indicators</h4>
+        <h4 style="font-size: 0.92rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 1rem;">Core Assessment Indicators</h4>
         <table class="indicators-table" style="margin-bottom: 2.5rem;">
           <thead>
             <tr>
-              <th style="width: 220px;">Indicator</th>
-              <th>Evaluation Question</th>
+              <th style="width: 220px; color: #fbbf24;">Indicator</th>
+              <th style="color: #fbbf24;">Evaluation Question</th>
             </tr>
           </thead>
           <tbody>
             ${METAPHYSICS_DEFINITION.indicators.map(ind => `
               <tr>
-                <td style="font-weight: 700; color: var(--text-main);">${ind.name}</td>
-                <td style="color: var(--text-muted);">${ind.question}</td>
+                <td style="font-weight: 700; color: #fffdf9;">${ind.name}</td>
+                <td style="color: #ded5c9; line-height: 1.55;">${ind.question}</td>
               </tr>
             `).join('')}
           </tbody>
         </table>
 
-        <h4 style="font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); margin-bottom: 1rem;">Scale Anchor Definitions</h4>
+        <h4 style="font-size: 0.92rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 1rem;">Scale Anchor Definitions</h4>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem;">
           ${METAPHYSICS_DEFINITION.scale.map(s => `
-            <div style="background: rgba(0,0,0,0.25); border: 1px solid var(--border-color); padding: 1rem; border-radius: 8px;">
-              <span style="font-family: var(--font-mono); font-weight: 800; color: var(--accent-gold); font-size: 1.1rem; display: block; margin-bottom: 0.2rem;">${s.value}</span>
-              <strong style="font-size: 0.88rem; display: block; margin-bottom: 0.4rem;">${s.label}</strong>
-              <p style="font-size: 0.78rem; color: var(--text-dim); line-height: 1.4;">${s.desc}</p>
+            <div style="background: rgba(39, 31, 24, 0.85); border: 1px solid rgba(245, 158, 11, 0.35); padding: 1.1rem; border-radius: 9px; box-shadow: 0 4px 14px rgba(0,0,0,0.4);">
+              <span style="font-family: var(--font-mono); font-weight: 800; color: #fbbf24; font-size: 1.15rem; display: block; margin-bottom: 0.25rem;">${s.value}</span>
+              <strong style="font-size: 0.9rem; color: #fffdf9; display: block; margin-bottom: 0.45rem;">${s.label}</strong>
+              <p style="font-size: 0.82rem; color: #ded5c9; line-height: 1.5;">${s.desc}</p>
             </div>
           `).join('')}
         </div>

@@ -401,11 +401,13 @@ table.rankings-table tbody tr:hover {
 
 /* Seventh Measure Continuum */
 .seventh-measure-banner {
-  background: linear-gradient(145deg, rgba(35, 28, 22, 0.9), rgba(22, 18, 15, 0.95));
-  border: 1px solid rgba(217, 119, 6, 0.25);
+  background: linear-gradient(145deg, rgba(38, 30, 24, 0.96), rgba(20, 16, 13, 0.98));
+  border: 1px solid rgba(245, 158, 11, 0.32);
   border-radius: 16px;
   padding: 2.2rem;
   margin-bottom: 3.5rem;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(254, 243, 199, 0.08);
+  color: #faf6f0;
 }
 
 .seventh-measure-header {
@@ -413,6 +415,30 @@ table.rankings-table tbody tr:hover {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+.seventh-measure-eyebrow {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  color: #fbbf24;
+  display: block;
+  margin-bottom: 0.45rem;
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.3);
+}
+
+.seventh-measure-title {
+  font-size: 1.55rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #fffdf9;
+}
+
+.seventh-measure-desc {
+  font-size: 0.9rem;
+  color: #ded5c9;
+  line-height: 1.65;
 }
 
 @media (max-width: 860px) {
@@ -423,48 +449,141 @@ table.rankings-table tbody tr:hover {
 
 .continuum-track-wrapper {
   position: relative;
-  padding: 2.5rem 0;
+  padding: 2.8rem 0;
 }
 
 .continuum-bar {
-  height: 8px;
+  height: 9px;
   background: linear-gradient(to right, #15803d 0%, #65a30d 25%, #d97706 50%, #ea580c 75%, #b91c1c 100%);
   border-radius: 999px;
   position: relative;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .continuum-pin {
   position: absolute;
   transform: translateX(-50%);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .continuum-pin:hover {
-  transform: translateX(-50%) scale(1.1);
-  z-index: 20;
+  transform: translateX(-50%) scale(1.12);
+  z-index: 25;
 }
 
 .continuum-pin-bubble {
-  background: var(--bg-modal);
-  border: 1px solid var(--border-highlight);
-  padding: 0.35rem 0.7rem;
-  border-radius: 6px;
-  font-size: 0.76rem;
+  background: #272019;
+  color: #fffdf9;
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  padding: 0.38rem 0.72rem;
+  border-radius: 7px;
+  font-size: 0.78rem;
   font-weight: 700;
   white-space: nowrap;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(254, 243, 199, 0.1);
+  letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.continuum-pin-bubble .pin-score {
+  color: #fbbf24;
+  font-family: var(--font-mono);
+  font-weight: 800;
+  background: rgba(245, 158, 11, 0.18);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 0.05rem 0.32rem;
+  border-radius: 4px;
+}
+
+.continuum-pin-stem {
+  width: 1.5px;
+  height: 10px;
+  background: rgba(245, 158, 11, 0.65);
 }
 
 .continuum-pin-dot {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--accent-gold);
+  background: #f59e0b;
   border: 2px solid #ffffff;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.75);
+}
+
+.continuum-endpoints {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1.8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(245, 158, 11, 0.22);
+  gap: 1.5rem;
+}
+
+.continuum-endpoint {
+  max-width: 330px;
+}
+
+.continuum-endpoint.idealism .endpoint-title {
+  color: #4ade80;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.continuum-endpoint.midpoint .endpoint-title {
+  color: #fbbf24;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.continuum-endpoint.computationalism .endpoint-title {
+  color: #f87171;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.continuum-endpoint .endpoint-desc {
+  color: #ded5c9;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  display: block;
+}
+
+/* Metaphysics Track for Profile view */
+.metaphysics-track {
+  height: 8px;
+  background: linear-gradient(to right, #15803d 0%, #65a30d 25%, #d97706 50%, #ea580c 75%, #b91c1c 100%);
+  border-radius: 999px;
+  position: relative;
+  margin: 1.25rem 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.metaphysics-pin {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f59e0b;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.8);
 }
 
 /* LAB PROFILES VIEW */
