@@ -630,6 +630,30 @@ table.rankings-table tbody tr:hover {
   display: block;
 }
 
+.lab-link-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(217, 119, 6, 0.12);
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  color: var(--accent-gold);
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  padding: 0.22rem 0.65rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+
+.lab-link-pill:hover {
+  background: rgba(217, 119, 6, 0.24);
+  border-color: var(--accent-gold);
+  color: #fbbf24;
+  transform: translateY(-1px);
+}
+
 .faculties-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
