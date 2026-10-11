@@ -29,7 +29,7 @@ The **Human Dimensions Index (HDI)** evaluates AI laboratories across six human 
 2. **Emotional Intelligence** *(short: Emotional Intel.)*: Perceiving, feeling, and attuning to one's own states and those of others with depth and vulnerability.
 3. **Wild Embodiment** *(short: Embodiment)*: Knowing through the living body, creaturely senses, mortality, and direct kinship with the wild, more-than-human world.
 4. **Wisdom & Discernment** *(short: Wisdom)*: Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere optimization.
-5. **Agency** *(short: Agency)*: The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.
+5. **Human Agency** *(short: Agency)*: The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.
 6. **Plurality** *(short: Plurality)*: The civic and relational condition of distinct persons acting together: genuine encounter with the living other, fruitful friction, and the shared public commons over synthetic monoculture.
 7. **The Seventh Measure (Metaphysics)**: Tracks whether the lab views mind as fundamental (Participatory Organicism, 0) or reducible to algorithmic computation (Computationalism, -100).
 

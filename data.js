@@ -1,7 +1,7 @@
 /**
  * HUMAN DIMENSIONS INDEX // THE HUMAN BECOMING INSTITUTE
  * Database of AI Laboratories audited across:
- * 1. Six Human Dimensions: Imagination & Novelty, Emotional Intelligence, Wild Embodiment, Wisdom & Discernment, Agency, Plurality
+ * 1. Six Human Dimensions: Imagination & Novelty, Emotional Intelligence, Wild Embodiment, Wisdom & Discernment, Human Agency, Plurality
  * 2. The Seventh Measure (Metaphysical Axis): Computationalism (-100) <---> Participatory Organicism (0)
  * 3. Granular Preserves / Erodes signals & Evidence Ledger
  */
@@ -81,7 +81,7 @@ const FACULTY_DEFINITIONS = {
     ]
   },
   agency: {
-    name: "Agency",
+    name: "Human Agency",
     shortName: "Agency",
     color: "#2563eb", // Lapis / Cobalt
     definition: "The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.",

@@ -12,7 +12,7 @@
 
 ### 1.1 Page Head & Meta Tags (`index.html`)
 - **Browser Tab Title**: `Human Dimensions Index // The Human Becoming Institute`
-- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality.`
+- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, emotional intelligence, wild embodiment, wisdom, human agency, and plurality.`
 - **Social Card Title**: `Human Dimensions Index // The Human Becoming Institute`
 - **Social Card Subtitle**: `Auditing frontier AI companies on human sovereignty, consciousness respect, and the six living dimensions.`
 
@@ -33,7 +33,7 @@
 ### 2.1 Hero Header
 - **Eyebrow**: `A Tracker for the Age of AI`
 - **Headline**: `How well do AI companies understand the human condition?`
-- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
+- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: imagination, emotional intelligence, wild embodiment, wisdom, human agency, and plurality. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
 
 ### 2.2 Hero Metadata Panel
 - **Review Cycle**: `[Q3, 2026]`
@@ -122,7 +122,7 @@
   - Suppression of principled dissent or whistleblower concerns for market share
   - Technocratic ideological hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure
 
-#### Dimension: Agency (`agency`)
+#### Dimension: Human Agency (short: Agency) (`agency`)
 - **Definition**: The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.
 - **Signals of Preservation**:
   - Tools act as transparent instruments that wait for and require human intention and command
@@ -248,7 +248,7 @@
   - Conflates mathematical alignment and rule-following with genuine civilizational wisdom
   - Deeply hypocritical race dynamics: publicly warns of catastrophic risk while aggressively accelerating frontier model capability scaling
 
-##### Agency (Score: `68`)
+##### Human Agency (Score: `68`)
 - **Preserves**:
   - Artifacts sidebar maintains explicit user steering and iterative code editing over blind script execution
   - API and Workbench prioritize tool-use transparency where models propose actions rather than autonomously executing without confirmation
@@ -328,7 +328,7 @@
   - Frames human destiny entirely around economic output and replacing human labor with compute
   - Aggressive release cadence driven by commercial valuation over contemplation
 
-##### Agency (Score: `32`)
+##### Human Agency (Score: `32`)
 - **Preserves**:
   - Custom GPTs allow basic user configuration of system prompts and operational boundaries
 - **Erodes**:
@@ -405,7 +405,7 @@
 - **Erodes**:
   - Commercial pressures accelerating proprietary model licensing alongside open weights
 
-##### Agency (Score: `88`)
+##### Human Agency (Score: `88`)
 - **Preserves**:
   - Open weights provide total local execution sovereignty: users run models privately on their own hardware without cloud gatekeeping
   - Clean modular APIs treat models as obedient software instruments rather than proactive autonomous overseers
@@ -478,7 +478,7 @@
 - **Erodes**:
   - Technocratic teleology: founding creed states 'Step 1: Solve intelligence. Step 2: Use it to solve everything else.'
 
-##### Agency (Score: `48`)
+##### Human Agency (Score: `48`)
 - **Preserves**:
   - Tools like AlphaFold act as scientific instruments amplifying human researcher insight rather than replacing scientists
 - **Erodes**:
@@ -551,7 +551,7 @@
 - **Erodes**:
   - Consumer integration focuses on maximizing advertising throughput and platform retention
 
-##### Agency (Score: `72`)
+##### Human Agency (Score: `72`)
 - **Preserves**:
   - Open weights for Llama models grant developers and citizens sovereign operational autonomy without subscription gatekeeping
   - Allows full inspection, local modification, and independent unaligned deployment on private hardware
@@ -627,7 +627,7 @@
 - **Erodes**:
   - Proprietary corporate ecosystem limits independent democratic verification of base weights
 
-##### Agency (Score: `82`)
+##### Human Agency (Score: `82`)
 - **Preserves**:
   - On-device processing ensures user data sovereignty: models operate locally without phoning home to centralized clouds
   - Tools designed as bounded 'bicycles for the mind' waiting for explicit stylus, haptic, or tactile input
@@ -703,7 +703,7 @@
   - Built 100k GPU Colossus cluster in Memphis with massive energy consumption and minimal pause protocols
   - Treats brute computational throughput as the highest civilizational moral good
 
-##### Agency (Score: `34`)
+##### Human Agency (Score: `34`)
 - **Preserves**:
   - Grok features fewer didactic moralizing refusals, giving users broader latitude in generation parameters
 - **Erodes**:
@@ -778,7 +778,7 @@
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Agency (Score: `86`)
+##### Human Agency (Score: `86`)
 - **Preserves**:
   - Treats conscious volition and subjective agency as fundamental qualia that must never be abdicated to silicon
   - Develops tools and meditations that cultivate human self-mastery, somatic regulation, and attentional sovereignty
@@ -850,7 +850,7 @@
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Agency (Score: `88`)
+##### Human Agency (Score: `88`)
 - **Preserves**:
   - Active Inference defines agents as autonomous, self-determining living boundaries actively sampling their world
   - Spatial Web standards (IEEE P2874) mandate distributed, sovereign human agency over autonomous automation

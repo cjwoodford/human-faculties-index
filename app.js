@@ -101,7 +101,7 @@ function renderRankingsView(container) {
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
         <h2>How well do AI companies understand the human condition?</h2>
         <p class="hero-subtitle">
-          We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: <strong>imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
+          We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: <strong>imagination, emotional intelligence, wild embodiment, wisdom, human agency, and plurality</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
         </p>
       </div>
 
