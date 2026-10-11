@@ -1,5 +1,5 @@
 /**
- * HUMAN FACULTIES INDEX // THE HUMAN BECOMING INSTITUTE
+ * HUMAN DIMENSIONS INDEX // THE HUMAN BECOMING INSTITUTE
  * Master Application State & View Routing
  */
 
@@ -714,7 +714,7 @@ function renderAboutView(container) {
       <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem;">Preserving the Sacred Sovereignty of Human Dimensions</h2>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.25rem;">
-        The <strong>Human Faculties Index</strong> is an independent civil research project operating under the auspices of <strong>The Human Becoming Institute</strong>. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.
+        The <strong>Human Dimensions Index</strong> is an independent civil research project operating under the auspices of <strong>The Human Becoming Institute</strong>. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.
       </p>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;">

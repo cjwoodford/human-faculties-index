@@ -1,4 +1,4 @@
-# Human Faculties Index — Complete Editorial Copy Review (`SITE_COPY.md`)
+# Human Dimensions Index — Complete Editorial Copy Review (`SITE_COPY.md`)
 
 > **Instructions for Editing:**
 > - This file aggregates **all human-facing text** across the website (`index.html`, `app.js`, and `data.js`).
@@ -11,20 +11,20 @@
 ## 1. Global Site Chrome & Navigation
 
 ### 1.1 Page Head & Meta Tags (`index.html`)
-- **Browser Tab Title**: `Human Faculties Index // The Human Becoming Institute`
+- **Browser Tab Title**: `Human Dimensions Index // The Human Becoming Institute`
 - **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom.`
-- **Social Card Title**: `Human Faculties Index // The Human Becoming Institute`
+- **Social Card Title**: `Human Dimensions Index // The Human Becoming Institute`
 - **Social Card Subtitle**: `Auditing frontier AI companies on human sovereignty, consciousness respect, and the six living dimensions.`
 
 ### 1.2 Header Navigation (`index.html`)
-- **Brand Name**: `Human Faculties Index`
+- **Brand Name**: `Human Dimensions Index`
 - **Brand Sub-Label**: `The Human Becoming Institute // Civic AI Observatory`
 - **Navigation Tabs**: `Rankings` | `Company profiles` | `Methodology` | `About`
 
 ### 1.3 Footer (`index.html`)
-- **Footer Heading**: `HUMAN FACULTIES INDEX`
+- **Footer Heading**: `HUMAN DIMENSIONS INDEX`
 - **Footer Mission Statement**: `A civic evaluation initiative monitoring the preservation of essential human cognitive and spiritual capacities. Conduct over claims. Metaphysics stands apart.`
-- **Footer Copyright / Attribution**: `The Human Becoming Institute · © 2026 Human Faculties Index · Independent & Non-commercial`
+- **Footer Copyright / Attribution**: `The Human Becoming Institute · © 2026 Human Dimensions Index · Independent & Non-commercial`
 
 ---
 
@@ -175,8 +175,8 @@
 
 ### 4.1 Mission Statement & Essay
 - **Eyebrow**: `About the Initiative`
-- **Title**: `Preserving the Sacred Sovereignty of Human Faculties`
-- **Paragraph 1**: `The Human Faculties Index is an independent civil research project operating under the auspices of The Human Becoming Institute. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.`
+- **Title**: `Preserving the Sacred Sovereignty of Human Dimensions`
+- **Paragraph 1**: `The Human Dimensions Index is an independent civil research project operating under the auspices of The Human Becoming Institute. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.`
 - **Paragraph 2**: `While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and enduring wisdom.`
 
 ### 4.2 Independent Governance & Integrity

@@ -1,7 +1,7 @@
 /**
- * HUMAN FACULTIES INDEX // THE HUMAN BECOMING INSTITUTE
+ * HUMAN DIMENSIONS INDEX // THE HUMAN BECOMING INSTITUTE
  * Database of AI Laboratories audited across:
- * 1. Six Human Faculties: Imagination, Intuition, Emotional Intelligence, Attention, Embodiment, Wisdom
+ * 1. Six Human Dimensions: Imagination, Intuition, Emotional Intelligence, Attention, Embodiment, Wisdom
  * 2. The Seventh Measure (Metaphysical Axis): Idealism (0) <---> Computationalism (100)
  * 3. Granular Preserves / Erodes signals & Evidence Ledger
  */
