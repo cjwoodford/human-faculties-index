@@ -115,16 +115,16 @@ const FACULTY_DEFINITIONS = {
 
 const METAPHYSICS_DEFINITION = {
   title: "The Seventh Measure: Computationalism (-100) ↔ Idealism (0)",
-  subtitle: "Where each lab stands on the nature of mind",
-  description: "This axis tracks what a laboratory takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the lab's own words, architectures, and work.",
+  subtitle: "Where each company stands on the nature of mind",
+  description: "This axis tracks what an AI company takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the company's own words, architectures, and work.",
   indicators: [
     {
       name: "Language of Mind",
-      question: "Does the lab call models 'minds' or 'beings', or treat intelligence as a scalar compute quantity to maximize?"
+      question: "Does the company call models 'minds' or 'beings', or treat intelligence as a scalar compute quantity to maximize?"
     },
     {
       name: "Constitutional Orthodoxy",
-      question: "Does the lab hardcode a singular rationalist, utilitarian, or computationalist creed into the model's loss function and system constitution, treating non-reductive, intuitive, or spiritual ways of knowing as cognitive bias to be neutralized?"
+      question: "Does the company hardcode a singular rationalist, utilitarian, or computationalist creed into the model's loss function and system constitution, treating non-reductive, intuitive, or spiritual ways of knowing as cognitive bias to be neutralized?"
     },
     {
       name: "Research Premises",
@@ -136,7 +136,7 @@ const METAPHYSICS_DEFINITION = {
     },
     {
       name: "Uploading & Enhancement",
-      question: "Does the lab fund, endorse, or aspire to mind uploading, substrate neutrality, or transhumanist obsolescence?"
+      question: "Does the company fund, endorse, or aspire to mind uploading, substrate neutrality, or transhumanist obsolescence?"
     },
     {
       name: "Pluralism",

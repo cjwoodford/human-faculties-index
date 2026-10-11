@@ -99,9 +99,9 @@ function renderRankingsView(container) {
     <section class="hero">
       <div>
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
-        <h2>Are AI labs building to honor the human, or to replace it?</h2>
+        <h2>How well do AI companies understand the human condition?</h2>
         <p class="hero-subtitle">
-          We rate how each lab's products, policies, and public philosophy treat the faculties no machine should be allowed to atrophy: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each lab sits between an idealist metaphysics and computationalism.
+          We rate how each company's products, policies, and public philosophy treat the non-computable human faculties that go beyond pure reason: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
         </p>
       </div>
 
@@ -111,7 +111,7 @@ function renderRankingsView(container) {
           <span class="hero-meta-val">[Q3, 2026]</span>
         </div>
         <div class="hero-meta-row">
-          <span class="hero-meta-label">Labs Assessed</span>
+          <span class="hero-meta-label">Companies Assessed</span>
           <span class="hero-meta-val">8 + 2 Benchmarks</span>
         </div>
         <div class="hero-meta-row">
@@ -144,7 +144,7 @@ function renderRankingsView(container) {
         <thead>
           <tr>
             <th style="width: 40px;">#</th>
-            <th>Laboratory & Mission Type</th>
+            <th>Company & Mission Type</th>
             <th style="text-align: center;">Composite</th>
             <th style="text-align: center;">Imagination</th>
             <th style="text-align: center;">Intuition</th>
@@ -219,10 +219,10 @@ function renderRankingsView(container) {
       <div class="seventh-measure-header">
         <div>
           <span class="seventh-measure-eyebrow">The Seventh Measure</span>
-          <h3 class="seventh-measure-title">Where each lab stands on the nature of mind</h3>
+          <h3 class="seventh-measure-title">Where each company stands on the nature of mind</h3>
         </div>
         <p class="seventh-measure-desc">
-          This axis tracks each lab's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (-100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon. Toward the right (0), consciousness is treated as the fundamental, irreducible ground of being.
+          This axis tracks each company's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (-100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon. Toward the right (0), consciousness is treated as the fundamental, irreducible ground of being.
         </p>
       </div>
 
@@ -269,8 +269,8 @@ function renderRankingsView(container) {
     <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 2rem; margin-bottom: 3rem;">
       <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
         <div>
-          <h4 style="font-size: 1.25rem; font-weight: 800;">Multi-Lab Faculty Comparison Radar</h4>
-          <p style="font-size: 0.84rem; color: var(--text-muted);">Overlay laboratories to compare their signatures across all six living faculties.</p>
+          <h4 style="font-size: 1.25rem; font-weight: 800;">Multi-Company Faculty Comparison Radar</h4>
+          <p style="font-size: 0.84rem; color: var(--text-muted);">Overlay companies to compare their signatures across all six living faculties.</p>
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
           ${LABS_DATA.map(l => `
@@ -462,7 +462,7 @@ function renderProfilesView(container) {
         </div>
         <div class="profile-stat-card">
           <div class="num">${lab.rank}</div>
-          <span class="sub">Rank (of 8 labs)</span>
+          <span class="sub">Rank (of 8 companies)</span>
         </div>
         <div class="profile-stat-card">
           <div class="num" style="color: ${lab.metaphysics.score >= -40 ? '#4ade80' : '#fb923c'};">${lab.metaphysics.score}</div>
@@ -613,7 +613,7 @@ function renderMethodologyView(container) {
       <h2 style="font-size: 2.6rem; font-weight: 800; margin-bottom: 1.25rem;">What we measure, and why it matters</h2>
       <div style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid var(--accent-gold); padding: 1.4rem; border-radius: 0 12px 12px 0; margin-bottom: 3rem;">
         <p style="font-size: 1.15rem; color: var(--text-main); font-weight: 500; line-height: 1.6;">
-          "A faculty is a capacity that grows with use and withers without it. We ask whether a lab's technology exercises these capacities or quietly does the work for us until we can no longer do it ourselves."
+          "A faculty is a capacity that grows with use and withers without it. We ask whether a company's technology exercises these capacities or quietly does the work for us until we can no longer do it ourselves."
         </p>
       </div>
 
@@ -627,12 +627,12 @@ function renderMethodologyView(container) {
         <div class="principle-box">
           <div class="principle-num">02</div>
           <h4 class="principle-title">Every score is traceable</h4>
-          <p class="principle-desc">Each rating directly links to verifiable public evidence in the laboratory's ledger, and labs are invited to provide public responses before updates.</p>
+          <p class="principle-desc">Each rating directly links to verifiable public evidence in the company's ledger, and companies are invited to provide public responses before updates.</p>
         </div>
         <div class="principle-box">
           <div class="principle-num">03</div>
           <h4 class="principle-title">Metaphysics stands apart</h4>
-          <p class="principle-desc">A laboratory's view of the nature of mind shapes everything it builds, so we report it on its own distinct axis instead of averaging it away into an arithmetic aggregate.</p>
+          <p class="principle-desc">A company's view of the nature of mind shapes everything it builds, so we report it on its own distinct axis instead of averaging it away into an arithmetic aggregate.</p>
         </div>
       </div>
 
@@ -668,7 +668,7 @@ function renderMethodologyView(container) {
         <span class="seventh-measure-eyebrow">The Seventh Measure</span>
         <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Computationalism (-100) ↔ Idealism (0)</h3>
         <p class="seventh-measure-desc" style="max-width: 820px; margin-bottom: 2rem;">
-          This axis asks what a lab takes a mind to be, mapped from radical ontological reduction (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing that can in principle be scaled, copied, or uploaded. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is the fundamental ground of reality and cannot be reduced to computation. We score position from -100 to 0 based on the lab's own words, architecture, and work.
+          This axis asks what a company takes a mind to be, mapped from radical ontological reduction (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing that can in principle be scaled, copied, or uploaded. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is the fundamental ground of reality and cannot be reduced to computation. We score position from -100 to 0 based on the company's own words, architecture, and work.
         </p>
 
         <h4 style="font-size: 0.92rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 1rem;">Core Assessment Indicators</h4>
@@ -724,7 +724,7 @@ function renderAboutView(container) {
       <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.6rem; margin-bottom: 2.5rem;">
         <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 0.5rem;">Independent Governance & Integrity</h3>
         <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1rem;">
-          To ensure strict intellectual independence, the Index accepts zero funding, compute credits, or advisory roles from commercial frontier AI laboratories. All evaluations are grounded in verifiable, dated citations in our open evidence ledger.
+          To ensure strict intellectual independence, the Index accepts zero funding, compute credits, or advisory roles from commercial frontier AI companies. All evaluations are grounded in verifiable, dated citations in our open evidence ledger.
         </p>
       </div>
 
@@ -737,10 +737,10 @@ function renderAboutView(container) {
 
         <form id="submissionForm" onsubmit="handleAboutSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
           <div>
-            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Target Laboratory</label>
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Target Company</label>
             <select id="subLab" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
               ${LABS_DATA.map(l => `<option value="${l.id}">${l.name}</option>`).join('')}
-              <option value="new">+ Propose New Laboratory</option>
+              <option value="new">+ Propose New Company</option>
             </select>
           </div>
 
