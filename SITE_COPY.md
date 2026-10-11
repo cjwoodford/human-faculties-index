@@ -184,8 +184,9 @@
 
 ### 4.3 Evidence Submission Queue
 - **Form Title**: `Submit Evidence or Audit Correction`
-- **Form Subtitle**: `Have you documented a newly shipped product default that preserves or erodes a human faculty? Submit it to our peer verification queue.`
-- **Confirmation Message**: `Your submission has been queued for verification by the editorial team. Thank you for holding AI development accountable to human flourishing.`
+- **Form Subtitle**: `Have you documented a newly shipped product default that preserves or erodes a human dimension? Submit it to our peer verification queue.`
+- **Action Button**: `Continue to GitHub Issue Draft ↗`
+- **Confirmation Message**: `A new tab was opened with your formatted audit submission. If your browser blocked the pop-up, click the button below to review and post it on GitHub.`
 
 ---
 

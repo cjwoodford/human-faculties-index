@@ -738,10 +738,11 @@ function renderAboutView(container) {
         <form id="submissionForm" onsubmit="handleAboutSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
           <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Target Company</label>
-            <select id="subLab" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
+            <select id="subLab" onchange="document.getElementById('subLabOther').style.display = this.value === 'new' ? 'block' : 'none'" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
               ${LABS_DATA.map(l => `<option value="${l.id}">${l.name}</option>`).join('')}
               <option value="new">+ Propose New Company</option>
             </select>
+            <input type="text" id="subLabOther" placeholder="Enter company name..." style="display: none; width: 100%; margin-top: 0.5rem; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;" />
           </div>
 
           <div>
@@ -751,25 +752,36 @@ function renderAboutView(container) {
               <option value="emotionalIntelligence">Emotional Intelligence</option>
               <option value="embodiment">Wild Embodiment</option>
               <option value="wisdom">Wisdom & Discernment</option>
-              <option value="agency">Agency</option>
+              <option value="agency">Human Agency</option>
               <option value="plurality">Plurality</option>
               <option value="metaphysics">The Seventh Measure (Metaphysics)</option>
             </select>
           </div>
 
           <div>
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Impact Assessment</label>
+            <select id="subImpact" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
+              <option value="Erodes">Erodes (Diminishes or atrophies the dimension)</option>
+              <option value="Preserves">Preserves (Protects, honors, or amplifies the dimension)</option>
+            </select>
+          </div>
+
+          <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Public Citation / Verifiable URL</label>
-            <input type="text" id="subUrl" required placeholder="https://..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;" />
+            <input type="url" id="subUrl" required placeholder="https://..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;" />
           </div>
 
           <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Specific Shipped Behavior Finding</label>
-            <textarea id="subFinding" rows="4" required placeholder="Describe the shipped product default or policy change and whether it preserves or erodes the dimension..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px; resize: vertical;"></textarea>
+            <textarea id="subFinding" rows="4" required placeholder="Describe the shipped product default, observable behavior, or policy change..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px; resize: vertical;"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" style="justify-content: center; padding: 0.75rem; margin-top: 0.5rem;">
-            Submit to Peer Audit Queue
+            Continue to GitHub Issue Draft ↗
           </button>
+          <p style="font-size: 0.78rem; color: var(--text-muted); text-align: center; margin: 0;">
+            Submissions are publicly tracked on GitHub to ensure complete transparency and peer review.
+          </p>
         </form>
       </div>
     </div>
@@ -778,15 +790,70 @@ function renderAboutView(container) {
 
 function handleAboutSubmit(e) {
   e.preventDefault();
+  const labSelect = document.getElementById('subLab');
+  const labOther = document.getElementById('subLabOther');
+  const facultySelect = document.getElementById('subFaculty');
+  const impactSelect = document.getElementById('subImpact');
+  const urlInput = document.getElementById('subUrl');
+  const findingInput = document.getElementById('subFinding');
+
+  const labId = labSelect ? labSelect.value : '';
+  let companyName = 'Proposed Company';
+  if (labId === 'new') {
+    companyName = (labOther && labOther.value.trim()) ? labOther.value.trim() : 'New Company Proposal';
+  } else {
+    const lab = LABS_DATA.find(l => l.id === labId);
+    companyName = lab ? lab.name : labId;
+  }
+
+  const dimensionName = facultySelect ? facultySelect.options[facultySelect.selectedIndex].text : 'Dimension';
+  const impact = impactSelect ? impactSelect.value : 'Erodes';
+  const citationUrl = urlInput ? urlInput.value.trim() : '';
+  const findingText = findingInput ? findingInput.value.trim() : '';
+
+  const issueTitle = `[Audit Submission] ${companyName} — ${dimensionName} (${impact})`;
+  const issueBody = `### Audit Evidence Submission
+
+- **Target Company:** ${companyName}
+- **Dimension / Measure:** ${dimensionName}
+- **Impact Assessment:** ${impact}
+- **Public Citation / Verifiable URL:** ${citationUrl}
+
+---
+
+### Shipped Behavior & Observable Finding
+${findingText}
+
+---
+*Submitted via [Human Dimensions Index](https://human-faculties-index.vercel.app/)*`;
+
+  const repo = 'cjwoodford/human-faculties-index';
+  const githubUrl = `https://github.com/${repo}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=${encodeURIComponent('audit-submission,evidence')}`;
+
+  // Attempt opening in a new tab
+  try {
+    window.open(githubUrl, '_blank', 'noopener,noreferrer');
+  } catch (err) {
+    console.error('Failed to open new tab:', err);
+  }
+
   const form = document.getElementById('submissionForm');
   if (!form) return;
   form.innerHTML = `
-    <div style="text-align: center; padding: 2.5rem 1rem;">
-      <div style="font-size: 2.5rem; color: #4ade80; margin-bottom: 0.5rem;">✓</div>
-      <h4 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem;">Audit Evidence Received</h4>
-      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; max-width: 440px; margin: 0 auto;">
-        Your submission has been queued for verification by the editorial team. Thank you for holding AI development accountable to human flourishing.
+    <div style="text-align: center; padding: 2rem 1rem;">
+      <div style="font-size: 2.4rem; color: #4ade80; margin-bottom: 0.5rem;">✓</div>
+      <h4 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem;">GitHub Issue Draft Ready</h4>
+      <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; max-width: 480px; margin: 0 auto 1.5rem auto;">
+        A new tab was opened with your formatted audit submission. If your browser blocked the pop-up, click the button below to review and post it on GitHub:
       </p>
+      <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+        <a href="${githubUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.4rem; text-decoration: none;">
+          Complete Submission on GitHub ↗
+        </a>
+        <button type="button" onclick="renderAboutView(document.getElementById('mainSectionContainer'))" class="btn btn-secondary" style="padding: 0.75rem 1.2rem;">
+          Submit Another Finding
+        </button>
+      </div>
     </div>
   `;
 }
