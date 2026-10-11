@@ -69,7 +69,7 @@
 
 ### 3.3 The Six Human Dimensions Definitions & Audit Signals (`FACULTY_DEFINITIONS`)
 
-#### Faculty: Imagination (`imagination`)
+#### Dimension: Imagination & Novelty (`imagination`)
 - **Definition**: The power to picture what does not yet exist and to give it form.
 - **Signals of Preservation**:
   - Tools ask for the person's idea before generating

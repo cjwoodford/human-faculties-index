@@ -8,7 +8,7 @@
 
 const FACULTY_DEFINITIONS = {
   imagination: {
-    name: "Imagination",
+    name: "Imagination & Novelty",
     color: "#c2410c", // Burnt Terracotta
     definition: "The power to picture what does not yet exist and to give it form.",
     signalsOfPreservation: [

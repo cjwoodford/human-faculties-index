@@ -476,7 +476,7 @@ function renderProfilesView(container) {
       <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.25rem;">Dimension by dimension</h3>
       
       <div class="faculties-grid">
-        ${renderFacultyCard('Imagination', lab.faculties.imagination)}
+        ${renderFacultyCard('Imagination & Novelty', lab.faculties.imagination)}
         ${renderFacultyCard('Intuition', lab.faculties.intuition)}
         ${renderFacultyCard('Emotional intelligence', lab.faculties.emotionalIntelligence)}
         ${renderFacultyCard('Presence', lab.faculties.attention)}
@@ -747,7 +747,7 @@ function renderAboutView(container) {
           <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Dimension / Measure Affected</label>
             <select id="subFaculty" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
-              <option value="imagination">Imagination</option>
+              <option value="imagination">Imagination & Novelty</option>
               <option value="intuition">Intuition</option>
               <option value="emotionalIntelligence">Emotional intelligence</option>
               <option value="attention">Presence</option>
