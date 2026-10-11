@@ -87,6 +87,7 @@ const FACULTY_DEFINITIONS = {
     definition: "The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.",
     signalsOfPreservation: [
       "Tools act as transparent instruments that wait for and require human intention and command",
+      "Allows cognitive breathing room, quiet reflection, and deliberate pauses before action rather than manufactured urgency",
       "Exits, off-ramps, and local sovereignty: users can take outputs, edit without lock-in, and disconnect",
       "Cultivates human skill, discernment, and capacity rather than cognitive dependency",
       "Surfaces choices, assumptions, and trade-offs rather than making autonomous decisions on the user's behalf"
