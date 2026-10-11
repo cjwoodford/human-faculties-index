@@ -60,7 +60,7 @@
 ### 3.1 Overview & Callout Quote
 - **Eyebrow**: `Methodology`
 - **Title**: `What we measure, and why it matters`
-- **Lead Quote**: `"A faculty is a capacity that grows with use and withers without it. We ask whether a company's technology exercises these capacities or quietly does the work for us until we can no longer do it ourselves."`
+- **Lead Quote**: `The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology boosts or enhances these capacities or quietly diminishes them.`
 
 ### 3.2 Core Principles
 1. **Conduct over claims**: `Product defaults and shipped features carry significantly more weight than high-minded PR mission statements or keynote promises.`

@@ -613,7 +613,7 @@ function renderMethodologyView(container) {
       <h2 style="font-size: 2.6rem; font-weight: 800; margin-bottom: 1.25rem;">What we measure, and why it matters</h2>
       <div style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid var(--accent-gold); padding: 1.4rem; border-radius: 0 12px 12px 0; margin-bottom: 3rem;">
         <p style="font-size: 1.15rem; color: var(--text-main); font-weight: 500; line-height: 1.6;">
-          "A faculty is a capacity that grows with use and withers without it. We ask whether a company's technology exercises these capacities or quietly does the work for us until we can no longer do it ourselves."
+          "The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology boosts or enhances these capacities or quietly diminishes them."
         </p>
       </div>
 
