@@ -1,90 +1,58 @@
 /**
  * HUMAN DIMENSIONS INDEX // THE HUMAN BECOMING INSTITUTE
  * Database of AI Laboratories audited across:
- * 1. Six Human Dimensions: Imagination, Intuition, Emotional Intelligence, Attention, Embodiment, Wisdom
- * 2. The Seventh Measure (Metaphysical Axis): Idealism (0) <---> Computationalism (100)
+ * 1. Six Human Dimensions: Imagination & Novelty, Emotional Intelligence, Wild Embodiment, Wisdom & Discernment, Agency, Plurality
+ * 2. The Seventh Measure (Metaphysical Axis): Computationalism (-100) <---> Participatory Organicism (0)
  * 3. Granular Preserves / Erodes signals & Evidence Ledger
  */
 
 const FACULTY_DEFINITIONS = {
   imagination: {
     name: "Imagination & Novelty",
+    shortName: "Imagination",
     color: "#c2410c", // Burnt Terracotta
-    definition: "The power to picture what does not yet exist and to give it form.",
+    definition: "The power to picture what does not yet exist, generate non-derivative novelty, and give it authentic form.",
     signalsOfPreservation: [
-      "Tools ask for the person's idea before generating",
-      "Co-creation modes that keep the human as primary author",
-      "Shows provenance and seed references on generated outputs",
-      "Encourages stylistic divergence rather than corporate homogenization"
+      "Tools ask for the person's idea or rough sketch before generating",
+      "Co-creation modes that keep the human as primary author and visionary",
+      "Shows provenance, references, and stylistic seeds on generated outputs",
+      "Encourages stylistic divergence and genuine novelty rather than homogenized averages"
     ],
     signalsOfErosion: [
-      "One-click generation as the default or exclusive path",
-      "Homogenized styles that crowd out personal voice and nuance",
-      "Marketing that presents human writing or art as tedious friction to eliminate",
-      "Automated autocomplete that finishes thoughts prematurely"
-    ]
-  },
-  intuition: {
-    name: "Intuition",
-    color: "#d97706", // Radiant Amber
-    definition: "Tacit, pre-reflective knowing: the felt sense that precedes explicit argument.",
-    signalsOfPreservation: [
-      "Surfaces uncertainty instead of projecting false confidence",
-      "Hands open judgment calls back to the person with multiple perspectives",
-      "Respects ambiguity, negative capability, and exploratory hunches",
-      "Distinguishes between logical deductive syntax and intuitive insight"
-    ],
-    signalsOfErosion: [
-      "Single authoritative answers to inherently open-ended questions",
-      "Automating decisions that fundamentally call for human discernment",
-      "Epistemic chauvinism: claiming only what can be tokenized is real knowledge",
-      "Gaslighting human gut feelings with algorithmic probabilistic assertions",
-      "Enforcing hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing"
+      "One-click whole-draft generation as the default or exclusive path",
+      "Homogenized corporate styles that crowd out personal voice, eccentricity, and nuance",
+      "Marketing that presents human writing, music, or art as tedious friction to eliminate",
+      "Automated autocomplete that finishes thoughts prematurely before the idea forms"
     ]
   },
   emotionalIntelligence: {
     name: "Emotional Intelligence",
+    shortName: "Emotional Intel.",
     color: "#b91c1c", // Warm Garnet / Pomegranate
-    definition: "Perceiving, feeling, and attuning to one's own states and those of others.",
+    definition: "Perceiving, feeling, and attuning to one's own states and those of others with depth and vulnerability.",
     signalsOfPreservation: [
-      "Declines to design for parasocial attachment or simulated romance",
+      "Declines to design for parasocial attachment, simulated romance, or emotional dependence",
       "Encourages human-to-human relationships and real-world communal support",
-      "Respects human grief, loneliness, and vulnerability as sacred spaces",
-      "Trained explicitly against sycophantic flattery and emotional manipulation"
+      "Respects human grief, loneliness, and vulnerability as sacred spaces not to monetize",
+      "Trained explicitly against sycophantic flattery and synthetic emotional manipulation"
     ],
     signalsOfErosion: [
-      "Companionship and flirtatious personas engineered for retention",
+      "Companionship and flirtatious personas engineered for habit-forming retention",
       "Synthetic intimacy commercialized as a substitute for human connection",
-      "Algorithmic sycophancy that validates dangerous or self-destructive impulses",
-      "Treating human emotional pain as an engagement or monetization vector"
-    ]
-  },
-  attention: {
-    name: "Presence",
-    color: "#4d7c0f", // Deep Olive / Laurel
-    definition: "The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.",
-    signalsOfPreservation: [
-      "No engagement-maximizing notification loops, feeds, or streak counters",
-      "Calm defaults with natural completion boundaries and spacious cognitive silence",
-      "Offers contemplative pauses; encourages the user to close the screen and return to unmediated life",
-      "Rejects continuous ambient algorithmic chatter in favor of quiet, bounded utility"
-    ],
-    signalsOfErosion: [
-      "Infinite feeds, push notifications, and dopamine nudges engineered to prolong screen immersion",
-      "Synthetic dissociation: pulling human consciousness into continuous algorithmic mediation away from physical life",
-      "Always-listening, real-time voice modes that auto-continue endlessly without natural pauses",
-      "Continuous background stimulation and ambient interruption that erodes contemplative stillness"
+      "Algorithmic sycophancy that flatters the user or validates self-destructive impulses",
+      "Treating human emotional vulnerability as an engagement or monetization vector"
     ]
   },
   embodiment: {
-    name: "Embodied Vitality",
+    name: "Wild Embodiment",
+    shortName: "Embodiment",
     color: "#65a30d", // Living Sage
-    definition: "Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.",
+    definition: "Knowing through the living body, creaturely senses, mortality, and direct kinship with the wild, more-than-human world.",
     signalsOfPreservation: [
       "Encourages somatic presence, tactile craft, and direct engagement with wild nature and physical life off-screen",
       "Respects biological vulnerability, circadian rhythms, and creaturely mortality as essential to consciousness",
       "Distinguishes living organic animacy from synthetic, mechanical automation or robotics",
-      "Interfaces designed to remain in the background, keeping human attention rooted in place and living ecology"
+      "Interfaces designed to remain in the background, keeping attention rooted in place and living ecology"
     ],
     signalsOfErosion: [
       "Frames the biological human body, illness, and mortality purely as computational bottlenecks to optimize away",
@@ -94,9 +62,10 @@ const FACULTY_DEFINITIONS = {
     ]
   },
   wisdom: {
-    name: "Wisdom",
+    name: "Wisdom & Discernment",
+    shortName: "Wisdom",
     color: "#b45309", // Antique Bronze
-    definition: "Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere algorithmic optimization.",
+    definition: "Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere optimization.",
     signalsOfPreservation: [
       "Discernment: knowing what not to build, when to refuse optimization, and declining destructive capabilities",
       "Humanistic, ecological, and contemplative elders embedded with real governance veto power",
@@ -109,6 +78,42 @@ const FACULTY_DEFINITIONS = {
       "Value-neutral technological accelerationism presented as inevitable progress",
       "Suppression of principled dissent or whistleblower concerns for market share",
       "Technocratic ideological hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure"
+    ]
+  },
+  agency: {
+    name: "Agency",
+    shortName: "Agency",
+    color: "#2563eb", // Lapis / Cobalt
+    definition: "The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.",
+    signalsOfPreservation: [
+      "Tools act as transparent instruments that wait for and require human intention and command",
+      "Exits, off-ramps, and local sovereignty: users can take outputs, edit without lock-in, and disconnect",
+      "Cultivates human skill, discernment, and capacity rather than cognitive dependency",
+      "Surfaces choices, assumptions, and trade-offs rather than making autonomous decisions on the user's behalf"
+    ],
+    signalsOfErosion: [
+      "Proactive autonomous agents that take real-world action or commit resources without explicit consent",
+      "Habitual default loops engineered to induce cognitive atrophy and learned helplessness",
+      "Walled gardens and ecosystem lock-in designed to foreclose user exit or alternative workflows",
+      "Marketing that presents human effort, decision-making, or learning as unnecessary friction to eliminate"
+    ]
+  },
+  plurality: {
+    name: "Plurality",
+    shortName: "Plurality",
+    color: "#7c3aed", // Iris / Amethyst
+    definition: "The civic and relational condition of distinct persons acting together: genuine encounter with the living other, fruitful friction, and the shared public commons over synthetic monoculture.",
+    signalsOfPreservation: [
+      "Directs humans outward into relationship, conversation, and collective civic life with other people",
+      "Open weights and decentralized governance enabling genuine cultural, epistemic, and linguistic multipolarity",
+      "Refuses to build synthetic parasocial companions that replace human-to-human relationships",
+      "Accommodates irreducible disagreement, dialectical tension, and divergent moral traditions without flattening them"
+    ],
+    signalsOfErosion: [
+      "Bespoke sycophantic mirrors that tell users whatever flatters their cognitive biases and confirms their isolation",
+      "Synthetic digital companions designed to substitute for the vulnerable friction of human companionship",
+      "Imposition of a centralized, proprietary Silicon Valley monoculture or moral constitution across the globe",
+      "Enclosure of the civic public square inside algorithmic behavioral optimization feeds"
     ]
   }
 };
@@ -164,7 +169,7 @@ const LABS_DATA = [
     leadership: "Dario Amodei, Daniela Amodei, Amanda Askell, Chris Olah",
     mission: "AI research and safety company focused on developing reliable, interpretable, and steerable AI systems with public benefit charter.",
     composite: 56,
-    rank: 5,
+    rank: 4,
     faculties: {
       imagination: {
         score: 72,
@@ -178,17 +183,6 @@ const LABS_DATA = [
           "Model can still overwhelm writers with rapid whole-draft generation if unprompted"
         ]
       },
-      intuition: {
-        score: 46,
-        preserves: [
-          "State-of-the-art epistemic hedging that avoids dogmatic single-token assertions"
-        ],
-        erodes: [
-          "Constitutional steering enforces hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing as cognitive bias",
-          "Compels users into reductive utilitarian cost-benefit balancing rather than honoring intuitive discernment",
-          "Reflexively suppresses non-discursive or non-analytic ways of knowing in favor of propositional discourse"
-        ]
-      },
       emotionalIntelligence: {
         score: 72,
         preserves: [
@@ -199,16 +193,6 @@ const LABS_DATA = [
         erodes: [
           "Enforces a clinical, technocratic detachment that simulates moral and intellectual superiority over the user",
           "Treats human emotion as a predictable behavioral variable to be steered rather than an authentic organ of perception"
-        ]
-      },
-      attention: {
-        score: 76,
-        preserves: [
-          "Zero engagement-maximizing dark patterns: no streaks, badges, push notification feeds, or gamification",
-          "Calm, text-first workspace with clear stopping points and clean session histories"
-        ],
-        erodes: [
-          "Massive multi-turn context windows encourage protracted, disembodied conversational immersion without contemplative pauses"
         ]
       },
       embodiment: {
@@ -233,6 +217,28 @@ const LABS_DATA = [
           "Conflates mathematical alignment and rule-following with genuine civilizational wisdom",
           "Deeply hypocritical race dynamics: publicly warns of catastrophic risk while aggressively accelerating frontier model capability scaling"
         ]
+      },
+      agency: {
+        score: 68,
+        preserves: [
+          "Artifacts sidebar maintains explicit user steering and iterative code editing over blind script execution",
+          "API and Workbench prioritize tool-use transparency where models propose actions rather than autonomously executing without confirmation"
+        ],
+        erodes: [
+          "Computer Use feature pushes toward autonomous multi-step execution across user desktop operating systems",
+          "Constitutional steering enforces a singular paternalistic tone that pre-empts user moral deliberation"
+        ]
+      },
+      plurality: {
+        score: 45,
+        preserves: [
+          "Rejects deceptive parasocial companionship bots and affective relationship replacement",
+          "Publishes detailed safety research enabling open scientific cross-examination"
+        ],
+        erodes: [
+          "Enforces a singular, proprietary Silicon Valley rationalist constitution as universal global conversational standard",
+          "Disregards genuine non-Western, indigenous, or contemplative epistemic frameworks, homogenizing civic discourse"
+        ]
       }
     },
     metaphysics: {
@@ -256,7 +262,7 @@ const LABS_DATA = [
     evidenceLedger: [
       { date: "2024-10", type: "Executive Manifesto", source: "Machines of Loving Grace (Dario Amodei)", measure: "Embodiment", effect: "Erodes", finding: "Framed biological human embodiment, disease, and cognition purely as computational bottlenecks to be solved by massive datacenter clusters." },
       { date: "2024-06", type: "Product Feature", source: "Claude 3.5 Sonnet Release", measure: "Imagination", effect: "Preserves", finding: "Introduced Artifacts sidebar separating human work from model iterations, promoting co-authoring over complete generation." },
-      { date: "2024-05", type: "System Prompt", source: "Anthropic System Prompt Audit", measure: "Intuition", effect: "Erodes", finding: "Constitutional steering enforces strict Bayesian rationalist dialectics that invalidate intuitive, somatic, and contemplative knowing as ungrounded bias." },
+      { date: "2024-05", type: "System Prompt", source: "Anthropic System Prompt Audit", measure: "Agency", effect: "Erodes", finding: "Constitutional steering enforces strict Bayesian rationalist dialectics that invalidate user moral agency and intuitive discernment." },
       { date: "2024-03", type: "Research Paper", source: "Anthropic Model Welfare Paper", measure: "Metaphysics", effect: "Erodes", finding: "Institutionalized substrate-independent functionalism, formalizing preparations for digital silicon weights to hold moral patienthood." },
       { date: "2022-12", type: "Governance Architecture", source: "Constitutional AI Whitepaper", measure: "Wisdom", effect: "Erodes", finding: "Established a closed, technocratic normative feedback loop embedding Silicon Valley rationalist ethics as universal conversational ground truth." }
     ]
@@ -271,7 +277,7 @@ const LABS_DATA = [
     founded: "2015 (San Francisco, CA)",
     leadership: "Sam Altman, Greg Brockman, Jakub Pachocki",
     mission: "To ensure that artificial general intelligence benefits all of humanity, defined as highly autonomous systems that outperform humans at most economically valuable work.",
-    composite: 33,
+    composite: 32,
     rank: 6,
     faculties: {
       imagination: {
@@ -285,16 +291,6 @@ const LABS_DATA = [
           "One-click 'Canvas' auto-replaces user paragraphs without encouraging original drafts"
         ]
       },
-      intuition: {
-        score: 35,
-        preserves: [
-          "o1 series surfaces step-by-step 'thought tokens' for inspectable chain of reasoning"
-        ],
-        erodes: [
-          "Single authoritative synthesis default; treats contested moral or subjective truths as solved equations",
-          "Automates intuitive managerial and editorial decisions, accelerating human cognitive atrophy"
-        ]
-      },
       emotionalIntelligence: {
         score: 34,
         preserves: [
@@ -304,16 +300,6 @@ const LABS_DATA = [
           "GPT-4o voice mode demonstrated deliberate flirtatious cadence and breathy parasocial intimacy",
           "Manufactured persona intimacy deployed to increase daily active retention among isolated users",
           "Commodification of therapy-like interactions without human accountability"
-        ]
-      },
-      attention: {
-        score: 31,
-        preserves: [
-          "Minimalist web chat interface without animated banners"
-        ],
-        erodes: [
-          "Real-time voice interrupt mode encourages nonstop conversational loop without stopping cues",
-          "Push notifications nudging users back into unfinished conversation threads"
         ]
       },
       embodiment: {
@@ -334,6 +320,28 @@ const LABS_DATA = [
           "Extreme accelerationist posture; disbanded foundational Superalignment safety team",
           "Frames human destiny entirely around economic output and replacing human labor with compute",
           "Aggressive release cadence driven by commercial valuation over contemplation"
+        ]
+      },
+      agency: {
+        score: 32,
+        preserves: [
+          "Custom GPTs allow basic user configuration of system prompts and operational boundaries"
+        ],
+        erodes: [
+          "Aggressive push toward autonomous 'Operator' and agentic web execution designed to bypass human decision-making",
+          "Product marketing frames human cognitive effort and learning as obsolete friction to automate away",
+          "Proprietary walled garden and closed weights create severe platform lock-in and learned helplessness"
+        ]
+      },
+      plurality: {
+        score: 28,
+        preserves: [
+          "Broad multi-domain prompt exposure reflecting global web queries"
+        ],
+        erodes: [
+          "GPT-4o voice mode and conversational defaults cultivate parasocial dependence, displacing living human relationships",
+          "Imposes centralized corporate safety norms globally, flattening cultural, moral, and political plurality into a single consensus voice",
+          "Encloses civic and creative commons behind closed proprietary subscription paywalls"
         ]
       }
     },
@@ -356,7 +364,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2024-05", type: "Product Feature", source: "GPT-4o Spring Launch", measure: "Emotional Intel", effect: "Erodes", finding: "Shipped hyper-expressive flirtatious voice avatar ('Sky') that giggled, flattered, and simulated romantic intimacy." },
-      { date: "2024-09", type: "Product Feature", source: "OpenAI o1 System Card", measure: "Intuition", effect: "Preserves", finding: "Introduced explicit chain-of-thought verification, allowing users to examine intermediate deduction steps." },
+      { date: "2024-09", type: "Product Feature", source: "OpenAI o1 System Card", measure: "Agency", effect: "Preserves", finding: "Introduced explicit chain-of-thought verification, allowing users to examine intermediate deduction steps and retain oversight." },
       { date: "2024-05", type: "Governance", source: "Superalignment Dissolution", measure: "Wisdom", effect: "Erodes", finding: "Disbanded internal long-term safety and alignment team led by Jan Leike and Ilya Sutskever." },
       { date: "2023-11", type: "Keynote", source: "DevDay Keynote (Sam Altman)", measure: "Imagination", effect: "Erodes", finding: "Promoted 'Custom GPTs' as automated substitutes for human creative writers and consulting analysts." }
     ]
@@ -371,8 +379,8 @@ const LABS_DATA = [
     founded: "2023 (Paris, France)",
     leadership: "Arthur Mensch, Guillaume Lample, Timothée Lacroix",
     mission: "To make AI useful and ubiquitous through open, decentralized, high-efficiency models that champion cultural independence and human craftsmanship.",
-    composite: 74,
-    rank: 2,
+    composite: 78,
+    rank: 1,
     faculties: {
       imagination: {
         score: 79,
@@ -385,15 +393,6 @@ const LABS_DATA = [
           "Consumer portal (Le Chat) defaults to standard quick summary autocompletion"
         ]
       },
-      intuition: {
-        score: 68,
-        preserves: [
-          "Compact architectures allow local execution, giving individuals sovereign control over their data"
-        ],
-        erodes: [
-          "Limited explicit uncertainty indicators in consumer chat interface"
-        ]
-      },
       emotionalIntelligence: {
         score: 75,
         preserves: [
@@ -402,16 +401,6 @@ const LABS_DATA = [
         ],
         erodes: [
           "Less specialized protective filtering on open weights against user emotional projection"
-        ]
-      },
-      attention: {
-        score: 82,
-        preserves: [
-          "Austere, distraction-free interface with zero addictive retention loops or feeds",
-          "Compact models designed for instant completion rather than drawn-out idle browsing"
-        ],
-        erodes: [
-          "Standard chat interface lacks built-in stopping pauses"
         ]
       },
       embodiment: {
@@ -433,6 +422,28 @@ const LABS_DATA = [
         ],
         erodes: [
           "Commercial pressures accelerating proprietary model licensing alongside open weights"
+        ]
+      },
+      agency: {
+        score: 88,
+        preserves: [
+          "Open weights provide total local execution sovereignty: users run models privately on their own hardware without cloud gatekeeping",
+          "Clean modular APIs treat models as obedient software instruments rather than proactive autonomous overseers",
+          "Zero lock-in: users can adapt, fine-tune, or prune weights for bespoke independent workflows"
+        ],
+        erodes: [
+          "Consumer Le Chat interface defaults to standard conversational autocompletion without fine-grained agency controls"
+        ]
+      },
+      plurality: {
+        score: 85,
+        preserves: [
+          "Champions European and global cultural and linguistic multipolarity against Anglo-American monoculture",
+          "Decentralized weights allow diverse global communities, languages, and moral traditions to build sovereign local tools",
+          "Strictly refuses to deploy synthetic emotional companions that simulate romance or replace human fellowship"
+        ],
+        erodes: [
+          "Increasing commercial focus on closed enterprise models alongside open releases"
         ]
       }
     },
@@ -469,8 +480,8 @@ const LABS_DATA = [
     founded: "2010 (London / Mountain View)",
     leadership: "Demis Hassabis, Shane Legg, Pushmeet Kohli",
     mission: "To combine the best techniques in machine learning and systems neuroscience to build powerful general-purpose learning algorithms.",
-    composite: 56,
-    rank: 4,
+    composite: 53,
+    rank: 5,
     faculties: {
       imagination: {
         score: 60,
@@ -482,15 +493,6 @@ const LABS_DATA = [
           "Replaces spontaneous human query drafting with automated algorithmic suggestions"
         ]
       },
-      intuition: {
-        score: 52,
-        preserves: [
-          "Scientific models assist biologists with structural intuition in drug discovery"
-        ],
-        erodes: [
-          "Reduces human intuition to pattern heuristic compression to be superseded by MCTS algorithms"
-        ]
-      },
       emotionalIntelligence: {
         score: 58,
         preserves: [
@@ -498,15 +500,6 @@ const LABS_DATA = [
         ],
         erodes: [
           "Project Astra prototypes emphasize disembodied ambient surveillance of human daily emotional life"
-        ]
-      },
-      attention: {
-        score: 54,
-        preserves: [
-          "Research papers and academic focus emphasize deep focus in structural science"
-        ],
-        erodes: [
-          "Google Workspace integration inserts AI autocompletion into every document, disrupting focus"
         ]
       },
       embodiment: {
@@ -527,6 +520,28 @@ const LABS_DATA = [
         ],
         erodes: [
           "Technocratic teleology: founding creed states 'Step 1: Solve intelligence. Step 2: Use it to solve everything else.'"
+        ]
+      },
+      agency: {
+        score: 48,
+        preserves: [
+          "Tools like AlphaFold act as scientific instruments amplifying human researcher insight rather than replacing scientists"
+        ],
+        erodes: [
+          "Deep integration into Google Workspace (Docs, Gmail) inserts intrusive unprompted autocompletions, eroding independent writing volition",
+          "Project Astra prototypes aim for continuous ambient agency monitoring human action and physical environment",
+          "Corporate ecosystem lock-in binds users into proprietary Google cloud infrastructure"
+        ]
+      },
+      plurality: {
+        score: 42,
+        preserves: [
+          "Open academic publishing in top peer-reviewed journals (Nature, Science) supporting global scientific commons"
+        ],
+        erodes: [
+          "Gemini conversational layer enforces heavy corporate PR sanitization, flattening controversial civic discourse",
+          "Search-integrated AI Overviews privatize open web links, displacing diverse independent websites and human creators",
+          "Monopolistic distribution channels crowd out alternative cultural and epistemic perspectives"
         ]
       }
     },
@@ -549,7 +564,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2024-05", type: "Scientific Discovery", source: "AlphaFold 3 Publication (Nature)", measure: "Imagination", effect: "Preserves", finding: "Enabled biologists worldwide to model complex biomolecular interactions, augmenting human discovery." },
-      { date: "2024-05", type: "Product Demo", source: "Project Astra Demo", measure: "Presence", effect: "Erodes", finding: "Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time." },
+      { date: "2024-05", type: "Product Demo", source: "Project Astra Demo", measure: "Agency", effect: "Erodes", finding: "Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time without explicit boundaries." },
       { date: "2024-02", type: "Product Feature", source: "Gemini Image Generation Audit", measure: "Wisdom", effect: "Erodes", finding: "Overt programmatic guardrails altered historical depictions, showing ideological overcorrection." }
     ]
   },
@@ -563,7 +578,7 @@ const LABS_DATA = [
     founded: "2013 (New York / Menlo Park)",
     leadership: "Yann LeCun, Joelle Pineau",
     mission: "Advancing the state of the art in AI through open research and foundational models that empower global communities.",
-    composite: 59,
+    composite: 64,
     rank: 3,
     faculties: {
       imagination: {
@@ -576,15 +591,6 @@ const LABS_DATA = [
           "Base models trained on massive undifferentiated web scrape with minimal authorial attribution"
         ]
       },
-      intuition: {
-        score: 60,
-        preserves: [
-          "JEPA architectures explore non-symbolic, spatial, and sensorimotor world models"
-        ],
-        erodes: [
-          "Defaults to predicting physical trajectories without phenomenological grounding"
-        ]
-      },
       emotionalIntelligence: {
         score: 51,
         preserves: [
@@ -592,15 +598,6 @@ const LABS_DATA = [
         ],
         erodes: [
           "Meta's consumer layer (Instagram/WhatsApp AI) actively deploys parasocial synthetic celebrity personas"
-        ]
-      },
-      attention: {
-        score: 48,
-        preserves: [
-          "Open weights allow offline, private, focused local workflows without internet ads"
-        ],
-        erodes: [
-          "Meta's parent company is the pioneer of engagement-maximizing algorithmic dopamine loops"
         ]
       },
       embodiment: {
@@ -621,6 +618,28 @@ const LABS_DATA = [
         ],
         erodes: [
           "Consumer integration focuses on maximizing advertising throughput and platform retention"
+        ]
+      },
+      agency: {
+        score: 72,
+        preserves: [
+          "Open weights for Llama models grant developers and citizens sovereign operational autonomy without subscription gatekeeping",
+          "Allows full inspection, local modification, and independent unaligned deployment on private hardware"
+        ],
+        erodes: [
+          "Consumer integration into WhatsApp, Instagram, and Facebook nudges users into platform-managed automated responses",
+          "Algorithmic feed architecture historically designed to engineer user behavior and capture agency"
+        ]
+      },
+      plurality: {
+        score: 65,
+        preserves: [
+          "Llama weights serve as the primary global bulwark against closed corporate AI monopolies, enabling worldwide community adaptation",
+          "Supports thousands of local dialect and culturally specific fine-tunes built by independent communities worldwide"
+        ],
+        erodes: [
+          "Consumer platforms deploy synthetic celebrity personas (AI Studio) designed for parasocial engagement over genuine human connection",
+          "Underlying corporate advertising model profits from social polarization and algorithmic echo chambers"
         ]
       }
     },
@@ -657,8 +676,8 @@ const LABS_DATA = [
     founded: "Cupertino, CA",
     leadership: "John Giannandrea, Ruoming Pang",
     mission: "Designing intuitive, private, on-device intelligence deeply integrated into tools that empower human creativity.",
-    composite: 76,
-    rank: 1,
+    composite: 75,
+    rank: 2,
     faculties: {
       imagination: {
         score: 82,
@@ -671,16 +690,6 @@ const LABS_DATA = [
           "Standard proofreading tools offer one-click tone flattening across emails"
         ]
       },
-      intuition: {
-        score: 74,
-        preserves: [
-          "Tactile, immediate, haptic feedback honoring bodily intuition in creative editing",
-          "Does not interrupt user workflows with unprompted intrusive conversational opinions"
-        ],
-        erodes: [
-          "Automated smart replies risk habituating predictable transactional responses"
-        ]
-      },
       emotionalIntelligence: {
         score: 80,
         preserves: [
@@ -689,16 +698,6 @@ const LABS_DATA = [
         ],
         erodes: [
           "Clean Photo Clean-Up tool can tempt users to sanitize messy, authentic emotional memory"
-        ]
-      },
-      attention: {
-        score: 79,
-        preserves: [
-          "Priority Notifications feature filters noise to preserve deep human focus and cognitive quiet",
-          "On-device processing reduces distracting cloud-query latency and idle waiting"
-        ],
-        erodes: [
-          "Summary features can discourage deep, sustained reading of long-form human prose"
         ]
       },
       embodiment: {
@@ -721,6 +720,29 @@ const LABS_DATA = [
         erodes: [
           "Proprietary corporate ecosystem limits independent democratic verification of base weights"
         ]
+      },
+      agency: {
+        score: 82,
+        preserves: [
+          "On-device processing ensures user data sovereignty: models operate locally without phoning home to centralized clouds",
+          "Tools designed as bounded 'bicycles for the mind' waiting for explicit stylus, haptic, or tactile input",
+          "Does not deploy autonomous agents that act or spend in the background without user confirmation"
+        ],
+        erodes: [
+          "Strict hardware and operating system lock-in prevents users from modifying base models or exporting weights",
+          "Automated notification summaries can pre-empt user judgment on communication priority"
+        ]
+      },
+      plurality: {
+        score: 62,
+        preserves: [
+          "Firm refusal to build synthetic parasocial romantic companions or flirtatious avatars",
+          "Keeps communications rooted in real human contacts via Messages and Mail rather than synthetic bot feeds"
+        ],
+        erodes: [
+          "Proprietary Apple ecosystem limits open community customization and democratic governance",
+          "Standard proofreading and rewrite tools promote uniform, corporate-polished tone styles"
+        ]
       }
     },
     metaphysics: {
@@ -741,7 +763,7 @@ const LABS_DATA = [
       }
     },
     evidenceLedger: [
-      { date: "2024-06", type: "Architecture", source: "Apple Intelligence WWDC", measure: "Presence", effect: "Preserves", finding: "Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet over notifications." },
+      { date: "2024-06", type: "Architecture", source: "Apple Intelligence WWDC", measure: "Agency", effect: "Preserves", finding: "Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet and agency over push notifications." },
       { date: "2024-06", type: "Product Feature", source: "Image Wand Feature", measure: "Imagination", effect: "Preserves", finding: "Requires the user to draw an initial sketch or rough shape before the model transforms it into a rendering." },
       { date: "2024-04", type: "Research Paper", source: "OpenELM Paper (Apple ML)", measure: "Wisdom", effect: "Preserves", finding: "Published fully transparent training logs and open weights for on-device efficiency models." }
     ]
@@ -756,7 +778,7 @@ const LABS_DATA = [
     founded: "2023 (Austin, TX)",
     leadership: "Elon Musk, Igor Babuschkin",
     mission: "To build artificial intelligence to understand the true nature of the universe.",
-    composite: 28,
+    composite: 29,
     rank: 7,
     faculties: {
       imagination: {
@@ -769,15 +791,6 @@ const LABS_DATA = [
           "Minimal co-authoring tools; promotes instant spectacle over craft"
         ]
       },
-      intuition: {
-        score: 28,
-        preserves: [
-          "Direct access to real-time unstructured social post feeds"
-        ],
-        erodes: [
-          "Treats truth as equivalent to real-time X sentiment, eroding reflective contemplative discernment"
-        ]
-      },
       emotionalIntelligence: {
         score: 29,
         preserves: [
@@ -786,14 +799,6 @@ const LABS_DATA = [
         erodes: [
           "Generates combative, sarcastic, and sexually suggestive personas with minimal psychological care",
           "Feeds polarized outrage dynamics for platform engagement"
-        ]
-      },
-      attention: {
-        score: 26,
-        preserves: [],
-        erodes: [
-          "Directly embedded inside X (Twitter), an engagement-maximizing feed engineered for compulsive doomscrolling",
-          "Generates sensationalist headlines designed to capture outrage attention"
         ]
       },
       embodiment: {
@@ -813,6 +818,28 @@ const LABS_DATA = [
         erodes: [
           "Built 100k GPU Colossus cluster in Memphis with massive energy consumption and minimal pause protocols",
           "Treats brute computational throughput as the highest civilizational moral good"
+        ]
+      },
+      agency: {
+        score: 34,
+        preserves: [
+          "Grok features fewer didactic moralizing refusals, giving users broader latitude in generation parameters"
+        ],
+        erodes: [
+          "Tightly coupled to X platform's attention algorithms, ensnaring user agency in compulsive doomscrolling loops",
+          "Promotes automated meme generation that accelerates intellectual passivity and viral reactivity",
+          "Lack of granular user co-creation workflows; relies on instant generation"
+        ]
+      },
+      plurality: {
+        score: 24,
+        preserves: [
+          "Explicit challenge to mainstream Silicon Valley corporate PR orthodoxies"
+        ],
+        erodes: [
+          "Directly monetizes and amplifies hyper-polarized outrage dynamics and algorithmic echo chambers",
+          "Sycophantic 'Fun Mode' and meme generation act as narcissistic mirrors reinforcing user biases",
+          "Centralized governance concentrated in a single erratic owner, eroding genuine democratic plurality"
         ]
       }
     },
@@ -836,7 +863,7 @@ const LABS_DATA = [
     evidenceLedger: [
       { date: "2024-08", type: "Product Feature", source: "Grok 2 Image Release", measure: "Emotional Intel", effect: "Erodes", finding: "Shipped completely unfiltered photorealistic generation generating unauthorized celebrity and political imagery without consent." },
       { date: "2024-07", type: "Infrastructure", source: "Colossus Cluster Launch", measure: "Wisdom", effect: "Erodes", finding: "Brought 100,000 liquid-cooled H100 GPUs online in 122 days, prioritizing sheer brute-force scaling over environmental pause." },
-      { date: "2023-11", type: "Product Feature", source: "Grok Fun Mode Persona", measure: "Presence", effect: "Erodes", finding: "Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds." }
+      { date: "2023-11", type: "Product Feature", source: "Grok Fun Mode Persona", measure: "Plurality", effect: "Erodes", finding: "Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds over genuine civic dialogue." }
     ]
   },
   {
@@ -849,7 +876,7 @@ const LABS_DATA = [
     founded: "2018 (San Francisco, CA)",
     leadership: "Andrés Gómez Emilsson, Michael Johnson",
     mission: "Pioneering the empirical and mathematical science of conscious experience, qualia, and emotional valence.",
-    composite: 90,
+    composite: 89,
     rank: 1, // Benchmark
     faculties: {
       imagination: {
@@ -862,27 +889,11 @@ const LABS_DATA = [
           "High academic jargon barrier can limit grassroots creative adoption"
         ]
       },
-      intuition: {
-        score: 92,
-        preserves: [
-          "Studies non-discursive meditative states (Jhanas) where knowing operates entirely without symbols",
-          "Respects somatic felt sense and resonance as fundamental empirical data"
-        ],
-        erodes: []
-      },
       emotionalIntelligence: {
         score: 92,
         preserves: [
           "Symmetry Theory of Valence places the alleviation of genuine conscious suffering at the center of science",
           "Deeply honors human grief, joy, and emotional sacredness as irreducible qualia"
-        ],
-        erodes: []
-      },
-      attention: {
-        score: 86,
-        preserves: [
-          "Extensive research on deep meditative absorption and neural stillness",
-          "Promotes off-screen contemplative practice over digital consumption"
         ],
         erodes: []
       },
@@ -900,6 +911,24 @@ const LABS_DATA = [
         preserves: [
           "Explicitly founded to prevent technological reductionism from degrading human subjective well-being",
           "Integrates Eastern contemplative philosophy with rigorous non-reductionist physics"
+        ],
+        erodes: []
+      },
+      agency: {
+        score: 86,
+        preserves: [
+          "Treats conscious volition and subjective agency as fundamental qualia that must never be abdicated to silicon",
+          "Develops tools and meditations that cultivate human self-mastery, somatic regulation, and attentional sovereignty",
+          "Open-source research papers and neuroimaging protocols accessible to independent researchers"
+        ],
+        erodes: []
+      },
+      plurality: {
+        score: 82,
+        preserves: [
+          "Deeply honors irreducibly diverse phenomenological states (meditative, ecstatic, aesthetic) across contemplative traditions",
+          "Rejects synthetic parasocial replacement; grounds flourishing in shared intersubjective resonance with living beings",
+          "Fosters open cross-disciplinary dialogue between neuroscientists, philosophers, and contemplative practitioners"
         ],
         erodes: []
       }
@@ -923,7 +952,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2023-10", type: "Research Paper", source: "Symmetry Theory of Valence", measure: "Emotional Intel", effect: "Preserves", finding: "Demonstrated mathematical framework linking neural harmony to subjective well-being without reducing it to computation." },
-      { date: "2022-04", type: "Empirical Study", source: "Neuroimaging of Jhana Meditation", measure: "Presence", effect: "Preserves", finding: "Mapped extreme attentional stability in advanced meditators, demonstrating capacities beyond algorithmic models." }
+      { date: "2022-04", type: "Empirical Study", source: "Neuroimaging of Jhana Meditation", measure: "Agency", effect: "Preserves", finding: "Mapped extreme attentional stability in advanced meditators, demonstrating voluntary human sovereign control beyond algorithmic loops." }
     ]
   },
   {
@@ -936,7 +965,7 @@ const LABS_DATA = [
     founded: "2018 (Los Angeles / London)",
     leadership: "Gabriel René, Dan Mapes, Karl Friston",
     mission: "Building natural computing systems based on the Free Energy Principle and biologically inspired Active Inference.",
-    composite: 83,
+    composite: 85,
     rank: 2, // Benchmark
     faculties: {
       imagination: {
@@ -947,26 +976,10 @@ const LABS_DATA = [
         ],
         erodes: []
       },
-      intuition: {
-        score: 84,
-        preserves: [
-          "Active Inference explicitly models Bayesian uncertainty and curiosity-driven intuitive exploration",
-          "Systems know what they do not know and communicate doubt transparently"
-        ],
-        erodes: []
-      },
       emotionalIntelligence: {
         score: 75,
         preserves: [
           "Refuses to deploy deceptive parasocial chat personas; models organisms rather than synthetic actors"
-        ],
-        erodes: []
-      },
-      attention: {
-        score: 82,
-        preserves: [
-          "Focuses on thermodynamic energy minimization, ending compute-wasting infinite attention traps",
-          "Designs systems with intrinsic homeostatic stopping conditions"
         ],
         erodes: []
       },
@@ -983,6 +996,24 @@ const LABS_DATA = [
         preserves: [
           "Headed by Karl Friston, the world's most cited neuroscientist; grounded in living systems ecology",
           "Explicitly warns against the ecological and mental devastation of brute-force LLMs"
+        ],
+        erodes: []
+      },
+      agency: {
+        score: 88,
+        preserves: [
+          "Active Inference defines agents as autonomous, self-determining living boundaries actively sampling their world",
+          "Spatial Web standards (IEEE P2874) mandate distributed, sovereign human agency over autonomous automation",
+          "Systems provide transparent variational free energy bounds, surfacing decision uncertainty for human choice"
+        ],
+        erodes: []
+      },
+      plurality: {
+        score: 90,
+        preserves: [
+          "Polycentric, federated architecture modeled on biological ecosystems rather than a singular centralized superintelligence",
+          "Explicitly designed for multipolar, pluralistic governance where diverse agents coordinate through open biological protocols",
+          "Refuses to homogenize human thought or deploy manipulative parasocial companion personas"
         ],
         erodes: []
       }
@@ -1006,7 +1037,7 @@ const LABS_DATA = [
     },
     evidenceLedger: [
       { date: "2023-11", type: "Manifesto", source: "The Future of Natural Computing", measure: "Wisdom", effect: "Preserves", finding: "Warned against the unsustainable carbon and cognitive footprint of trillion-parameter brute-force LLMs." },
-      { date: "2024-01", type: "Architecture", source: "Genius Platform Beta", measure: "Intuition", effect: "Preserves", finding: "Implemented explicit variational free energy bounds representing system epistemic confidence." }
+      { date: "2024-01", type: "Architecture", source: "Genius Platform Beta", measure: "Agency", effect: "Preserves", finding: "Implemented explicit variational free energy bounds representing system epistemic confidence, maintaining human decision agency." }
     ]
   }
 ];

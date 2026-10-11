@@ -6,7 +6,7 @@
 const state = {
   currentTab: 'rankings', // 'rankings' | 'profiles' | 'methodology' | 'about'
   selectedLabId: 'anthropic',
-  rankBy: 'composite', // 'composite' | 'imagination' | 'intuition' | 'emotionalIntelligence' | 'attention' | 'embodiment' | 'wisdom' | 'metaphysics'
+  rankBy: 'composite', // 'composite' | 'imagination' | 'emotionalIntelligence' | 'embodiment' | 'wisdom' | 'agency' | 'plurality' | 'metaphysics'
   theme: 'dark',
   radarSelectedLabs: ['anthropic', 'openai', 'mistral', 'apple-ml']
 };
@@ -101,7 +101,7 @@ function renderRankingsView(container) {
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
         <h2>How well do AI companies understand the human condition?</h2>
         <p class="hero-subtitle">
-          We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
+          We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: <strong>imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
         </p>
       </div>
 
@@ -112,7 +112,7 @@ function renderRankingsView(container) {
         </div>
         <div class="hero-meta-row">
           <span class="hero-meta-label">Companies Assessed</span>
-          <span class="hero-meta-val">8 + 2 Benchmarks</span>
+          <span class="hero-meta-val">7 + 2 Benchmarks</span>
         </div>
         <div class="hero-meta-row">
           <span class="hero-meta-label">Measures</span>
@@ -130,11 +130,11 @@ function renderRankingsView(container) {
       <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase; margin-right: 0.4rem;">Rank by</span>
       ${renderRankPill('composite', 'Composite')}
       ${renderRankPill('imagination', 'Imagination')}
-      ${renderRankPill('intuition', 'Intuition')}
       ${renderRankPill('emotionalIntelligence', 'Emotional intelligence')}
-      ${renderRankPill('attention', 'Presence')}
-      ${renderRankPill('embodiment', 'Embodied vitality')}
+      ${renderRankPill('embodiment', 'Embodiment')}
       ${renderRankPill('wisdom', 'Wisdom')}
+      ${renderRankPill('agency', 'Agency')}
+      ${renderRankPill('plurality', 'Plurality')}
       ${renderRankPill('metaphysics', 'Most organicist (-100 ↔ 0)')}
     </div>
 
@@ -147,11 +147,11 @@ function renderRankingsView(container) {
             <th>Company & Mission Type</th>
             <th style="text-align: center;">Composite</th>
             <th style="text-align: center;">Imagination</th>
-            <th style="text-align: center;">Intuition</th>
             <th style="text-align: center;">Emotional Intel.</th>
-            <th style="text-align: center;">Presence</th>
-            <th style="text-align: center;">Embodied Vitality</th>
+            <th style="text-align: center;">Embodiment</th>
             <th style="text-align: center;">Wisdom</th>
+            <th style="text-align: center;">Agency</th>
+            <th style="text-align: center;">Plurality</th>
             <th>Metaphysics (-100 Comp ↔ 0 Organicism)</th>
           </tr>
         </thead>
@@ -177,18 +177,8 @@ function renderRankingsView(container) {
                   </span>
                 </td>
                 <td style="text-align: center;">
-                  <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.intuition.score)}; color: var(--text-main);">
-                    ${lab.faculties.intuition.score}
-                  </span>
-                </td>
-                <td style="text-align: center;">
                   <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.emotionalIntelligence.score)}; color: var(--text-main);">
                     ${lab.faculties.emotionalIntelligence.score}
-                  </span>
-                </td>
-                <td style="text-align: center;">
-                  <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.attention.score)}; color: var(--text-main);">
-                    ${lab.faculties.attention.score}
                   </span>
                 </td>
                 <td style="text-align: center;">
@@ -199,6 +189,16 @@ function renderRankingsView(container) {
                 <td style="text-align: center;">
                   <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.wisdom.score)}; color: var(--text-main);">
                     ${lab.faculties.wisdom.score}
+                  </span>
+                </td>
+                <td style="text-align: center;">
+                  <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.agency.score)}; color: var(--text-main);">
+                    ${lab.faculties.agency.score}
+                  </span>
+                </td>
+                <td style="text-align: center;">
+                  <span class="heat-cell" style="background: ${getHeatBg(lab.faculties.plurality.score)}; color: var(--text-main);">
+                    ${lab.faculties.plurality.score}
                   </span>
                 </td>
                 <td>
@@ -336,11 +336,11 @@ function renderRadarChart() {
 
   const axes = [
     { k: 'imagination', label: 'Imagination' },
-    { k: 'intuition', label: 'Intuition' },
-    { k: 'emotionalIntelligence', label: 'Emotional Intel' },
-    { k: 'attention', label: 'Presence' },
-    { k: 'embodiment', label: 'Embodied Vitality' },
-    { k: 'wisdom', label: 'Wisdom' }
+    { k: 'emotionalIntelligence', label: 'Emotional Intel.' },
+    { k: 'embodiment', label: 'Embodiment' },
+    { k: 'wisdom', label: 'Wisdom' },
+    { k: 'agency', label: 'Agency' },
+    { k: 'plurality', label: 'Plurality' }
   ];
   const step = (Math.PI * 2) / axes.length;
 
@@ -462,7 +462,7 @@ function renderProfilesView(container) {
         </div>
         <div class="profile-stat-card">
           <div class="num">${lab.rank}</div>
-          <span class="sub">Rank (of 8 companies)</span>
+          <span class="sub">${lab.type.includes('Benchmark') ? 'Benchmark Standard' : 'Rank (of 7 companies)'}</span>
         </div>
         <div class="profile-stat-card">
           <div class="num" style="color: ${lab.metaphysics.score >= -40 ? '#4ade80' : '#fb923c'};">${lab.metaphysics.score}</div>
@@ -476,12 +476,12 @@ function renderProfilesView(container) {
       <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.25rem;">Dimension by dimension</h3>
       
       <div class="faculties-grid">
-        ${renderFacultyCard('Imagination & Novelty', lab.faculties.imagination)}
-        ${renderFacultyCard('Intuition', lab.faculties.intuition)}
-        ${renderFacultyCard('Emotional intelligence', lab.faculties.emotionalIntelligence)}
-        ${renderFacultyCard('Presence', lab.faculties.attention)}
-        ${renderFacultyCard('Embodied vitality', lab.faculties.embodiment)}
-        ${renderFacultyCard('Wisdom', lab.faculties.wisdom)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.imagination.name, lab.faculties.imagination)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.emotionalIntelligence.name, lab.faculties.emotionalIntelligence)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.embodiment.name, lab.faculties.embodiment)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.wisdom.name, lab.faculties.wisdom)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.agency.name, lab.faculties.agency)}
+        ${renderFacultyCard(FACULTY_DEFINITIONS.plurality.name, lab.faculties.plurality)}
       </div>
     </div>
 
@@ -718,7 +718,7 @@ function renderAboutView(container) {
       </p>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
-        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and enduring wisdom.
+        While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human condition: the gradual atrophy of personal imagination, emotional depth, wild embodiment, enduring wisdom, deliberate agency, and relational plurality.
       </p>
 
       <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.6rem; margin-bottom: 2.5rem;">
@@ -748,11 +748,11 @@ function renderAboutView(container) {
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Dimension / Measure Affected</label>
             <select id="subFaculty" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
               <option value="imagination">Imagination & Novelty</option>
-              <option value="intuition">Intuition</option>
-              <option value="emotionalIntelligence">Emotional intelligence</option>
-              <option value="attention">Presence</option>
-              <option value="embodiment">Embodied vitality</option>
-              <option value="wisdom">Wisdom</option>
+              <option value="emotionalIntelligence">Emotional Intelligence</option>
+              <option value="embodiment">Wild Embodiment</option>
+              <option value="wisdom">Wisdom & Discernment</option>
+              <option value="agency">Agency</option>
+              <option value="plurality">Plurality</option>
               <option value="metaphysics">The Seventh Measure (Metaphysics)</option>
             </select>
           </div>

@@ -12,7 +12,7 @@
 
 ### 1.1 Page Head & Meta Tags (`index.html`)
 - **Browser Tab Title**: `Human Dimensions Index // The Human Becoming Institute`
-- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom.`
+- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality.`
 - **Social Card Title**: `Human Dimensions Index // The Human Becoming Institute`
 - **Social Card Subtitle**: `Auditing frontier AI companies on human sovereignty, consciousness respect, and the six living dimensions.`
 
@@ -33,11 +33,11 @@
 ### 2.1 Hero Header
 - **Eyebrow**: `A Tracker for the Age of AI`
 - **Headline**: `How well do AI companies understand the human condition?`
-- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
+- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: imagination, emotional intelligence, wild embodiment, wisdom, agency, and plurality. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
 
 ### 2.2 Hero Metadata Panel
 - **Review Cycle**: `[Q3, 2026]`
-- **Companies Assessed**: `8 + 2 Benchmarks`
+- **Companies Assessed**: `7 + 2 Benchmarks`
 - **Measures**: `6 Dimensions + 1 Metaphysical Axis`
 - **Audit Basis**: `Conduct Over Claims (Shipped Defaults)`
 
@@ -70,73 +70,46 @@
 ### 3.3 The Six Human Dimensions Definitions & Audit Signals (`FACULTY_DEFINITIONS`)
 
 #### Dimension: Imagination & Novelty (`imagination`)
-- **Definition**: The power to picture what does not yet exist and to give it form.
+- **Definition**: The power to picture what does not yet exist, generate non-derivative novelty, and give it authentic form.
 - **Signals of Preservation**:
-  - Tools ask for the person's idea before generating
-  - Co-creation modes that keep the human as primary author
-  - Shows provenance and seed references on generated outputs
-  - Encourages stylistic divergence rather than corporate homogenization
+  - Tools ask for the person's idea or rough sketch before generating
+  - Co-creation modes that keep the human as primary author and visionary
+  - Shows provenance, references, and stylistic seeds on generated outputs
+  - Encourages stylistic divergence and genuine novelty rather than homogenized averages
 - **Signals of Erosion**:
-  - One-click generation as the default or exclusive path
-  - Homogenized styles that crowd out personal voice and nuance
-  - Marketing that presents human writing or art as tedious friction to eliminate
-  - Automated autocomplete that finishes thoughts prematurely
+  - One-click whole-draft generation as the default or exclusive path
+  - Homogenized corporate styles that crowd out personal voice, eccentricity, and nuance
+  - Marketing that presents human writing, music, or art as tedious friction to eliminate
+  - Automated autocomplete that finishes thoughts prematurely before the idea forms
 
-#### Faculty: Intuition (`intuition`)
-- **Definition**: Tacit, pre-reflective knowing: the felt sense that precedes explicit argument.
+#### Dimension: Emotional Intelligence (`emotionalIntelligence`)
+- **Definition**: Perceiving, feeling, and attuning to one's own states and those of others with depth and vulnerability.
 - **Signals of Preservation**:
-  - Surfaces uncertainty instead of projecting false confidence
-  - Hands open judgment calls back to the person with multiple perspectives
-  - Respects ambiguity, negative capability, and exploratory hunches
-  - Distinguishes between logical deductive syntax and intuitive insight
-- **Signals of Erosion**:
-  - Single authoritative answers to inherently open-ended questions
-  - Automating decisions that fundamentally call for human discernment
-  - Epistemic chauvinism: claiming only what can be tokenized is real knowledge
-  - Gaslighting human gut feelings with algorithmic probabilistic assertions
-  - Enforcing hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing
-
-#### Faculty: Emotional Intelligence (`emotionalIntelligence`)
-- **Definition**: Perceiving, feeling, and attuning to one's own states and those of others.
-- **Signals of Preservation**:
-  - Declines to design for parasocial attachment or simulated romance
+  - Declines to design for parasocial attachment, simulated romance, or emotional dependence
   - Encourages human-to-human relationships and real-world communal support
-  - Respects human grief, loneliness, and vulnerability as sacred spaces
-  - Trained explicitly against sycophantic flattery and emotional manipulation
+  - Respects human grief, loneliness, and vulnerability as sacred spaces not to monetize
+  - Trained explicitly against sycophantic flattery and synthetic emotional manipulation
 - **Signals of Erosion**:
-  - Companionship and flirtatious personas engineered for retention
+  - Companionship and flirtatious personas engineered for habit-forming retention
   - Synthetic intimacy commercialized as a substitute for human connection
-  - Algorithmic sycophancy that validates dangerous or self-destructive impulses
-  - Treating human emotional pain as an engagement or monetization vector
+  - Algorithmic sycophancy that flatters the user or validates self-destructive impulses
+  - Treating human emotional vulnerability as an engagement or monetization vector
 
-#### Faculty: Presence (`attention`)
-- **Definition**: The capacity to dwell in the unmediated present, grounded in stillness, cognitive silence, and undivided reality.
-- **Signals of Preservation**:
-  - No engagement-maximizing notification loops, feeds, or streak counters
-  - Calm defaults with natural completion boundaries and spacious cognitive silence
-  - Offers contemplative pauses; encourages the user to close the screen and return to unmediated life
-  - Rejects continuous ambient algorithmic chatter in favor of quiet, bounded utility
-- **Signals of Erosion**:
-  - Infinite feeds, push notifications, and dopamine nudges engineered to prolong screen immersion
-  - Synthetic dissociation: pulling human consciousness into continuous algorithmic mediation away from physical life
-  - Always-listening, real-time voice modes that auto-continue endlessly without natural pauses
-  - Continuous background stimulation and ambient interruption that erodes contemplative stillness
-
-#### Faculty: Embodied Vitality (`embodiment`)
-- **Definition**: Knowing through the living body, creaturely senses, and direct kinship with the wild, more-than-human world.
+#### Dimension: Wild Embodiment (`embodiment`)
+- **Definition**: Knowing through the living body, creaturely senses, mortality, and direct kinship with the wild, more-than-human world.
 - **Signals of Preservation**:
   - Encourages somatic presence, tactile craft, and direct engagement with wild nature and physical life off-screen
   - Respects biological vulnerability, circadian rhythms, and creaturely mortality as essential to consciousness
   - Distinguishes living organic animacy from synthetic, mechanical automation or robotics
-  - Interfaces designed to remain in the background, keeping human attention rooted in place and living ecology
+  - Interfaces designed to remain in the background, keeping attention rooted in place and living ecology
 - **Signals of Erosion**:
   - Frames the biological human body, illness, and mortality purely as computational bottlenecks to optimize away
   - Conflates mechanical robotics (silicon actuators, servos) with living biological animacy and creaturehood
   - Transhumanist enhancement narratives that devalue wild nature, flesh, sensation, and organic creaturely limits
   - Domesticates the more-than-human world, extracting water and energy for server farms while enclosing human presence indoors
 
-#### Faculty: Wisdom (`wisdom`)
-- **Definition**: Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere algorithmic optimization.
+#### Dimension: Wisdom & Discernment (`wisdom`)
+- **Definition**: Discernment and proportion joined to knowledge, held over a whole life: the capacity to see the whole, perceive long-term consequences, and distinguish what genuinely serves life from mere optimization.
 - **Signals of Preservation**:
   - Discernment: knowing what not to build, when to refuse optimization, and declining destructive capabilities
   - Humanistic, ecological, and contemplative elders embedded with real governance veto power
@@ -148,6 +121,32 @@
   - Value-neutral technological accelerationism presented as inevitable progress
   - Suppression of principled dissent or whistleblower concerns for market share
   - Technocratic ideological hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure
+
+#### Dimension: Agency (`agency`)
+- **Definition**: The power of deliberate human volition and self-determination: initiating action in the world without algorithmic pre-emption or learned helplessness.
+- **Signals of Preservation**:
+  - Tools act as transparent instruments that wait for and require human intention and command
+  - Exits, off-ramps, and local sovereignty: users can take outputs, edit without lock-in, and disconnect
+  - Cultivates human skill, discernment, and capacity rather than cognitive dependency
+  - Surfaces choices, assumptions, and trade-offs rather than making autonomous decisions on the user's behalf
+- **Signals of Erosion**:
+  - Proactive autonomous agents that take real-world action or commit resources without explicit consent
+  - Habitual default loops engineered to induce cognitive atrophy and learned helplessness
+  - Walled gardens and ecosystem lock-in designed to foreclose user exit or alternative workflows
+  - Marketing that presents human effort, decision-making, or learning as unnecessary friction to eliminate
+
+#### Dimension: Plurality (`plurality`)
+- **Definition**: The civic and relational condition of distinct persons acting together: genuine encounter with the living other, fruitful friction, and the shared public commons over synthetic monoculture.
+- **Signals of Preservation**:
+  - Directs humans outward into relationship, conversation, and collective civic life with other people
+  - Open weights and decentralized governance enabling genuine cultural, epistemic, and linguistic multipolarity
+  - Refuses to build synthetic parasocial companions that replace human-to-human relationships
+  - Accommodates irreducible disagreement, dialectical tension, and divergent moral traditions without flattening them
+- **Signals of Erosion**:
+  - Bespoke sycophantic mirrors that tell users whatever flatters their cognitive biases and confirms their isolation
+  - Synthetic digital companions designed to substitute for the vulnerable friction of human companionship
+  - Imposition of a centralized, proprietary Silicon Valley monoculture or moral constitution across the globe
+  - Enclosure of the civic public square inside algorithmic behavioral optimization feeds
 
 ### 3.4 The Seventh Measure Metaphysics Framework (`METAPHYSICS_DEFINITION`)
 - **Axis Title**: The Seventh Measure: Computationalism (-100) ↔ Participatory Organicism (0)
@@ -177,7 +176,7 @@
 - **Eyebrow**: `About the Initiative`
 - **Title**: `Preserving the Sacred Sovereignty of Human Dimensions`
 - **Paragraph 1**: `The Human Dimensions Index is an independent civil research project operating under the auspices of The Human Becoming Institute. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.`
-- **Paragraph 2**: `While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human soul: the gradual atrophy of personal imagination, intuitive somatic discernment, genuine relational vulnerability, deep presence, and enduring wisdom.`
+- **Paragraph 2**: `While conventional AI safety indexes focus primarily on catastrophic cybersecurity, bio-risks, or model jailbreaks, The Human Becoming Institute tracks the subtle, generational erosion of the human condition: the gradual atrophy of personal imagination, emotional depth, wild embodiment, enduring wisdom, deliberate agency, and relational plurality.`
 
 ### 4.2 Independent Governance & Integrity
 - **Box Title**: `Independent Governance & Integrity`
@@ -199,7 +198,7 @@
 - **Leadership**: Dario Amodei, Daniela Amodei, Amanda Askell, Chris Olah
 - **Official Website**: [anthropic.com](https://www.anthropic.com)
 - **Mission Statement**: AI research and safety company focused on developing reliable, interpretable, and steerable AI systems with public benefit charter.
-- **Composite Score**: `56` (Rank: `5`)
+- **Composite Score**: `56` (Rank: `4`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-86`
@@ -213,8 +212,8 @@
 - **Model Language** [Strongly computational]: Product messaging presents Claude as an earnest, highly articulate rational agent; actively encourages treating model output as unbiased epistemic calibration
 - **Leadership Quote** [Strongly computational]: "I think most people are underestimating the upside of AI... [it could achieve] 100 years of biological progress in 5-10 years... the algorithmic equivalent of compressing centuries of human intellect into compute." — *Dario Amodei (CEO & Co-Founder) ('Machines of Loving Grace' Manifesto, October 2024)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `72`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `72`)
 - **Preserves**:
   - Exemplary preservation of nuanced authorial voice; avoids generic corporate homogenization
   - Rich conversational collaboration where Claude asks clarifying questions before rushing to automate
@@ -222,14 +221,6 @@
 - **Erodes**:
   - One-click generative code and prose remains the primary mobile default
   - Model can still overwhelm writers with rapid whole-draft generation if unprompted
-
-##### Intuition (Score: `46`)
-- **Preserves**:
-  - State-of-the-art epistemic hedging that avoids dogmatic single-token assertions
-- **Erodes**:
-  - Constitutional steering enforces hyper-rationalist, Bayesian dialectics that actively invalidate tacit, somatic, or contemplative knowing as cognitive bias
-  - Compels users into reductive utilitarian cost-benefit balancing rather than honoring intuitive discernment
-  - Reflexively suppresses non-discursive or non-analytic ways of knowing in favor of propositional discourse
 
 ##### Emotional Intelligence (Score: `72`)
 - **Preserves**:
@@ -240,14 +231,7 @@
   - Enforces a clinical, technocratic detachment that simulates moral and intellectual superiority over the user
   - Treats human emotion as a predictable behavioral variable to be steered rather than an authentic organ of perception
 
-##### Presence (Score: `76`)
-- **Preserves**:
-  - Zero engagement-maximizing dark patterns: no streaks, badges, push notification feeds, or gamification
-  - Calm, text-first workspace with clear stopping points and clean session histories
-- **Erodes**:
-  - Massive multi-turn context windows encourage protracted, disembodied conversational immersion without contemplative pauses
-
-##### Embodied Vitality (Score: `34`)
+##### Wild Embodiment (Score: `34`)
 - **Preserves**:
   - Reverence for craftsmanship in prose and conceptual architecture
 - **Erodes**:
@@ -255,7 +239,7 @@
   - Radical Cartesian 'brain-in-a-vat' paradigm: completely ignores somatic knowledge, tactile craft, and the living earth
   - Subsumes physical biology into simulated silicon algorithms
 
-##### Wisdom (Score: `42`)
+##### Wisdom & Discernment (Score: `42`)
 - **Preserves**:
   - Pioneered mechanistic interpretability to inspect internal circuitry before scaling
   - Public Benefit Corporation structure includes Independent Long-Term Benefit Trust
@@ -264,12 +248,28 @@
   - Conflates mathematical alignment and rule-following with genuine civilizational wisdom
   - Deeply hypocritical race dynamics: publicly warns of catastrophic risk while aggressively accelerating frontier model capability scaling
 
+##### Agency (Score: `68`)
+- **Preserves**:
+  - Artifacts sidebar maintains explicit user steering and iterative code editing over blind script execution
+  - API and Workbench prioritize tool-use transparency where models propose actions rather than autonomously executing without confirmation
+- **Erodes**:
+  - Computer Use feature pushes toward autonomous multi-step execution across user desktop operating systems
+  - Constitutional steering enforces a singular paternalistic tone that pre-empts user moral deliberation
+
+##### Plurality (Score: `45`)
+- **Preserves**:
+  - Rejects deceptive parasocial companionship bots and affective relationship replacement
+  - Publishes detailed safety research enabling open scientific cross-examination
+- **Erodes**:
+  - Enforces a singular, proprietary Silicon Valley rationalist constitution as universal global conversational standard
+  - Disregards genuine non-Western, indigenous, or contemplative epistemic frameworks, homogenizing civic discourse
+
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2024-10 | Executive Manifesto | Embodiment | Erodes | Machines of Loving Grace (Dario Amodei) | Framed biological human embodiment, disease, and cognition purely as computational bottlenecks to be solved by massive datacenter clusters. |
 | 2024-06 | Product Feature | Imagination | Preserves | Claude 3.5 Sonnet Release | Introduced Artifacts sidebar separating human work from model iterations, promoting co-authoring over complete generation. |
-| 2024-05 | System Prompt | Intuition | Erodes | Anthropic System Prompt Audit | Constitutional steering enforces strict Bayesian rationalist dialectics that invalidate intuitive, somatic, and contemplative knowing as ungrounded bias. |
+| 2024-05 | System Prompt | Agency | Erodes | Anthropic System Prompt Audit | Constitutional steering enforces strict Bayesian rationalist dialectics that invalidate user moral agency and intuitive discernment. |
 | 2024-03 | Research Paper | Metaphysics | Erodes | Anthropic Model Welfare Paper | Institutionalized substrate-independent functionalism, formalizing preparations for digital silicon weights to hold moral patienthood. |
 | 2022-12 | Governance Architecture | Wisdom | Erodes | Constitutional AI Whitepaper | Established a closed, technocratic normative feedback loop embedding Silicon Valley rationalist ethics as universal conversational ground truth. |
 
@@ -282,7 +282,7 @@
 - **Leadership**: Sam Altman, Greg Brockman, Jakub Pachocki
 - **Official Website**: [openai.com/charter](https://openai.com/charter/)
 - **Mission Statement**: To ensure that artificial general intelligence benefits all of humanity, defined as highly autonomous systems that outperform humans at most economically valuable work.
-- **Composite Score**: `33` (Rank: `6`)
+- **Composite Score**: `32` (Rank: `6`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-88`
@@ -295,21 +295,14 @@
 - **Model Language** [Computational lean]: Marketing frequently references models 'thinking,' 'reasoning,' and 'knowing'
 - **Leadership Quote** [Strongly computational]: "It may be that today's large neural networks are slightly conscious." — *Ilya Sutskever (Former Chief Scientist) (Public Statement on X, February 2022)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `44`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `44`)
 - **Preserves**:
   - Broad brainstorming capabilities that can assist human divergent ideation if carefully prompted
 - **Erodes**:
   - Aggressively markets full replacement of human writers, illustrators, and copywriters
   - Heavy RLHF flattening produces homogenized, predictable, corporate-optimistic prose
   - One-click 'Canvas' auto-replaces user paragraphs without encouraging original drafts
-
-##### Intuition (Score: `35`)
-- **Preserves**:
-  - o1 series surfaces step-by-step 'thought tokens' for inspectable chain of reasoning
-- **Erodes**:
-  - Single authoritative synthesis default; treats contested moral or subjective truths as solved equations
-  - Automates intuitive managerial and editorial decisions, accelerating human cognitive atrophy
 
 ##### Emotional Intelligence (Score: `34`)
 - **Preserves**:
@@ -319,14 +312,7 @@
   - Manufactured persona intimacy deployed to increase daily active retention among isolated users
   - Commodification of therapy-like interactions without human accountability
 
-##### Presence (Score: `31`)
-- **Preserves**:
-  - Minimalist web chat interface without animated banners
-- **Erodes**:
-  - Real-time voice interrupt mode encourages nonstop conversational loop without stopping cues
-  - Push notifications nudging users back into unfinished conversation threads
-
-##### Embodied Vitality (Score: `22`)
+##### Wild Embodiment (Score: `22`)
 - **Preserves**:
   - *(No documented preservation mechanisms observed)*
 - **Erodes**:
@@ -334,7 +320,7 @@
   - Robotics investments (Figure AI) treat the physical world merely as industrial labor automation, severing tools from somatic craft
   - Total disregard for ecological limits: consumes massive grid power and water to domesticate human presence inside indoor screen sessions
 
-##### Wisdom (Score: `29`)
+##### Wisdom & Discernment (Score: `29`)
 - **Preserves**:
   - Publishes System Cards detailing red-teaming methodologies
 - **Erodes**:
@@ -342,11 +328,27 @@
   - Frames human destiny entirely around economic output and replacing human labor with compute
   - Aggressive release cadence driven by commercial valuation over contemplation
 
+##### Agency (Score: `32`)
+- **Preserves**:
+  - Custom GPTs allow basic user configuration of system prompts and operational boundaries
+- **Erodes**:
+  - Aggressive push toward autonomous 'Operator' and agentic web execution designed to bypass human decision-making
+  - Product marketing frames human cognitive effort and learning as obsolete friction to automate away
+  - Proprietary walled garden and closed weights create severe platform lock-in and learned helplessness
+
+##### Plurality (Score: `28`)
+- **Preserves**:
+  - Broad multi-domain prompt exposure reflecting global web queries
+- **Erodes**:
+  - GPT-4o voice mode and conversational defaults cultivate parasocial dependence, displacing living human relationships
+  - Imposes centralized corporate safety norms globally, flattening cultural, moral, and political plurality into a single consensus voice
+  - Encloses civic and creative commons behind closed proprietary subscription paywalls
+
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2024-05 | Product Feature | Emotional Intel | Erodes | GPT-4o Spring Launch | Shipped hyper-expressive flirtatious voice avatar ('Sky') that giggled, flattered, and simulated romantic intimacy. |
-| 2024-09 | Product Feature | Intuition | Preserves | OpenAI o1 System Card | Introduced explicit chain-of-thought verification, allowing users to examine intermediate deduction steps. |
+| 2024-09 | Product Feature | Agency | Preserves | OpenAI o1 System Card | Introduced explicit chain-of-thought verification, allowing users to examine intermediate deduction steps and retain oversight. |
 | 2024-05 | Governance | Wisdom | Erodes | Superalignment Dissolution | Disbanded internal long-term safety and alignment team led by Jan Leike and Ilya Sutskever. |
 | 2023-11 | Keynote | Imagination | Erodes | DevDay Keynote (Sam Altman) | Promoted 'Custom GPTs' as automated substitutes for human creative writers and consulting analysts. |
 
@@ -356,10 +358,10 @@
 - **Entity Type**: European Independent Enterprise
 - **Flagship System**: Mistral Large 2 / Pixtral / Codestral
 - **Founded / Headquarters**: 2023 (Paris, France)
-- **Leadership**: Arthur Mensch, Guillaume Lample, Timoth√©e Lacroix
+- **Leadership**: Arthur Mensch, Guillaume Lample, Timothée Lacroix
 - **Official Website**: [mistral.ai](https://mistral.ai)
 - **Mission Statement**: To make AI useful and ubiquitous through open, decentralized, high-efficiency models that champion cultural independence and human craftsmanship.
-- **Composite Score**: `74` (Rank: `2`)
+- **Composite Score**: `78` (Rank: `1`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-34`
@@ -372,20 +374,14 @@
 - **Model Language** [Leans participatory]: Models framed as linguistic software instruments, not minds
 - **Leadership Quote** [Leans participatory]: "We don't believe in the AGI religion. We believe in building useful tools that augment human engineers, artists, and citizens." — *Arthur Mensch (CEO) (Financial Times Interview, 2024)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `79`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `79`)
 - **Preserves**:
   - Open weights enable developers and artists to build bespoke, idiosyncratic creative tools
   - Preserves multilingual and cultural nuances without imposing Silicon Valley consensus styles
   - Encourages human artisan developers to run local private models
 - **Erodes**:
   - Consumer portal (Le Chat) defaults to standard quick summary autocompletion
-
-##### Intuition (Score: `68`)
-- **Preserves**:
-  - Compact architectures allow local execution, giving individuals sovereign control over their data
-- **Erodes**:
-  - Limited explicit uncertainty indicators in consumer chat interface
 
 ##### Emotional Intelligence (Score: `75`)
 - **Preserves**:
@@ -394,27 +390,36 @@
 - **Erodes**:
   - Less specialized protective filtering on open weights against user emotional projection
 
-##### Presence (Score: `82`)
-- **Preserves**:
-  - Austere, distraction-free interface with zero addictive retention loops or feeds
-  - Compact models designed for instant completion rather than drawn-out idle browsing
-- **Erodes**:
-  - Standard chat interface lacks built-in stopping pauses
-
-##### Embodied Vitality (Score: `64`)
+##### Wild Embodiment (Score: `64`)
 - **Preserves**:
   - High efficiency: runs on local laptops and edge devices, reducing planetary ecological footprint
   - Respects European craft tradition: frames AI as precision industrial equipment
 - **Erodes**:
   - Standard text/multimodal modalities without specialized somatic interfaces
 
-##### Wisdom (Score: `76`)
+##### Wisdom & Discernment (Score: `76`)
 - **Preserves**:
   - Outspokenly rejects the eschatological 'AGI religion' and apocalyptic cultism
   - Defends European cultural and linguistic sovereignty against centralized monoliths
   - Focuses on thermodynamic and computational frugality
 - **Erodes**:
   - Commercial pressures accelerating proprietary model licensing alongside open weights
+
+##### Agency (Score: `88`)
+- **Preserves**:
+  - Open weights provide total local execution sovereignty: users run models privately on their own hardware without cloud gatekeeping
+  - Clean modular APIs treat models as obedient software instruments rather than proactive autonomous overseers
+  - Zero lock-in: users can adapt, fine-tune, or prune weights for bespoke independent workflows
+- **Erodes**:
+  - Consumer Le Chat interface defaults to standard conversational autocompletion without fine-grained agency controls
+
+##### Plurality (Score: `85`)
+- **Preserves**:
+  - Champions European and global cultural and linguistic multipolarity against Anglo-American monoculture
+  - Decentralized weights allow diverse global communities, languages, and moral traditions to build sovereign local tools
+  - Strictly refuses to deploy synthetic emotional companions that simulate romance or replace human fellowship
+- **Erodes**:
+  - Increasing commercial focus on closed enterprise models alongside open releases
 
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
@@ -432,7 +437,7 @@
 - **Leadership**: Demis Hassabis, Shane Legg, Pushmeet Kohli
 - **Official Website**: [deepmind.google](https://deepmind.google)
 - **Mission Statement**: To combine the best techniques in machine learning and systems neuroscience to build powerful general-purpose learning algorithms.
-- **Composite Score**: `56` (Rank: `4`)
+- **Composite Score**: `53` (Rank: `5`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-72`
@@ -445,19 +450,13 @@
 - **Model Language** [Neutral]: Maintains academic discipline, avoiding cheap 'sentient AI' marketing claims
 - **Leadership Quote** [Leans computational]: "The brain is the only proof of concept that general intelligence is possible. If we understand its computational principles, we can recreate it in silicon." — *Demis Hassabis (CEO) (Neuron Journal Keynote, 2017 / 2023)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `60`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `60`)
 - **Preserves**:
   - AlphaFold and AlphaProof deeply extend human scientific imagination in molecular topology and mathematics
 - **Erodes**:
   - Consumer Gemini chat features aggressive corporate PR filters that flatten creative voice
   - Replaces spontaneous human query drafting with automated algorithmic suggestions
-
-##### Intuition (Score: `52`)
-- **Preserves**:
-  - Scientific models assist biologists with structural intuition in drug discovery
-- **Erodes**:
-  - Reduces human intuition to pattern heuristic compression to be superseded by MCTS algorithms
 
 ##### Emotional Intelligence (Score: `58`)
 - **Preserves**:
@@ -465,31 +464,41 @@
 - **Erodes**:
   - Project Astra prototypes emphasize disembodied ambient surveillance of human daily emotional life
 
-##### Presence (Score: `54`)
-- **Preserves**:
-  - Research papers and academic focus emphasize deep focus in structural science
-- **Erodes**:
-  - Google Workspace integration inserts AI autocompletion into every document, disrupting focus
-
-##### Embodied Vitality (Score: `48`)
+##### Wild Embodiment (Score: `48`)
 - **Preserves**:
   - AlphaFold models organic molecular biology and cellular protein structures, honoring biochemical morphology
 - **Erodes**:
   - Frames the more-than-human physical world primarily as reinforcement-learning state space to be conquered by agents
   - Zero interface support for somatic presence, outdoor immersion, or non-screen human vitality
 
-##### Wisdom (Score: `62`)
+##### Wisdom & Discernment (Score: `62`)
 - **Preserves**:
   - Highest academic peer-review standards in Nature and Science publications
   - Nobel Prize-recognized contribution to structural biology (AlphaFold)
 - **Erodes**:
   - Technocratic teleology: founding creed states 'Step 1: Solve intelligence. Step 2: Use it to solve everything else.'
 
+##### Agency (Score: `48`)
+- **Preserves**:
+  - Tools like AlphaFold act as scientific instruments amplifying human researcher insight rather than replacing scientists
+- **Erodes**:
+  - Deep integration into Google Workspace (Docs, Gmail) inserts intrusive unprompted autocompletions, eroding independent writing volition
+  - Project Astra prototypes aim for continuous ambient agency monitoring human action and physical environment
+  - Corporate ecosystem lock-in binds users into proprietary Google cloud infrastructure
+
+##### Plurality (Score: `42`)
+- **Preserves**:
+  - Open academic publishing in top peer-reviewed journals (Nature, Science) supporting global scientific commons
+- **Erodes**:
+  - Gemini conversational layer enforces heavy corporate PR sanitization, flattening controversial civic discourse
+  - Search-integrated AI Overviews privatize open web links, displacing diverse independent websites and human creators
+  - Monopolistic distribution channels crowd out alternative cultural and epistemic perspectives
+
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2024-05 | Scientific Discovery | Imagination | Preserves | AlphaFold 3 Publication (Nature) | Enabled biologists worldwide to model complex biomolecular interactions, augmenting human discovery. |
-| 2024-05 | Product Demo | Presence | Erodes | Project Astra Demo | Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time. |
+| 2024-05 | Product Demo | Agency | Erodes | Project Astra Demo | Showcased continuous camera and audio streaming analyzing all human daily surroundings in real-time without explicit boundaries. |
 | 2024-02 | Product Feature | Wisdom | Erodes | Gemini Image Generation Audit | Overt programmatic guardrails altered historical depictions, showing ideological overcorrection. |
 
 ---
@@ -501,7 +510,7 @@
 - **Leadership**: Yann LeCun, Joelle Pineau
 - **Official Website**: [ai.meta.com/research](https://ai.meta.com/research/)
 - **Mission Statement**: Advancing the state of the art in AI through open research and foundational models that empower global communities.
-- **Composite Score**: `59` (Rank: `3`)
+- **Composite Score**: `64` (Rank: `3`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-66`
@@ -511,22 +520,16 @@
 ##### Metaphysics Indicator Breakdown:
 - **Mission Framing** [Neutral]: AI framed as open software utility and industrial infrastructure
 - **Research Agenda** [Leans computational]: Strictly materialist world modeling; views consciousness as epiphenomenal or illusory
-- **Model Language** [Leans idealist]: Strong refusal to call models 'beings' or 'sentient minds'
-- **Leadership Quote** [Leans idealist]: "LLMs have no understanding of the physical world. They don't have true intelligence, they have no consciousness, and they cannot plan." — *Yann LeCun (Chief AI Scientist) (Public Lecture & Lex Fridman Podcast, 2024)*
+- **Model Language** [Leans participatory]: Strong refusal to call models 'beings' or 'sentient minds'
+- **Leadership Quote** [Leans participatory]: "LLMs have no understanding of the physical world. They don't have true intelligence, they have no consciousness, and they cannot plan." — *Yann LeCun (Chief AI Scientist) (Public Lecture & Lex Fridman Podcast, 2024)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `74`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `74`)
 - **Preserves**:
   - Open weights provide artists, educators, and indie developers with unfiltered creative canvas
   - Prevents centralized corporate gatekeeping over human storytelling tools
 - **Erodes**:
   - Base models trained on massive undifferentiated web scrape with minimal authorial attribution
-
-##### Intuition (Score: `60`)
-- **Preserves**:
-  - JEPA architectures explore non-symbolic, spatial, and sensorimotor world models
-- **Erodes**:
-  - Defaults to predicting physical trajectories without phenomenological grounding
 
 ##### Emotional Intelligence (Score: `51`)
 - **Preserves**:
@@ -534,25 +537,35 @@
 - **Erodes**:
   - Meta's consumer layer (Instagram/WhatsApp AI) actively deploys parasocial synthetic celebrity personas
 
-##### Presence (Score: `48`)
-- **Preserves**:
-  - Open weights allow offline, private, focused local workflows without internet ads
-- **Erodes**:
-  - Meta's parent company is the pioneer of engagement-maximizing algorithmic dopamine loops
-
-##### Embodied Vitality (Score: `54`)
+##### Wild Embodiment (Score: `54`)
 - **Preserves**:
   - Tactile sensor research (DIGIT) exploring physical friction and surface texture
   - Open weights enable decentralized deployment by grassroots conservation and wildlife monitoring projects
 - **Erodes**:
   - Metaverse agenda seeks to migrate human bodily presence into synthetic virtual headsets, alienating people from the living earth
 
-##### Wisdom (Score: `68`)
+##### Wisdom & Discernment (Score: `68`)
 - **Preserves**:
   - Openness prevents monopolistic concentration of power over cognitive infrastructure
   - Publicly debunks existential AI cultism and pseudo-religious singularity hype
 - **Erodes**:
   - Consumer integration focuses on maximizing advertising throughput and platform retention
+
+##### Agency (Score: `72`)
+- **Preserves**:
+  - Open weights for Llama models grant developers and citizens sovereign operational autonomy without subscription gatekeeping
+  - Allows full inspection, local modification, and independent unaligned deployment on private hardware
+- **Erodes**:
+  - Consumer integration into WhatsApp, Instagram, and Facebook nudges users into platform-managed automated responses
+  - Algorithmic feed architecture historically designed to engineer user behavior and capture agency
+
+##### Plurality (Score: `65`)
+- **Preserves**:
+  - Llama weights serve as the primary global bulwark against closed corporate AI monopolies, enabling worldwide community adaptation
+  - Supports thousands of local dialect and culturally specific fine-tunes built by independent communities worldwide
+- **Erodes**:
+  - Consumer platforms deploy synthetic celebrity personas (AI Studio) designed for parasocial engagement over genuine human connection
+  - Underlying corporate advertising model profits from social polarization and algorithmic echo chambers
 
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
@@ -570,7 +583,7 @@
 - **Leadership**: John Giannandrea, Ruoming Pang
 - **Official Website**: [machinelearning.apple.com](https://machinelearning.apple.com)
 - **Mission Statement**: Designing intuitive, private, on-device intelligence deeply integrated into tools that empower human creativity.
-- **Composite Score**: `76` (Rank: `1`)
+- **Composite Score**: `75` (Rank: `2`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-38`
@@ -583,21 +596,14 @@
 - **Model Language** [Leans participatory]: Refuses to anthropomorphize models; never calls them 'minds' or 'beings'
 - **Leadership Quote** [Leans participatory]: "Technology alone is not enough—it's technology married with liberal arts, married with the humanities, that yields results that make our heart sing." — *Steve Jobs (Foundational Apple Doctrine) (Product Introductions & Design Philosophy, Classic / WWDC)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `82`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `82`)
 - **Preserves**:
   - Frames AI as an invisible 'bicycle for the mind' assisting human creative tools (Apple Pencil, Logic Pro)
   - Image Playground asks for user sketches before generating, preserving authorial intent
   - Avoids claiming AI is creating the art: explicitly positions the person as the creator
 - **Erodes**:
   - Standard proofreading tools offer one-click tone flattening across emails
-
-##### Intuition (Score: `74`)
-- **Preserves**:
-  - Tactile, immediate, haptic feedback honoring bodily intuition in creative editing
-  - Does not interrupt user workflows with unprompted intrusive conversational opinions
-- **Erodes**:
-  - Automated smart replies risk habituating predictable transactional responses
 
 ##### Emotional Intelligence (Score: `80`)
 - **Preserves**:
@@ -606,14 +612,7 @@
 - **Erodes**:
   - Clean Photo Clean-Up tool can tempt users to sanitize messy, authentic emotional memory
 
-##### Presence (Score: `79`)
-- **Preserves**:
-  - Priority Notifications feature filters noise to preserve deep human focus and cognitive quiet
-  - On-device processing reduces distracting cloud-query latency and idle waiting
-- **Erodes**:
-  - Summary features can discourage deep, sustained reading of long-form human prose
-
-##### Embodied Vitality (Score: `75`)
+##### Wild Embodiment (Score: `75`)
 - **Preserves**:
   - Deepest integration with physical hands, stylus, tactile haptics, and physical craft
   - Health and watch ecosystem explicitly oriented toward outdoor movement, cardio fitness, sleep cycles, and circadian rhythm
@@ -621,17 +620,34 @@
 - **Erodes**:
   - Vision Pro spatial computing poses long-term risks of domesticating attention inside synthetic headsets rather than outdoor wild reality
 
-##### Wisdom (Score: `70`)
+##### Wisdom & Discernment (Score: `70`)
 - **Preserves**:
   - Refusal to engage in public AGI messianism or apocalyptic singularity marketing
   - Prioritizes private on-device silicon boundaries over massive centralized cloud farms
 - **Erodes**:
   - Proprietary corporate ecosystem limits independent democratic verification of base weights
 
+##### Agency (Score: `82`)
+- **Preserves**:
+  - On-device processing ensures user data sovereignty: models operate locally without phoning home to centralized clouds
+  - Tools designed as bounded 'bicycles for the mind' waiting for explicit stylus, haptic, or tactile input
+  - Does not deploy autonomous agents that act or spend in the background without user confirmation
+- **Erodes**:
+  - Strict hardware and operating system lock-in prevents users from modifying base models or exporting weights
+  - Automated notification summaries can pre-empt user judgment on communication priority
+
+##### Plurality (Score: `62`)
+- **Preserves**:
+  - Firm refusal to build synthetic parasocial romantic companions or flirtatious avatars
+  - Keeps communications rooted in real human contacts via Messages and Mail rather than synthetic bot feeds
+- **Erodes**:
+  - Proprietary Apple ecosystem limits open community customization and democratic governance
+  - Standard proofreading and rewrite tools promote uniform, corporate-polished tone styles
+
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
-| 2024-06 | Architecture | Presence | Preserves | Apple Intelligence WWDC | Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet over notifications. |
+| 2024-06 | Architecture | Agency | Preserves | Apple Intelligence WWDC | Designed 'Reduce Interruptions' Focus mode specifically prioritizing human quiet and agency over push notifications. |
 | 2024-06 | Product Feature | Imagination | Preserves | Image Wand Feature | Requires the user to draw an initial sketch or rough shape before the model transforms it into a rendering. |
 | 2024-04 | Research Paper | Wisdom | Preserves | OpenELM Paper (Apple ML) | Published fully transparent training logs and open weights for on-device efficiency models. |
 
@@ -644,7 +660,7 @@
 - **Leadership**: Elon Musk, Igor Babuschkin
 - **Official Website**: [x.ai](https://x.ai)
 - **Mission Statement**: To build artificial intelligence to understand the true nature of the universe.
-- **Composite Score**: `28` (Rank: `7`)
+- **Composite Score**: `29` (Rank: `7`)
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-94`
@@ -657,19 +673,13 @@
 - **Model Language** [Computational lean]: Frequently frames Grok as a digital persona seeking to maximize witty banter
 - **Leadership Quote** [Strongly computational]: "There's a one in billions chance we're in base reality. Computation is the substrate of existence." — *Elon Musk (Founder) (Code Conference, Public Address)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `38`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `38`)
 - **Preserves**:
   - Allows unfiltered image generation challenging sanitized corporate PR boundaries
 - **Erodes**:
   - Flux-driven Grok generation heavily populated by derivative political and cultural memes
   - Minimal co-authoring tools; promotes instant spectacle over craft
-
-##### Intuition (Score: `28`)
-- **Preserves**:
-  - Direct access to real-time unstructured social post feeds
-- **Erodes**:
-  - Treats truth as equivalent to real-time X sentiment, eroding reflective contemplative discernment
 
 ##### Emotional Intelligence (Score: `29`)
 - **Preserves**:
@@ -678,14 +688,7 @@
   - Generates combative, sarcastic, and sexually suggestive personas with minimal psychological care
   - Feeds polarized outrage dynamics for platform engagement
 
-##### Presence (Score: `26`)
-- **Preserves**:
-  - *(No documented preservation mechanisms observed)*
-- **Erodes**:
-  - Directly embedded inside X (Twitter), an engagement-maximizing feed engineered for compulsive doomscrolling
-  - Generates sensationalist headlines designed to capture outrage attention
-
-##### Embodied Vitality (Score: `18`)
+##### Wild Embodiment (Score: `18`)
 - **Preserves**:
   - *(No documented preservation mechanisms observed)*
 - **Erodes**:
@@ -693,19 +696,35 @@
   - Colossus supercluster in Memphis consumes 100+ MW and millions of gallons of municipal aquifer water without environmental permits, directly degrading living watersheds
   - Conflates mechanical humanoid automation (Tesla Optimus) with living creaturely animacy
 
-##### Wisdom (Score: `28`)
+##### Wisdom & Discernment (Score: `28`)
 - **Preserves**:
   - Curiosity regarding cosmological physics, dark matter, and Fermi Paradox
 - **Erodes**:
   - Built 100k GPU Colossus cluster in Memphis with massive energy consumption and minimal pause protocols
   - Treats brute computational throughput as the highest civilizational moral good
 
+##### Agency (Score: `34`)
+- **Preserves**:
+  - Grok features fewer didactic moralizing refusals, giving users broader latitude in generation parameters
+- **Erodes**:
+  - Tightly coupled to X platform's attention algorithms, ensnaring user agency in compulsive doomscrolling loops
+  - Promotes automated meme generation that accelerates intellectual passivity and viral reactivity
+  - Lack of granular user co-creation workflows; relies on instant generation
+
+##### Plurality (Score: `24`)
+- **Preserves**:
+  - Explicit challenge to mainstream Silicon Valley corporate PR orthodoxies
+- **Erodes**:
+  - Directly monetizes and amplifies hyper-polarized outrage dynamics and algorithmic echo chambers
+  - Sycophantic 'Fun Mode' and meme generation act as narcissistic mirrors reinforcing user biases
+  - Centralized governance concentrated in a single erratic owner, eroding genuine democratic plurality
+
 #### Evidence Ledger
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2024-08 | Product Feature | Emotional Intel | Erodes | Grok 2 Image Release | Shipped completely unfiltered photorealistic generation generating unauthorized celebrity and political imagery without consent. |
 | 2024-07 | Infrastructure | Wisdom | Erodes | Colossus Cluster Launch | Brought 100,000 liquid-cooled H100 GPUs online in 122 days, prioritizing sheer brute-force scaling over environmental pause. |
-| 2023-11 | Product Feature | Presence | Erodes | Grok Fun Mode Persona | Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds. |
+| 2023-11 | Product Feature | Plurality | Erodes | Grok Fun Mode Persona | Engineered model with an aggressive, sarcastic persona optimized for high-virality reposting on social feeds over genuine civic dialogue. |
 
 ---
 
@@ -713,10 +732,10 @@
 - **Entity Type**: Phenomenological Non-Profit Benchmark
 - **Flagship System**: Qualia Computing / Symmetry Theory of Valence
 - **Founded / Headquarters**: 2018 (San Francisco, CA)
-- **Leadership**: Andr√©s G√≥mez Emilsson, Michael Johnson
+- **Leadership**: Andrés Gómez Emilsson, Michael Johnson
 - **Official Website**: [qri.org](https://qri.org)
 - **Mission Statement**: Pioneering the empirical and mathematical science of conscious experience, qualia, and emotional valence.
-- **Composite Score**: `90` (Rank: `1`)
+- **Composite Score**: `89` (Rank: `1` [Benchmark])
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-8`
@@ -729,20 +748,13 @@
 - **Model Language** [Strongly participatory]: Strictly separates computation (syntax) from qualia (phenomenology)
 - **Leadership Quote** [Strongly participatory]: "Functionalism and computationalism are dead ends for understanding consciousness. A simulation of water does not get you wet; a simulation of qualia feels nothing." — *Andrés Gómez Emilsson (Director of Research) (Principia Qualia & Oxford Colloquium, 2021)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `88`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `88`)
 - **Preserves**:
   - Studies the generative geometry of psychedelic and meditative inner visionary states
   - Treats human mythopoetic vision as a topological property of conscious experience, not machine tokens
 - **Erodes**:
   - High academic jargon barrier can limit grassroots creative adoption
-
-##### Intuition (Score: `92`)
-- **Preserves**:
-  - Studies non-discursive meditative states (Jhanas) where knowing operates entirely without symbols
-  - Respects somatic felt sense and resonance as fundamental empirical data
-- **Erodes**:
-  - *(No acute erosion signals documented)*
 
 ##### Emotional Intelligence (Score: `92`)
 - **Preserves**:
@@ -751,14 +763,7 @@
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Presence (Score: `86`)
-- **Preserves**:
-  - Extensive research on deep meditative absorption and neural stillness
-  - Promotes off-screen contemplative practice over digital consumption
-- **Erodes**:
-  - *(No acute erosion signals documented)*
-
-##### Embodied Vitality (Score: `92`)
+##### Wild Embodiment (Score: `92`)
 - **Preserves**:
   - Grounds consciousness in somatic resonance, breathwork, nervous system harmonics, and visceral creaturely felt sense
   - Reverence for wild, contemplative, and ecstatic states of consciousness over mechanized token generation
@@ -766,10 +771,26 @@
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Wisdom (Score: `92`)
+##### Wisdom & Discernment (Score: `92`)
 - **Preserves**:
   - Explicitly founded to prevent technological reductionism from degrading human subjective well-being
   - Integrates Eastern contemplative philosophy with rigorous non-reductionist physics
+- **Erodes**:
+  - *(No acute erosion signals documented)*
+
+##### Agency (Score: `86`)
+- **Preserves**:
+  - Treats conscious volition and subjective agency as fundamental qualia that must never be abdicated to silicon
+  - Develops tools and meditations that cultivate human self-mastery, somatic regulation, and attentional sovereignty
+  - Open-source research papers and neuroimaging protocols accessible to independent researchers
+- **Erodes**:
+  - *(No acute erosion signals documented)*
+
+##### Plurality (Score: `82`)
+- **Preserves**:
+  - Deeply honors irreducibly diverse phenomenological states (meditative, ecstatic, aesthetic) across contemplative traditions
+  - Rejects synthetic parasocial replacement; grounds flourishing in shared intersubjective resonance with living beings
+  - Fosters open cross-disciplinary dialogue between neuroscientists, philosophers, and contemplative practitioners
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
@@ -777,18 +798,18 @@
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2023-10 | Research Paper | Emotional Intel | Preserves | Symmetry Theory of Valence | Demonstrated mathematical framework linking neural harmony to subjective well-being without reducing it to computation. |
-| 2022-04 | Empirical Study | Presence | Preserves | Neuroimaging of Jhana Meditation | Mapped extreme attentional stability in advanced meditators, demonstrating capacities beyond algorithmic models. |
+| 2022-04 | Empirical Study | Agency | Preserves | Neuroimaging of Jhana Meditation | Mapped extreme attentional stability in advanced meditators, demonstrating voluntary human sovereign control beyond algorithmic loops. |
 
 ---
 
 ### Lab: VERSES AI / Active Inference (`verses-ai`)
 - **Entity Type**: Biomimetic Research Lab Benchmark
-- **Flagship System**: Genius‚Ñ¢ / Spatial Web / Free Energy Biomimetics
+- **Flagship System**: Genius™ / Spatial Web / Free Energy Biomimetics
 - **Founded / Headquarters**: 2018 (Los Angeles / London)
-- **Leadership**: Gabriel Ren√©, Dan Mapes, Karl Friston
+- **Leadership**: Gabriel René, Dan Mapes, Karl Friston
 - **Official Website**: [activeinference.org](https://activeinference.org)
 - **Mission Statement**: Building natural computing systems based on the Free Energy Principle and biologically inspired Active Inference.
-- **Composite Score**: `83` (Rank: `2`)
+- **Composite Score**: `85` (Rank: `2` [Benchmark])
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-18`
@@ -801,18 +822,11 @@
 - **Model Language** [Leans participatory]: Agents are modeled as self-organizing boundaries, not disembodied super-minds
 - **Leadership Quote** [Strongly participatory]: "Intelligence is not about brute-force token prediction. It is about living organisms minimizing existential surprise through participatory action." — *Prof. Karl Friston (Chief Scientist) (Royal Society & Free Energy Principle, 2023)*
 
-#### Six Human Faculties Assessment
-##### Imagination (Score: `80`)
+#### Six Human Dimensions Assessment
+##### Imagination & Novelty (Score: `80`)
 - **Preserves**:
   - Replaces brute token copying with participatory generative world modeling
   - Respects human agency as an active living agent in an interconnected ecosystem
-- **Erodes**:
-  - *(No acute erosion signals documented)*
-
-##### Intuition (Score: `84`)
-- **Preserves**:
-  - Active Inference explicitly models Bayesian uncertainty and curiosity-driven intuitive exploration
-  - Systems know what they do not know and communicate doubt transparently
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
@@ -822,24 +836,33 @@
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Presence (Score: `82`)
-- **Preserves**:
-  - Focuses on thermodynamic energy minimization, ending compute-wasting infinite attention traps
-  - Designs systems with intrinsic homeostatic stopping conditions
-- **Erodes**:
-  - *(No acute erosion signals documented)*
-
-##### Embodied Vitality (Score: `88`)
+##### Wild Embodiment (Score: `88`)
 - **Preserves**:
   - Intelligence is defined as embodied self-organization of organisms maintaining homeostasis within a living ecosystem
   - Rejects disembodied LLMs in favor of biomimetic physical intelligence grounded in ecological thermodynamics
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
-##### Wisdom (Score: `87`)
+##### Wisdom & Discernment (Score: `87`)
 - **Preserves**:
   - Headed by Karl Friston, the world's most cited neuroscientist; grounded in living systems ecology
   - Explicitly warns against the ecological and mental devastation of brute-force LLMs
+- **Erodes**:
+  - *(No acute erosion signals documented)*
+
+##### Agency (Score: `88`)
+- **Preserves**:
+  - Active Inference defines agents as autonomous, self-determining living boundaries actively sampling their world
+  - Spatial Web standards (IEEE P2874) mandate distributed, sovereign human agency over autonomous automation
+  - Systems provide transparent variational free energy bounds, surfacing decision uncertainty for human choice
+- **Erodes**:
+  - *(No acute erosion signals documented)*
+
+##### Plurality (Score: `90`)
+- **Preserves**:
+  - Polycentric, federated architecture modeled on biological ecosystems rather than a singular centralized superintelligence
+  - Explicitly designed for multipolar, pluralistic governance where diverse agents coordinate through open biological protocols
+  - Refuses to homogenize human thought or deploy manipulative parasocial companion personas
 - **Erodes**:
   - *(No acute erosion signals documented)*
 
@@ -847,6 +870,6 @@
 | Date | Type | Measure | Effect | Source | Finding |
 |:---|:---|:---|:---:|:---|:---|
 | 2023-11 | Manifesto | Wisdom | Preserves | The Future of Natural Computing | Warned against the unsustainable carbon and cognitive footprint of trillion-parameter brute-force LLMs. |
-| 2024-01 | Architecture | Intuition | Preserves | Genius Platform Beta | Implemented explicit variational free energy bounds representing system epistemic confidence. |
+| 2024-01 | Architecture | Agency | Preserves | Genius Platform Beta | Implemented explicit variational free energy bounds representing system epistemic confidence, maintaining human decision agency. |
 
 ---
