@@ -12,9 +12,9 @@
 
 ### 1.1 Page Head & Meta Tags (`index.html`)
 - **Browser Tab Title**: `Human Faculties Index // The Human Becoming Institute`
-- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human faculties no machine should abridge: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom.`
+- **Site Description (Meta / Social)**: `Rating how frontier AI companies honor or diminish the human dimensions no machine should abridge: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom.`
 - **Social Card Title**: `Human Faculties Index // The Human Becoming Institute`
-- **Social Card Subtitle**: `Auditing frontier AI companies on human sovereignty, consciousness respect, and the six living faculties.`
+- **Social Card Subtitle**: `Auditing frontier AI companies on human sovereignty, consciousness respect, and the six living dimensions.`
 
 ### 1.2 Header Navigation (`index.html`)
 - **Brand Name**: `Human Faculties Index`
@@ -33,12 +33,12 @@
 ### 2.1 Hero Header
 - **Eyebrow**: `A Tracker for the Age of AI`
 - **Headline**: `How well do AI companies understand the human condition?`
-- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human faculties that go beyond pure reason: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
+- **Subtitle**: `We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom. A separate axis records where each company sits between a participatory metaphysics and computationalism.`
 
 ### 2.2 Hero Metadata Panel
 - **Review Cycle**: `[Q3, 2026]`
 - **Companies Assessed**: `8 + 2 Benchmarks`
-- **Measures**: `6 Faculties + 1 Metaphysical Axis`
+- **Measures**: `6 Dimensions + 1 Metaphysical Axis`
 - **Audit Basis**: `Conduct Over Claims (Shipped Defaults)`
 
 ### 2.3 The Seventh Measure Continuum Banner
@@ -50,8 +50,8 @@
 - **Endpoint Right (0)**: `Ontological Idealism` — *Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.*
 
 ### 2.4 Multi-Lab Comparison Radar Chart
-- **Radar Title**: `Multi-Company Faculty Comparison Radar`
-- **Radar Subtitle**: `Overlay companies to compare their signatures across all six living faculties.`
+- **Radar Title**: `Multi-Company Dimension Comparison Radar`
+- **Radar Subtitle**: `Overlay companies to compare their signatures across all six living dimensions.`
 
 ---
 
@@ -60,14 +60,14 @@
 ### 3.1 Overview & Callout Quote
 - **Eyebrow**: `Methodology`
 - **Title**: `What we measure, and why it matters`
-- **Lead Quote**: `The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology boosts or enhances these capacities or quietly diminishes them.`
+- **Lead Quote**: `The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology enhances these capacities or quietly diminishes them.`
 
 ### 3.2 Core Principles
 1. **Conduct over claims**: `Product defaults and shipped features carry significantly more weight than high-minded PR mission statements or keynote promises.`
 2. **Every score is traceable**: `Each rating directly links to verifiable public evidence in the company's ledger, and companies are invited to provide public responses before updates.`
 3. **Metaphysics stands apart**: `A company's view of the nature of mind shapes everything it builds, so we report it on its own distinct axis instead of averaging it away into an arithmetic aggregate.`
 
-### 3.3 The Six Human Faculties Definitions & Audit Signals (`FACULTY_DEFINITIONS`)
+### 3.3 The Six Human Dimensions Definitions & Audit Signals (`FACULTY_DEFINITIONS`)
 
 #### Faculty: Imagination (`imagination`)
 - **Definition**: The power to picture what does not yet exist and to give it form.

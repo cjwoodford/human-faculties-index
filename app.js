@@ -101,7 +101,7 @@ function renderRankingsView(container) {
         <span class="hero-pretitle">A Tracker for the Age of AI</span>
         <h2>How well do AI companies understand the human condition?</h2>
         <p class="hero-subtitle">
-          We rate how each company's products, policies, and public philosophy treat the non-computable human faculties that go beyond pure reason: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
+          We rate how each company's products, policies, and public philosophy treat the non-computable human dimensions that go beyond pure reason: <strong>imagination, intuition, emotional intelligence, presence, embodied vitality, and wisdom</strong>. A separate axis records where each company sits between a participatory metaphysics and computationalism.
         </p>
       </div>
 
@@ -116,7 +116,7 @@ function renderRankingsView(container) {
         </div>
         <div class="hero-meta-row">
           <span class="hero-meta-label">Measures</span>
-          <span class="hero-meta-val">6 Faculties + 1 Metaphysical Axis</span>
+          <span class="hero-meta-val">6 Dimensions + 1 Metaphysical Axis</span>
         </div>
         <div class="hero-meta-row">
           <span class="hero-meta-label">Audit Basis</span>
@@ -269,8 +269,8 @@ function renderRankingsView(container) {
     <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 2rem; margin-bottom: 3rem;">
       <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
         <div>
-          <h4 style="font-size: 1.25rem; font-weight: 800;">Multi-Company Faculty Comparison Radar</h4>
-          <p style="font-size: 0.84rem; color: var(--text-muted);">Overlay companies to compare their signatures across all six living faculties.</p>
+          <h4 style="font-size: 1.25rem; font-weight: 800;">Multi-Company Dimension Comparison Radar</h4>
+          <p style="font-size: 0.84rem; color: var(--text-muted);">Overlay companies to compare their signatures across all six living dimensions.</p>
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
           ${LABS_DATA.map(l => `
@@ -473,7 +473,7 @@ function renderProfilesView(container) {
 
     <!-- Faculty by Faculty Grid -->
     <div style="margin-bottom: 2rem;">
-      <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.25rem;">Faculty by faculty</h3>
+      <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.25rem;">Dimension by dimension</h3>
       
       <div class="faculties-grid">
         ${renderFacultyCard('Imagination', lab.faculties.imagination)}
@@ -613,7 +613,7 @@ function renderMethodologyView(container) {
       <h2 style="font-size: 2.6rem; font-weight: 800; margin-bottom: 1.25rem;">What we measure, and why it matters</h2>
       <div style="background: rgba(217, 119, 6, 0.08); border-left: 4px solid var(--accent-gold); padding: 1.4rem; border-radius: 0 12px 12px 0; margin-bottom: 3rem;">
         <p style="font-size: 1.15rem; color: var(--text-main); font-weight: 500; line-height: 1.6;">
-          "The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology boosts or enhances these capacities or quietly diminishes them."
+          "The human condition is multifaceted and non-computable. We ask whether a company's technology and ideology enhances these capacities or quietly diminishes them."
         </p>
       </div>
 
@@ -636,9 +636,9 @@ function renderMethodologyView(container) {
         </div>
       </div>
 
-      <!-- The Six Faculties -->
+      <!-- The Six Dimensions -->
       <div style="margin-bottom: 3.5rem;">
-        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1.5rem;">The six faculties</h3>
+        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1.5rem;">The six dimensions</h3>
         
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem;">
           ${Object.keys(FACULTY_DEFINITIONS).map(key => {
@@ -711,7 +711,7 @@ function renderAboutView(container) {
   container.innerHTML = `
     <div style="max-width: 820px; margin: 0 auto; padding: 2rem 0 4rem 0;">
       <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: var(--accent-gold); display: block; margin-bottom: 0.5rem;">About the Initiative</span>
-      <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem;">Preserving the Sacred Sovereignty of Human Faculties</h2>
+      <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem;">Preserving the Sacred Sovereignty of Human Dimensions</h2>
 
       <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.25rem;">
         The <strong>Human Faculties Index</strong> is an independent civil research project operating under the auspices of <strong>The Human Becoming Institute</strong>. It was founded to counter the uncritical, dogmatic reduction of human conscious life into raw algorithmic throughput.
@@ -732,7 +732,7 @@ function renderAboutView(container) {
       <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 2rem;">
         <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.4rem;">Submit Evidence or Audit Correction</h3>
         <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">
-          Have you documented a newly shipped product default that preserves or erodes a human faculty? Submit it to our peer verification queue.
+          Have you documented a newly shipped product default that preserves or erodes a human dimension? Submit it to our peer verification queue.
         </p>
 
         <form id="submissionForm" onsubmit="handleAboutSubmit(event)" style="display: flex; flex-direction: column; gap: 1rem;">
@@ -745,7 +745,7 @@ function renderAboutView(container) {
           </div>
 
           <div>
-            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Faculty / Measure Affected</label>
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Dimension / Measure Affected</label>
             <select id="subFaculty" style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px;">
               <option value="imagination">Imagination</option>
               <option value="intuition">Intuition</option>
@@ -764,7 +764,7 @@ function renderAboutView(container) {
 
           <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.35rem;">Specific Shipped Behavior Finding</label>
-            <textarea id="subFinding" rows="4" required placeholder="Describe the shipped product default or policy change and whether it preserves or erodes the faculty..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px; resize: vertical;"></textarea>
+            <textarea id="subFinding" rows="4" required placeholder="Describe the shipped product default or policy change and whether it preserves or erodes the dimension..." style="width: 100%; padding: 0.6rem; background: var(--bg-modal); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 8px; resize: vertical;"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" style="justify-content: center; padding: 0.75rem; margin-top: 0.5rem;">
