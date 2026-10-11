@@ -363,14 +363,14 @@
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-34`
-- **Stance**: `Leans idealist / Humanist`
+- **Stance**: `Leans participatory / Humanist`
 - **Philosophical Summary**: Mistral operates from classical continental humanism: humans are the sole authors of meaning, agency, and democratic sovereignty; AI is merely software infrastructure. Rejects transhumanist singularity myths.
 
 ##### Metaphysics Indicator Breakdown:
-- **Mission Framing** [Leans idealist]: AI framed as useful cultural and scientific tools serving human agency
-- **Research Agenda** [Leans idealist]: Pragmatic model efficiency; rejects claims that scaling will create conscious silicon beings
-- **Model Language** [Leans idealist]: Models framed as linguistic software instruments, not minds
-- **Leadership Quote** [Leans idealist]: "We don't believe in the AGI religion. We believe in building useful tools that augment human engineers, artists, and citizens." — *Arthur Mensch (CEO) (Financial Times Interview, 2024)*
+- **Mission Framing** [Leans participatory]: AI framed as useful cultural and scientific tools serving human agency
+- **Research Agenda** [Leans participatory]: Pragmatic model efficiency; rejects claims that scaling will create conscious silicon beings
+- **Model Language** [Leans participatory]: Models framed as linguistic software instruments, not minds
+- **Leadership Quote** [Leans participatory]: "We don't believe in the AGI religion. We believe in building useful tools that augment human engineers, artists, and citizens." — *Arthur Mensch (CEO) (Financial Times Interview, 2024)*
 
 #### Six Human Faculties Assessment
 ##### Imagination (Score: `79`)
@@ -574,14 +574,14 @@
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-38`
-- **Stance**: `Leans idealist / Toolmaker Humanism`
+- **Stance**: `Leans participatory / Toolmaker Humanism`
 - **Philosophical Summary**: Apple's philosophy is expressed through physical hardware restraint: AI is strictly bounded as an on-device utility. By refusing to claim software is a sentient mind, it keeps the human conscious observer as the undisputed ontological center.
 
 ##### Metaphysics Indicator Breakdown:
-- **Mission Framing** [Leans idealist]: AI framed as personal on-device tools married to liberal arts and humanities
+- **Mission Framing** [Leans participatory]: AI framed as personal on-device tools married to liberal arts and humanities
 - **Research Agenda** [Neutral]: Focuses on efficient compact models and multimodal reference grounding
-- **Model Language** [Leans idealist]: Refuses to anthropomorphize models; never calls them 'minds' or 'beings'
-- **Leadership Quote** [Leans idealist]: "Technology alone is not enough‚Äîit's technology married with liberal arts, married with the humanities, that yields results that make our heart sing." — *Steve Jobs (Foundational Apple Doctrine) (Product Introductions & Design Philosophy, Classic / WWDC)*
+- **Model Language** [Leans participatory]: Refuses to anthropomorphize models; never calls them 'minds' or 'beings'
+- **Leadership Quote** [Leans participatory]: "Technology alone is not enough—it's technology married with liberal arts, married with the humanities, that yields results that make our heart sing." — *Steve Jobs (Foundational Apple Doctrine) (Product Introductions & Design Philosophy, Classic / WWDC)*
 
 #### Six Human Faculties Assessment
 ##### Imagination (Score: `82`)
@@ -720,14 +720,14 @@
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-8`
-- **Stance**: `Strongly idealist / Qualia Primacy`
+- **Stance**: `Strongly participatory / Qualia Primacy`
 - **Philosophical Summary**: Gold-standard non-reductionist benchmark. QRI explicitly rejects computationalism: a simulation of qualia does not feel anything, just as a simulation of a kidney does not filter urine. Consciousness is irreducible.
 
 ##### Metaphysics Indicator Breakdown:
-- **Mission Framing** [Strongly idealist]: Consciousness and qualia are the explicit primitives of study
-- **Research Agenda** [Strongly idealist]: Topological and field theories of conscious experience; explicit refutation of functionalism
-- **Model Language** [Strongly idealist]: Strictly separates computation (syntax) from qualia (phenomenology)
-- **Leadership Quote** [Strongly idealist]: "Functionalism and computationalism are dead ends for understanding consciousness. A simulation of water does not get you wet; a simulation of qualia feels nothing." — *Andr√©s G√≥mez Emilsson (Director of Research) (Principia Qualia & Oxford Colloquium, 2021)*
+- **Mission Framing** [Strongly participatory]: Consciousness and qualia are the explicit primitives of study
+- **Research Agenda** [Strongly participatory]: Topological and field theories of conscious experience; explicit refutation of functionalism
+- **Model Language** [Strongly participatory]: Strictly separates computation (syntax) from qualia (phenomenology)
+- **Leadership Quote** [Strongly participatory]: "Functionalism and computationalism are dead ends for understanding consciousness. A simulation of water does not get you wet; a simulation of qualia feels nothing." — *Andrés Gómez Emilsson (Director of Research) (Principia Qualia & Oxford Colloquium, 2021)*
 
 #### Six Human Faculties Assessment
 ##### Imagination (Score: `88`)
@@ -792,14 +792,14 @@
 
 #### Metaphysics & Stance on Mind
 - **Score**: `-18`
-- **Stance**: `Strongly idealist / Enactive Process`
-- **Philosophical Summary**: Biomimetic benchmark. Grounds intelligence in living thermodynamic self-organization and participatory enactivism, aligning with Process Idealism (Whitehead) and rejecting disembodied silicon computationalism.
+- **Stance**: `Strongly participatory / Enactive Process`
+- **Philosophical Summary**: Biomimetic benchmark. Grounds intelligence in living thermodynamic self-organization and participatory enactivism, aligning with Process Philosophy (Whitehead) and rejecting disembodied silicon computationalism.
 
 ##### Metaphysics Indicator Breakdown:
-- **Mission Framing** [Strongly idealist]: Natural computing respecting ecological and thermodynamic living laws
-- **Research Agenda** [Strongly idealist]: Active Inference and Markov blankets replace the machine-as-brain metaphor
-- **Model Language** [Leans idealist]: Agents are modeled as self-organizing boundaries, not disembodied super-minds
-- **Leadership Quote** [Strongly idealist]: "Intelligence is not about brute-force token prediction. It is about living organisms minimizing existential surprise through participatory action." — *Prof. Karl Friston (Chief Scientist) (Royal Society & Free Energy Principle, 2023)*
+- **Mission Framing** [Strongly participatory]: Natural computing respecting ecological and thermodynamic living laws
+- **Research Agenda** [Strongly participatory]: Active Inference and Markov blankets replace the machine-as-brain metaphor
+- **Model Language** [Leans participatory]: Agents are modeled as self-organizing boundaries, not disembodied super-minds
+- **Leadership Quote** [Strongly participatory]: "Intelligence is not about brute-force token prediction. It is about living organisms minimizing existential surprise through participatory action." — *Prof. Karl Friston (Chief Scientist) (Royal Society & Free Energy Principle, 2023)*
 
 #### Six Human Faculties Assessment
 ##### Imagination (Score: `80`)

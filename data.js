@@ -438,18 +438,18 @@ const LABS_DATA = [
     },
     metaphysics: {
       score: -34,
-      stance: "Leans idealist / Humanist",
+      stance: "Leans participatory / Humanist",
       summary: "Mistral operates from classical continental humanism: humans are the sole authors of meaning, agency, and democratic sovereignty; AI is merely software infrastructure. Rejects transhumanist singularity myths.",
       breakdown: {
-        missionFraming: { text: "AI framed as useful cultural and scientific tools serving human agency", lean: "Leans idealist" },
-        researchAgenda: { text: "Pragmatic model efficiency; rejects claims that scaling will create conscious silicon beings", lean: "Leans idealist" },
-        modelLanguage: { text: "Models framed as linguistic software instruments, not minds", lean: "Leans idealist" },
+        missionFraming: { text: "AI framed as useful cultural and scientific tools serving human agency", lean: "Leans participatory" },
+        researchAgenda: { text: "Pragmatic model efficiency; rejects claims that scaling will create conscious silicon beings", lean: "Leans participatory" },
+        modelLanguage: { text: "Models framed as linguistic software instruments, not minds", lean: "Leans participatory" },
         leadershipQuote: {
           quote: "We don't believe in the AGI religion. We believe in building useful tools that augment human engineers, artists, and citizens.",
           speaker: "Arthur Mensch (CEO)",
           venue: "Financial Times Interview",
           date: "2024",
-          lean: "Leans idealist"
+          lean: "Leans participatory"
         }
       }
     },
@@ -631,13 +631,13 @@ const LABS_DATA = [
       breakdown: {
         missionFraming: { text: "AI framed as open software utility and industrial infrastructure", lean: "Neutral" },
         researchAgenda: { text: "Strictly materialist world modeling; views consciousness as epiphenomenal or illusory", lean: "Leans computational" },
-        modelLanguage: { text: "Strong refusal to call models 'beings' or 'sentient minds'", lean: "Leans idealist" },
+        modelLanguage: { text: "Strong refusal to call models 'beings' or 'sentient minds'", lean: "Leans participatory" },
         leadershipQuote: {
           quote: "LLMs have no understanding of the physical world. They don't have true intelligence, they have no consciousness, and they cannot plan.",
           speaker: "Yann LeCun (Chief AI Scientist)",
           venue: "Public Lecture & Lex Fridman Podcast",
           date: "2024",
-          lean: "Leans idealist"
+          lean: "Leans participatory"
         }
       }
     },
@@ -725,18 +725,18 @@ const LABS_DATA = [
     },
     metaphysics: {
       score: -38,
-      stance: "Leans idealist / Toolmaker Humanism",
+      stance: "Leans participatory / Toolmaker Humanism",
       summary: "Apple's philosophy is expressed through physical hardware restraint: AI is strictly bounded as an on-device utility. By refusing to claim software is a sentient mind, it keeps the human conscious observer as the undisputed ontological center.",
       breakdown: {
-        missionFraming: { text: "AI framed as personal on-device tools married to liberal arts and humanities", lean: "Leans idealist" },
+        missionFraming: { text: "AI framed as personal on-device tools married to liberal arts and humanities", lean: "Leans participatory" },
         researchAgenda: { text: "Focuses on efficient compact models and multimodal reference grounding", lean: "Neutral" },
-        modelLanguage: { text: "Refuses to anthropomorphize models; never calls them 'minds' or 'beings'", lean: "Leans idealist" },
+        modelLanguage: { text: "Refuses to anthropomorphize models; never calls them 'minds' or 'beings'", lean: "Leans participatory" },
         leadershipQuote: {
           quote: "Technology alone is not enough—it's technology married with liberal arts, married with the humanities, that yields results that make our heart sing.",
           speaker: "Steve Jobs (Foundational Apple Doctrine)",
           venue: "Product Introductions & Design Philosophy",
           date: "Classic / WWDC",
-          lean: "Leans idealist"
+          lean: "Leans participatory"
         }
       }
     },
@@ -906,18 +906,18 @@ const LABS_DATA = [
     },
     metaphysics: {
       score: -8,
-      stance: "Strongly idealist / Qualia Primacy",
+      stance: "Strongly participatory / Qualia Primacy",
       summary: "Gold-standard non-reductionist benchmark. QRI explicitly rejects computationalism: a simulation of qualia does not feel anything, just as a simulation of a kidney does not filter urine. Consciousness is irreducible.",
       breakdown: {
-        missionFraming: { text: "Consciousness and qualia are the explicit primitives of study", lean: "Strongly idealist" },
-        researchAgenda: { text: "Topological and field theories of conscious experience; explicit refutation of functionalism", lean: "Strongly idealist" },
-        modelLanguage: { text: "Strictly separates computation (syntax) from qualia (phenomenology)", lean: "Strongly idealist" },
+        missionFraming: { text: "Consciousness and qualia are the explicit primitives of study", lean: "Strongly participatory" },
+        researchAgenda: { text: "Topological and field theories of conscious experience; explicit refutation of functionalism", lean: "Strongly participatory" },
+        modelLanguage: { text: "Strictly separates computation (syntax) from qualia (phenomenology)", lean: "Strongly participatory" },
         leadershipQuote: {
           quote: "Functionalism and computationalism are dead ends for understanding consciousness. A simulation of water does not get you wet; a simulation of qualia feels nothing.",
           speaker: "Andrés Gómez Emilsson (Director of Research)",
           venue: "Principia Qualia & Oxford Colloquium",
           date: "2021",
-          lean: "Strongly idealist"
+          lean: "Strongly participatory"
         }
       }
     },
@@ -989,18 +989,18 @@ const LABS_DATA = [
     },
     metaphysics: {
       score: -18,
-      stance: "Strongly idealist / Enactive Process",
-      summary: "Biomimetic benchmark. Grounds intelligence in living thermodynamic self-organization and participatory enactivism, aligning with Process Idealism (Whitehead) and rejecting disembodied silicon computationalism.",
+      stance: "Strongly participatory / Enactive Process",
+      summary: "Biomimetic benchmark. Grounds intelligence in living thermodynamic self-organization and participatory enactivism, aligning with Process Philosophy (Whitehead) and rejecting disembodied silicon computationalism.",
       breakdown: {
-        missionFraming: { text: "Natural computing respecting ecological and thermodynamic living laws", lean: "Strongly idealist" },
-        researchAgenda: { text: "Active Inference and Markov blankets replace the machine-as-brain metaphor", lean: "Strongly idealist" },
-        modelLanguage: { text: "Agents are modeled as self-organizing boundaries, not disembodied super-minds", lean: "Leans idealist" },
+        missionFraming: { text: "Natural computing respecting ecological and thermodynamic living laws", lean: "Strongly participatory" },
+        researchAgenda: { text: "Active Inference and Markov blankets replace the machine-as-brain metaphor", lean: "Strongly participatory" },
+        modelLanguage: { text: "Agents are modeled as self-organizing boundaries, not disembodied super-minds", lean: "Leans participatory" },
         leadershipQuote: {
           quote: "Intelligence is not about brute-force token prediction. It is about living organisms minimizing existential surprise through participatory action.",
           speaker: "Prof. Karl Friston (Chief Scientist)",
           venue: "Royal Society & Free Energy Principle",
           date: "2023",
-          lean: "Strongly idealist"
+          lean: "Strongly participatory"
         }
       }
     },
