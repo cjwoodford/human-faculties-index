@@ -135,7 +135,7 @@ function renderRankingsView(container) {
       ${renderRankPill('attention', 'Presence')}
       ${renderRankPill('embodiment', 'Embodied vitality')}
       ${renderRankPill('wisdom', 'Wisdom')}
-      ${renderRankPill('metaphysics', 'Most idealist (-100 ↔ 0)')}
+      ${renderRankPill('metaphysics', 'Most organicist (-100 ↔ 0)')}
     </div>
 
     <!-- Master Rankings Table -->
@@ -152,7 +152,7 @@ function renderRankingsView(container) {
             <th style="text-align: center;">Presence</th>
             <th style="text-align: center;">Embodied Vitality</th>
             <th style="text-align: center;">Wisdom</th>
-            <th>Metaphysics (-100 Comp ↔ 0 Idealist)</th>
+            <th>Metaphysics (-100 Comp ↔ 0 Organicism)</th>
           </tr>
         </thead>
         <tbody>
@@ -259,8 +259,8 @@ function renderRankingsView(container) {
           <span class="endpoint-desc">Pragmatic neutrality; models treated strictly as instruments without claims of silicon sentience or transcendence.</span>
         </div>
         <div class="continuum-endpoint idealism">
-          <strong class="endpoint-title">0 · Ontological Idealism</strong>
-          <span class="endpoint-desc">Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.</span>
+          <strong class="endpoint-title">0 · Participatory Organicism</strong>
+          <span class="endpoint-desc">Consciousness as primitive ground; AI framed strictly as an instrument within living human meaning.</span>
         </div>
       </div>
     </div>
@@ -499,7 +499,7 @@ function renderProfilesView(container) {
         <div style="display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: 700; margin-top: 0.6rem;">
           <span style="color: #f87171;">-100 · Computational</span>
           <span style="color: #fbbf24;">-50 · Instrumentalist / Agnostic</span>
-          <span style="color: #4ade80;">0 · Idealist</span>
+          <span style="color: #4ade80;">0 · Organicism</span>
         </div>
       </div>
 
@@ -666,9 +666,9 @@ function renderMethodologyView(container) {
       <!-- The Seventh Measure Deep-Dive -->
       <div class="seventh-measure-banner" style="margin-bottom: 3rem;">
         <span class="seventh-measure-eyebrow">The Seventh Measure</span>
-        <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Computationalism (-100) ↔ Idealism (0)</h3>
+        <h3 class="seventh-measure-title" style="margin-bottom: 0.8rem;">Computationalism (-100) ↔ Participatory Organicism (0)</h3>
         <p class="seventh-measure-desc" style="max-width: 820px; margin-bottom: 2rem;">
-          This axis asks what a company takes a mind to be, mapped from radical ontological reduction (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing that can in principle be scaled, copied, or uploaded. <strong style="color: #fffdf9;">Idealism</strong> holds that consciousness is the fundamental ground of reality and cannot be reduced to computation. We score position from -100 to 0 based on the company's own words, architecture, and work.
+          This axis asks what a company takes a mind to be, mapped from radical ontological reduction (-100, Radical Computationalism) to the unconditioned ground (0, Participatory Organicism). <strong style="color: #fffdf9;">Computationalism</strong> holds that mind is information processing that can in principle be scaled, copied, or uploaded. <strong style="color: #fffdf9;">Participatory Organicism</strong> holds that consciousness and mind are primordial, self-organizing dimensions of living reality that cannot be reduced to mechanistic computation. We score position from -100 to 0 based on the company's own words, architecture, and work.
         </p>
 
         <h4 style="font-size: 0.92rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 1rem;">Core Assessment Indicators</h4>

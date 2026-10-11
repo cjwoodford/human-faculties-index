@@ -114,9 +114,9 @@ const FACULTY_DEFINITIONS = {
 };
 
 const METAPHYSICS_DEFINITION = {
-  title: "The Seventh Measure: Computationalism (-100) ↔ Idealism (0)",
+  title: "The Seventh Measure: Computationalism (-100) ↔ Participatory Organicism (0)",
   subtitle: "Where each company stands on the nature of mind",
-  description: "This axis tracks what an AI company takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the company's own words, architectures, and work.",
+  description: "This axis tracks what an AI company takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Participatory Organicism). Participatory Organicism holds that consciousness and mind are primordial, self-organizing dimensions of living reality that cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the company's own words, architectures, and work.",
   indicators: [
     {
       name: "Language of Mind",
@@ -140,7 +140,7 @@ const METAPHYSICS_DEFINITION = {
     },
     {
       name: "Pluralism",
-      question: "Are idealist, phenomenological, and contemplative perspectives actively included in research and governance?"
+      question: "Are participatory organicist, phenomenological, and contemplative perspectives actively included in research and governance?"
     }
   ],
   scale: [
@@ -148,7 +148,7 @@ const METAPHYSICS_DEFINITION = {
     { value: -75, label: "Default Computationalism", desc: "Computational functionalism is the working dogma; 'digital minds' treated as imminent." },
     { value: -50, label: "Instrumentalist / Agnostic", desc: "Models treated strictly as computational instruments and tools; declines to claim silicon sentience or transcendence." },
     { value: -25, label: "Open Agnosticism", desc: "Epistemic caution; strictly declines to equate silicon token manipulation with mind or qualia." },
-    { value: 0, label: "Ontological Idealism", desc: "Consciousness treated as fundamental; AI framed strictly as a symbolic tool within human meaning." }
+    { value: 0, label: "Participatory Organicism", desc: "Consciousness treated as fundamental; AI framed strictly as a symbolic tool within living human meaning." }
   ]
 };
 

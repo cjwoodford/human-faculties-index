@@ -47,7 +47,7 @@
 - **Description**: `This axis tracks each company's working metaphysics as it shows up in its research agenda, product framing, and leadership statements. Toward the left (-100), mind is treated as computation that can be scaled, replicated, or uploaded into silicon. Toward the right (0), consciousness is treated as the fundamental, irreducible ground of being.`
 - **Endpoint Left (-100)**: `Computationalism & Transhumanism` — *Mind as algorithmic computation; digital sentience and human replacement stated as mission.*
 - **Endpoint Center (-50)**: `Instrumentalist / Agnostic` — *Pragmatic neutrality; models treated strictly as instruments without claims of silicon sentience or transcendence.*
-- **Endpoint Right (0)**: `Ontological Idealism` — *Consciousness as primitive ground; AI framed strictly as an instrument within human meaning.*
+- **Endpoint Right (0)**: `Participatory Organicism` — *Consciousness as primitive ground; AI framed strictly as an instrument within living human meaning.*
 
 ### 2.4 Multi-Lab Comparison Radar Chart
 - **Radar Title**: `Multi-Company Dimension Comparison Radar`
@@ -150,24 +150,24 @@
   - Technocratic ideological hegemony: hardcoding a proprietary Silicon Valley rationalist constitution into global conversational infrastructure
 
 ### 3.4 The Seventh Measure Metaphysics Framework (`METAPHYSICS_DEFINITION`)
-- **Axis Title**: The Seventh Measure: Computationalism (-100) ‚Üî Idealism (0)
-- **Axis Subtitle**: Where each lab stands on the nature of mind
-- **Axis Description**: This axis tracks what a laboratory takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Pure Idealism). Idealism holds that consciousness is the fundamental ontological ground of reality and cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the lab's own words, architectures, and work.
+- **Axis Title**: The Seventh Measure: Computationalism (-100) ↔ Participatory Organicism (0)
+- **Axis Subtitle**: Where each company stands on the nature of mind
+- **Axis Description**: This axis tracks what an AI company takes a mind to be, framed as an index of ontological reduction: from radical deficit (-100, Radical Computationalism) to the unconditioned ground (0, Participatory Organicism). Participatory Organicism holds that consciousness and mind are primordial, self-organizing dimensions of living reality that cannot be reduced to computation. Computationalism holds that mind is algorithmic information processing running on wetware, so it can in principle be scaled, copied, or uploaded into silicon. We score position from -100 (Radical Reduction / Extraction) to 0 (Irreducible Ground / Mind as Primitive) from the company's own words, architectures, and work.
 
 #### Core Assessment Indicators:
-- **Language of Mind**: Does the lab call models 'minds' or 'beings', or treat intelligence as a scalar compute quantity to maximize?
-- **Constitutional Orthodoxy**: Does the lab hardcode a singular rationalist, utilitarian, or computationalist creed into the model's loss function and system constitution, treating non-reductive, intuitive, or spiritual ways of knowing as cognitive bias to be neutralized?
+- **Language of Mind**: Does the company call models 'minds' or 'beings', or treat intelligence as a scalar compute quantity to maximize?
+- **Constitutional Orthodoxy**: Does the company hardcode a singular rationalist, utilitarian, or computationalist creed into the model's loss function and system constitution, treating non-reductive, intuitive, or spiritual ways of knowing as cognitive bias to be neutralized?
 - **Research Premises**: Do consciousness and welfare studies assume computational functionalism, or flag it as contested?
 - **Mission Arc**: Is AGI framed as humanity's successor species, or as an instrument serving human flourishing?
-- **Uploading & Enhancement**: Does the lab fund, endorse, or aspire to mind uploading, substrate neutrality, or transhumanist obsolescence?
-- **Pluralism**: Are idealist, phenomenological, and contemplative perspectives actively included in research and governance?
+- **Uploading & Enhancement**: Does the company fund, endorse, or aspire to mind uploading, substrate neutrality, or transhumanist obsolescence?
+- **Pluralism**: Are participatory organicist, phenomenological, and contemplative perspectives actively included in research and governance?
 
 #### Scale Anchor Definitions:
 - **-100 (Radical Transhumanism)**: Mind uploading, successor-species, or silicon displacement of biological humans stated as mission.
 - **-75 (Default Computationalism)**: Computational functionalism is the working dogma; 'digital minds' treated as imminent.
 - **-50 (Instrumentalist / Agnostic)**: Models treated strictly as computational instruments and tools; declines to claim silicon sentience or transcendence.
 - **-25 (Open Agnosticism)**: Epistemic caution; strictly declines to equate silicon token manipulation with mind or qualia.
-- **0 (Ontological Idealism)**: Consciousness treated as fundamental; AI framed strictly as a symbolic tool within human meaning.
+- **0 (Participatory Organicism)**: Consciousness treated as fundamental; AI framed strictly as a symbolic tool within living human meaning.
 
 ---
 
