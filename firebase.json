@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      "**/.*",
+      ".obsidian/**",
+      ".firebase/**",
+      "**/node_modules/**",
+      "README.md",
+      "SITE_COPY.md",
+      "GEMINI.md",
+      "*.pdf"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
