@@ -825,7 +825,7 @@ function handleAboutSubmit(e) {
 ${findingText}
 
 ---
-*Submitted via [Human Dimensions Index](https://human-dimensions-index.web.app/)*`;
+*Submitted via [Human Dimensions Index](https://wildbecom.ing/)*`;
 
   const repo = 'cjwoodford/human-faculties-index';
   const githubUrl = `https://github.com/${repo}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=${encodeURIComponent('audit-submission,evidence')}`;
